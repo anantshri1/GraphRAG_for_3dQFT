@@ -49,7 +49,7 @@ This enables multi-hop contextual expansion aligned with the structure of theore
    
 The resulting graph correctly supports multi-hop queries over operator mappings and extended quiver structures.
   <img width="1389" height="890" alt="image" src="https://github.com/user-attachments/assets/49649dd6-cb73-4383-9bd7-e0252b170aa7" />
-- A lightweight synthesis layer using llama-3.3-70b-versatile generates natural language responses from retrieved subgraphs, demonstrating early graph-conditioned generation capability.
+- A lightweight synthesis layer using `llama-3.3-70b-versatile` generates natural language responses from retrieved subgraphs, demonstrating early graph-conditioned generation capability.
 
 ### Notebook 2: Hybrid Pipeline (`GraphRAG_full_wMLOps.ipynb`)
 - The system reuses an existing vector-based RAG index (`VectorStoreIndex`) from a prior pipeline as a semantic retrieval backbone. This component is not retrained and is used as an external retrieval module.
