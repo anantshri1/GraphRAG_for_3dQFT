@@ -1,0 +1,340 @@
+{
+  "theories": [
+    {
+      "id": "u1_0_1_1_chiral",
+      "name": "U(1)_0 with [1, 1] chiral fields",
+      "gauge_group": "U(1)",
+      "rank": 1,
+      "cs_level": "0",
+      "matter_content": {
+        "fundamentals": 1,
+        "anti_fundamentals": 1
+      },
+      "supersymmetry": "N=2",
+      "s_confines": true,
+      "confinement_condition": "F=N",
+      "chapter_introduced": 4,
+      "equation_ref": "B.3"
+    },
+    {
+      "id": "u1_neg1_2_1_0_chiral",
+      "name": "U(1)_{-1/2} with [1, 0] chiral fields",
+      "gauge_group": "U(1)",
+      "rank": 1,
+      "cs_level": "-1/2",
+      "matter_content": {
+        "fundamentals": 1
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 4,
+      "equation_ref": "B.18"
+    }
+  ],
+  "quivers": [
+    {
+      "id": "n4_abelian_mirror_pair",
+      "name": "N=4 Abelian mirror pair",
+      "gauge_nodes": [
+        {
+          "node_id": "u1_n4",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": 1
+        }
+      ],
+      "supersymmetry": "N=4",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "B.1"
+    },
+    {
+      "id": "n2_fundamental_mirror_pair",
+      "name": "N=2 fundamental mirror pair",
+      "gauge_nodes": [
+        {
+          "node_id": "u1_n2",
+          "gauge_group": "U(1)",
+          "cs_level": "0",
+          "flavor_attached": 1
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "B.3"
+    },
+    {
+      "id": "n2_self_dual_sqed_f2",
+      "name": "N=2 self-dual SQED F=2",
+      "gauge_nodes": [
+        {
+          "node_id": "u1_1",
+          "gauge_group": "U(1)",
+          "cs_level": "0",
+          "flavor_attached": 2
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "B.5"
+    },
+    {
+      "id": "planar_quiver_page_289_top",
+      "name": "Planar quiver 1",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": "0",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n2",
+          "gauge_group": "U(1)",
+          "cs_level": "-1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n3",
+          "gauge_group": "U(1)",
+          "cs_level": "-1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n4",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n5",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "page 289, top",
+      "notes": "W = Wplanar + Wmonopoles"
+    },
+    {
+      "id": "planar_quiver_page_289_bottom",
+      "name": "Planar quiver 2",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": "-1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n2",
+          "gauge_group": "U(1)",
+          "cs_level": "1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n3",
+          "gauge_group": "U(1)",
+          "cs_level": "1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n4",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "page 289, bottom",
+      "notes": "W = Wplanar + Wmonopoles"
+    },
+    {
+      "id": "planar_quiver_page_290_top",
+      "name": "Planar quiver 3",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": "1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n2",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n3",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "page 290, top",
+      "notes": "W = Wplanar + Wmonopoles"
+    },
+    {
+      "id": "planar_quiver_page_290_bottom",
+      "name": "Planar quiver 4",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": "0",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n2",
+          "gauge_group": "U(1)",
+          "cs_level": "-1",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n3",
+          "gauge_group": "U(1)",
+          "cs_level": "1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n4",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "page 290, bottom",
+      "notes": "W = Wplanar + Wmonopoles"
+    },
+    {
+      "id": "planar_quiver_page_291_top",
+      "name": "Planar quiver 5",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": "1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n2",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n3",
+          "gauge_group": "U(1)",
+          "cs_level": "0",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "page 291, top",
+      "notes": "W = Wplanar"
+    },
+    {
+      "id": "planar_quiver_page_291_mid",
+      "name": "Planar quiver 6",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": "1/2",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n2",
+          "gauge_group": "U(1)",
+          "cs_level": "0",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "page 291, mid",
+      "notes": "W = 0"
+    },
+    {
+      "id": "planar_quiver_page_291_bottom",
+      "name": "Planar quiver 7",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": "-1/2",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "page 291, bottom",
+      "notes": "W = 0"
+    }
+  ],
+  "operators": [
+    {
+      "id": "m_plus",
+      "name": "M+",
+      "type": "meson",
+      "spin": null,
+      "theory_id": "n4_abelian_mirror_pair",
+      "chapter_introduced": 4,
+      "equation_ref": "B.2"
+    },
+    {
+      "id": "m_minus",
+      "name": "M-",
+      "type": "meson",
+      "spin": null,
+      "theory_id": "n4_abelian_mirror_pair",
+      "chapter_introduced": 4,
+      "equation_ref": "B.2"
+    }
+  ],
+  "mirror_edges": [
+    {
+      "id": "mirror_b1",
+      "source": "n4_abelian_mirror_pair",
+      "target": "n4_abelian_mirror_pair",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false
+    },
+    {
+      "id": "mirror_b3",
+      "source": "u1_0_1_1_chiral",
+      "target": "n2_fundamental_mirror_pair",
+      "duality_type": "N=2-Aharony-like",
+      "algorithm_derived": false
+    }
+  ],
+  "operator_maps": [],
+  "rg_flows": [],
+  "abelian_duals": [],
+  "symmetry_maps": [
+    {
+      "id": "sym_map_b18",
+      "mirror_pair_id": "mirror_b3",
+      "source_symmetry": "U(1)_lambda",
+      "target_symmetry": "flavor symmetry",
+      "direction": "topological-to-flavor"
+    }
+  ]
+}

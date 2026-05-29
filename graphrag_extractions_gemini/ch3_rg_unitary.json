@@ -1,0 +1,1057 @@
+{
+  "theories": [
+    {
+      "id": "u_n_k_f_fund",
+      "name": "U(N)k SQCD with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "k",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "General U(N)k SQCD theory"
+    },
+    {
+      "id": "u_n_k_k_plus_n_ell_f_fund",
+      "name": "U(N)k,k+N\u2113 SQCD with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(k, k+N\u2113)",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Parent theory for mass deformations"
+    },
+    {
+      "id": "u_n_k_f_fundamentals",
+      "name": "U(N)_k with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "k",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.35",
+      "notes": "Generic SQCD theory in Zone 1"
+    },
+    {
+      "id": "u_n_0_f_fundamentals",
+      "name": "U(N)_0 with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "0",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.37",
+      "notes": "Limiting case of k=0 duality"
+    },
+    {
+      "id": "u_n_k_f_fund",
+      "name": "U(N)_k with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "k",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.40",
+      "notes": "General U(N) theory in Zone 2"
+    },
+    {
+      "id": "u_n_neg_n_2_plus_1_2_n_plus_1_fund",
+      "name": "U(N)_{-N/2 + 1/2} with N+1 fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "-N/2 + 1/2",
+      "matter_content": {
+        "fundamentals": "N+1"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.41",
+      "notes": null
+    },
+    {
+      "id": "u_n_neg_n_2_n_fund",
+      "name": "U(N)_{-N/2} with N fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "-N/2",
+      "matter_content": {
+        "fundamentals": "N"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": true,
+      "confinement_condition": "F=N",
+      "chapter_introduced": 3,
+      "equation_ref": "3.41",
+      "notes": "Confines to a single free chiral multiplet"
+    },
+    {
+      "id": "u_n_neg_n_2_n_fund_free_chiral",
+      "name": "U(N)_{-N/2} with N fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "-N/2",
+      "matter_content": {
+        "fundamentals": "N"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": true,
+      "confinement_condition": "F=N",
+      "chapter_introduced": 3,
+      "equation_ref": "3.42",
+      "notes": "Confines to free chiral"
+    },
+    {
+      "id": "u_n_k_f_fund_zone1",
+      "name": "U(N)_k with F fundamentals (Zone 1)",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "k",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.43",
+      "notes": "Zone 1 theory"
+    },
+    {
+      "id": "u_n_neg_f_2_f_fund",
+      "name": "U(N)_{-F/2} with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "-F/2",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.54",
+      "notes": "Marginally chiral SQCD"
+    },
+    {
+      "id": "u_n_k_cs_ym",
+      "name": "N=2 U(N)_k CS-YM",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "k",
+      "matter_content": {
+        "fundamentals": 0
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.55",
+      "notes": null
+    },
+    {
+      "id": "u_3_0_8_fund",
+      "name": "U(3)_0 with 8 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": "3",
+      "cs_level": "0",
+      "matter_content": {
+        "fundamentals": 8
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.56",
+      "notes": null
+    },
+    {
+      "id": "u_3_neg_1_2_7_fund",
+      "name": "U(3)_{-1/2} with 7 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": "3",
+      "cs_level": "-1/2",
+      "matter_content": {
+        "fundamentals": 7
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.57",
+      "notes": null
+    },
+    {
+      "id": "u3_neg2_neg5_4fund",
+      "name": "U(3)_{(-2,-5)} with 4 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(-2,-5)",
+      "matter_content": {
+        "fundamentals": 4
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_neg1_neg4_4fund",
+      "name": "U(3)_{(-1,-4)} with 4 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(-1,-4)",
+      "matter_content": {
+        "fundamentals": 4
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_neg0_neg3_4fund",
+      "name": "U(3)_{(0,-3)} with 4 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(0,-3)",
+      "matter_content": {
+        "fundamentals": 4
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_1_neg2_4fund",
+      "name": "U(3)_{(1,-2)} with 4 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(1,-2)",
+      "matter_content": {
+        "fundamentals": 4
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_neg2_5_neg11_2_3fund",
+      "name": "U(3)_{(-5/2, -11/2)} with 3 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(-5/2, -11/2)",
+      "matter_content": {
+        "fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_neg3_2_neg9_2_3fund",
+      "name": "U(3)_{(-3/2, -9/2)} with 3 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(-3/2, -9/2)",
+      "matter_content": {
+        "fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_neg1_2_neg7_2_3fund",
+      "name": "U(3)_{(-1/2, -7/2)} with 3 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(-1/2, -7/2)",
+      "matter_content": {
+        "fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "s_confines": true,
+      "confinement_condition": "reduces to TQFT",
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_1_2_neg5_2_3fund",
+      "name": "U(3)_{(1/2, -5/2)} with 3 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(1/2, -5/2)",
+      "matter_content": {
+        "fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "s_confines": true,
+      "confinement_condition": "reduces to TQFT",
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_3_2_neg3_2_3fund",
+      "name": "U(3)_{(3/2, -3/2)} with 3 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "(3/2, -3/2)",
+      "matter_content": {
+        "fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "s_confines": true,
+      "confinement_condition": "reduces to free chirals",
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.6"
+    },
+    {
+      "id": "u3_neg1_2_7fund",
+      "name": "U(3)_{-1/2} with 7 fundamentals",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": "-1/2",
+      "matter_content": {
+        "fundamentals": 7
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": null,
+      "notes": "Figure 3.8"
+    },
+    {
+      "id": "u_n_k_f_fund",
+      "name": "U(N)_k with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "k",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": "3.59",
+      "notes": "Aharony dual theory"
+    },
+    {
+      "id": "u_f_minus_n_neg_k_f_antifund",
+      "name": "U(F-N)_{-k} with F anti-fundamentals",
+      "gauge_group": "U(F-N)",
+      "rank": "F-N",
+      "cs_level": "-k",
+      "matter_content": {
+        "anti_fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": "3.59",
+      "notes": "Aharony dual theory"
+    },
+    {
+      "id": "u2_neg1_neg3_3_3",
+      "name": "U(2)_{(-1,-3)} SQCD with [3,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-1,-3)",
+      "matter_content": {
+        "fundamentals": 3,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "s_confines": false,
+      "chapter_introduced": 3,
+      "equation_ref": "3.68"
+    },
+    {
+      "id": "u2_neg05_neg25_2_3",
+      "name": "U(2)_{(-1/2,-5/2)} SQCD with [2,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-1/2,-5/2)",
+      "matter_content": {
+        "fundamentals": 2,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.68"
+    },
+    {
+      "id": "u2_0_neg2_1_3",
+      "name": "U(2)_{(0,-2)} SQCD with [1,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(0,-2)",
+      "matter_content": {
+        "fundamentals": 1,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.68"
+    },
+    {
+      "id": "u2_neg15_neg35_2_3",
+      "name": "U(2)_{(-3/2,-7/2)} SQCD with [2,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-3/2,-7/2)",
+      "matter_content": {
+        "fundamentals": 2,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.69"
+    },
+    {
+      "id": "u2_neg2_neg4_1_3",
+      "name": "U(2)_{(-2,-4)} SQCD with [1,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-2,-4)",
+      "matter_content": {
+        "fundamentals": 1,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.69"
+    },
+    {
+      "id": "u2_neg1_neg3_1_3",
+      "name": "U(2)_{(-1,-3)} SQCD with [1,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-1,-3)",
+      "matter_content": {
+        "fundamentals": 1,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.70"
+    },
+    {
+      "id": "u2_neg2_neg4_2_2",
+      "name": "U(2)_{(-2,-4)} SQCD with [2,2]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-2,-4)",
+      "matter_content": {
+        "fundamentals": 2,
+        "anti_fundamentals": 2
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.71"
+    },
+    {
+      "id": "u2_0_neg2_2_2",
+      "name": "U(2)_{(0,-2)} SQCD with [2,2]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(0,-2)",
+      "matter_content": {
+        "fundamentals": 2,
+        "anti_fundamentals": 2
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.72"
+    },
+    {
+      "id": "u2_neg1_neg3_3_3",
+      "name": "U(2)_{(-1,-3)} w/ [3,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-1, -3)",
+      "matter_content": {
+        "fundamentals": 3,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.73"
+    },
+    {
+      "id": "u2_neg1_neg3_2_2",
+      "name": "U(2)_{(-1,-3)} w/ [2,2]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-1, -3)",
+      "matter_content": {
+        "fundamentals": 2,
+        "anti_fundamentals": 2
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3
+    },
+    {
+      "id": "u2_neg1_neg3_1_3",
+      "name": "U(2)_{(-1,-3)} w/ [1,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-1, -3)",
+      "matter_content": {
+        "fundamentals": 1,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3
+    },
+    {
+      "id": "u2_neg1_3_3",
+      "name": "U(2)_{-1} w/ [3,3]",
+      "gauge_group": "U(2)",
+      "rank": 2,
+      "cs_level": "(-1, -1)",
+      "matter_content": {
+        "fundamentals": 3,
+        "anti_fundamentals": 3
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 3,
+      "equation_ref": "3.74"
+    }
+  ],
+  "quivers": [
+    {
+      "id": "planar_abelian_u_n_n_minus_f_2",
+      "name": "Planar Abelian dual of U(N)N-F/2",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.24",
+      "notes": "Planar Abelian quiver for N=4 descendant theory"
+    },
+    {
+      "id": "planar_dual_u_n_k_f",
+      "name": "Planar Abelian dual of U(N)_k with F fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.35",
+      "notes": "Quiver with F/2-|k| nodes and F/2+|k| nodes"
+    },
+    {
+      "id": "planar_dual_u_n_0_f",
+      "name": "Planar Abelian dual of U(N)_0 with F fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.37",
+      "notes": "Symmetric planar quiver"
+    },
+    {
+      "id": "planar_dual_u_n_k_f_fund",
+      "name": "Planar Abelian dual of U(N)_k with F fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.40",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_u_n_neg_n_2_plus_1_2_n_plus_1_fund",
+      "name": "Planar Abelian dual of U(N)_{-N/2+1/2} with N+1 fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.41",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_u_n_neg_n_2_n_fund",
+      "name": "Planar Abelian dual of U(N)_{-N/2} with N fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.41",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_u_n_k_f_fund_zone1",
+      "name": "Planar Abelian dual of U(N)_k with F fundamentals (Zone 1)",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.43",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_u_n_neg_f_2_f_fund",
+      "name": "Planar Abelian dual of U(N)_{-F/2} with F fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.54",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_u_n_k_cs_ym",
+      "name": "Planar Abelian dual of U(N)_k CS-YM",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.55",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_u_3_0_8_fund",
+      "name": "Planar Abelian dual of U(3)_0 with 8 fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.56",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_u_3_neg_1_2_7_fund",
+      "name": "Planar Abelian dual of U(3)_{-1/2} with 7 fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.57",
+      "notes": null
+    },
+    {
+      "id": "planar_mirror_u2_neg1_neg3_3_3",
+      "name": "Planar mirror of U(2)_{(-1,-3)} [3,3]",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.68"
+    },
+    {
+      "id": "planar_mirror_u2_neg05_neg25_2_3",
+      "name": "Planar mirror of U(2)_{(-1/2,-5/2)} [2,3]",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.68"
+    },
+    {
+      "id": "planar_mirror_u2_0_neg2_1_3",
+      "name": "Planar mirror of U(2)_{(0,-2)} [1,3]",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.68"
+    },
+    {
+      "id": "mirror_u2_neg1_neg3_3_3",
+      "name": "W = Wmirror for U(2)_{(-1,-3)} w/ [3,3]",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 3,
+      "figure_ref": "3.73"
+    }
+  ],
+  "operators": [
+    {
+      "id": "monopole_mag_f_2_eq_k",
+      "name": "TM\u2213",
+      "type": "dressed-monopole",
+      "spin": null,
+      "theory_id": "u_n_k_f_fund",
+      "dressing": "monopole flipped by gauge singlet",
+      "chapter_introduced": 3,
+      "equation_ref": "3.20",
+      "notes": "Appears in marginally chiral case"
+    },
+    {
+      "id": "monopole_operator_u_n_neg_n_2_n_fund",
+      "name": "monopole operator",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_n_neg_n_2_n_fund",
+      "dressing": null,
+      "chapter_introduced": 3,
+      "equation_ref": "3.42",
+      "notes": "Identified with free chiral"
+    },
+    {
+      "id": "mesonic_operator_u2_neg1_1_3",
+      "name": "mesonic operator",
+      "type": "meson",
+      "theory_id": "u2_neg1_neg3_1_3",
+      "chapter_introduced": 3,
+      "notes": "dual to a gauge invariant monopole"
+    }
+  ],
+  "mirror_edges": [
+    {
+      "id": "mirror_u_n_k_f",
+      "source": "u_n_k_f_fundamentals",
+      "target": "planar_dual_u_n_k_f",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "partition_function_checked": true,
+      "evidence": "Equation 3.35"
+    },
+    {
+      "id": "mirror_u_n_0_f",
+      "source": "u_n_0_f_fundamentals",
+      "target": "planar_dual_u_n_0_f",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "Equation 3.37"
+    },
+    {
+      "id": "mirror_u_n_k_f_fund",
+      "source": "u_n_k_f_fund",
+      "target": "planar_dual_u_n_k_f_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "3.40"
+    },
+    {
+      "id": "mirror_u_n_neg_n_2_plus_1_2_n_plus_1_fund",
+      "source": "u_n_neg_n_2_plus_1_2_n_plus_1_fund",
+      "target": "planar_dual_u_n_neg_n_2_plus_1_2_n_plus_1_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "3.41"
+    },
+    {
+      "id": "mirror_u_n_neg_n_2_n_fund",
+      "source": "u_n_neg_n_2_n_fund",
+      "target": "planar_dual_u_n_neg_n_2_n_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "3.41"
+    },
+    {
+      "id": "mirror_u_n_k_f_fund_zone1",
+      "source": "u_n_k_f_fund_zone1",
+      "target": "planar_dual_u_n_k_f_fund_zone1",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "3.43"
+    },
+    {
+      "id": "mirror_u_n_neg_f_2_f_fund",
+      "source": "u_n_neg_f_2_f_fund",
+      "target": "planar_dual_u_n_neg_f_2_f_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "3.54"
+    },
+    {
+      "id": "mirror_u_n_k_cs_ym",
+      "source": "u_n_k_cs_ym",
+      "target": "planar_dual_u_n_k_cs_ym",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "3.55"
+    },
+    {
+      "id": "mirror_u_3_0_8_fund",
+      "source": "u_3_0_8_fund",
+      "target": "planar_dual_u_3_0_8_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "3.56"
+    },
+    {
+      "id": "mirror_u_3_neg_1_2_7_fund",
+      "source": "u_3_neg_1_2_7_fund",
+      "target": "planar_dual_u_3_neg_1_2_7_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "3.57"
+    },
+    {
+      "id": "aharony_duality_3_59",
+      "source": "u_n_k_f_fund",
+      "target": "u_f_minus_n_neg_k_f_antifund",
+      "duality_type": "N=2-Aharony-like",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "Equation 3.59"
+    },
+    {
+      "id": "mirror_u2_neg1_neg3_3_3",
+      "source": "u2_neg1_neg3_3_3",
+      "target": "planar_mirror_u2_neg1_neg3_3_3",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true
+    },
+    {
+      "id": "mirror_u2_neg1_neg3_3_3_edge",
+      "source": "u2_neg1_neg3_3_3",
+      "target": "mirror_u2_neg1_neg3_3_3",
+      "duality_type": "N=2-planar-Abelian"
+    }
+  ],
+  "operator_maps": [],
+  "rg_flows": [
+    {
+      "id": "flow_plus_m",
+      "source": "u_n_k_k_plus_n_ell_f_fund",
+      "target": "u_n_k_k_plus_n_ell_f_fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": "+1/2",
+      "dual_deformation": "large FI limit for leftmost node",
+      "evidence": "3.12"
+    },
+    {
+      "id": "flow_minus_m",
+      "source": "u_n_k_k_plus_n_ell_f_fund",
+      "target": "u_n_k_k_plus_n_ell_f_fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": "-1/2",
+      "dual_deformation": "large FI limit for rightmost node",
+      "evidence": "3.12"
+    },
+    {
+      "id": "flow_plus_mh",
+      "source": "u_n_k_k_plus_n_ell_f_fund",
+      "target": "u_n_k_k_plus_n_ell_f_fund",
+      "deformation_type": "Higgsing",
+      "deformation_parameter": "+mH",
+      "change_in_F": -1,
+      "change_in_rank": -1,
+      "change_in_cs_level": "+1/2",
+      "dual_deformation": "mirror gauge node removed",
+      "evidence": "3.18"
+    },
+    {
+      "id": "flow_minus_mh",
+      "source": "u_n_k_k_plus_n_ell_f_fund",
+      "target": "u_n_k_k_plus_n_ell_f_fund",
+      "deformation_type": "Higgsing",
+      "deformation_parameter": "-mH",
+      "change_in_F": -1,
+      "change_in_rank": -1,
+      "change_in_cs_level": "-1/2",
+      "dual_deformation": "mirror gauge node removed",
+      "evidence": "3.18"
+    },
+    {
+      "id": "flow_m_deformation",
+      "source": "u_n_k_f_fundamentals",
+      "target": "u_n_k_f_fundamentals",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": null,
+      "dual_deformation": "mirror loses one node from left column",
+      "evidence": "Figure 3.4"
+    },
+    {
+      "id": "flow_mh_deformation",
+      "source": "u_n_k_f_fundamentals",
+      "target": "u_n_k_f_fundamentals",
+      "deformation_type": "Higgsing",
+      "deformation_parameter": "+mH",
+      "change_in_F": -1,
+      "change_in_rank": -1,
+      "change_in_cs_level": null,
+      "dual_deformation": "mirror rank decreases by 1",
+      "evidence": "Figure 3.4"
+    },
+    {
+      "id": "flow_u_n_neg_n_2_plus_1_2_n_plus_1_fund_to_u_n_neg_n_2_n_fund",
+      "source": "u_n_neg_n_2_plus_1_2_n_plus_1_fund",
+      "target": "u_n_neg_n_2_n_fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": "-1/2",
+      "dual_deformation": null,
+      "evidence": "3.41"
+    },
+    {
+      "id": "flow_u_3_0_8_fund_to_u_3_neg_1_2_7_fund",
+      "source": "u_3_0_8_fund",
+      "target": "u_3_neg_1_2_7_fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": "-1/2",
+      "dual_deformation": null,
+      "evidence": "3.57"
+    },
+    {
+      "id": "flow_u3_neg2_neg5_4fund_to_u3_neg1_neg4_4fund",
+      "source": "u3_neg2_neg5_4fund",
+      "target": "u3_neg1_neg4_4fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_cs_level": "+1/2",
+      "evidence": "Figure 3.6"
+    },
+    {
+      "id": "flow_u3_neg1_neg4_4fund_to_u3_neg0_neg3_4fund",
+      "source": "u3_neg1_neg4_4fund",
+      "target": "u3_neg0_neg3_4fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_cs_level": "+1/2",
+      "evidence": "Figure 3.6"
+    },
+    {
+      "id": "flow_u3_neg0_neg3_4fund_to_u3_1_neg2_4fund",
+      "source": "u3_neg0_neg3_4fund",
+      "target": "u3_1_neg2_4fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_cs_level": "+1/2",
+      "evidence": "Figure 3.6"
+    },
+    {
+      "id": "flow_368_1",
+      "source": "u2_neg1_neg3_3_3",
+      "target": "u2_neg05_neg25_2_3",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_cs_level": "+1/2",
+      "evidence": "3.68"
+    },
+    {
+      "id": "flow_368_2",
+      "source": "u2_neg05_neg25_2_3",
+      "target": "u2_0_neg2_1_3",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_cs_level": "+1/2",
+      "evidence": "3.68"
+    },
+    {
+      "id": "flow_u2_neg1_neg3_3_3_to_2_3",
+      "source": "u2_neg1_neg3_3_3",
+      "target": "u2_neg1_neg3_2_2",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-mF",
+      "change_in_F": -1,
+      "change_in_cs_level": "\u00b11/2"
+    },
+    {
+      "id": "flow_u2_neg1_neg3_3_3_to_1_3",
+      "source": "u2_neg1_neg3_3_3",
+      "target": "u2_neg1_neg3_1_3",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-mA",
+      "change_in_F": -1,
+      "change_in_cs_level": "\u00b11/2"
+    }
+  ],
+  "abelian_duals": [
+    {
+      "id": "abelian_dual_u_n_k_f",
+      "source": "u_n_k_f_fundamentals",
+      "target": "planar_dual_u_n_k_f",
+      "algorithm_steps": "sequential-local-dualizations",
+      "evidence": "Equation 3.36"
+    },
+    {
+      "id": "abelian_dual_u_n_k_f_fund",
+      "source": "u_n_k_f_fund",
+      "target": "planar_dual_u_n_k_f_fund",
+      "algorithm_steps": null,
+      "evidence": "3.40"
+    }
+  ],
+  "symmetry_maps": [
+    {
+      "id": "u1_lambda_map",
+      "mirror_pair_id": "mirror_u_n_0_f",
+      "source_symmetry": "U(1)_eta",
+      "target_symmetry": "U(1)_Lambda",
+      "direction": "topological-to-flavor",
+      "ir_enhancement": null
+    },
+    {
+      "id": "sym_map_3_60",
+      "mirror_pair_id": "aharony_duality_3_59",
+      "source_symmetry": "U(1)_top",
+      "target_symmetry": "k U(1)_R - U(1)_top",
+      "direction": "both",
+      "ir_enhancement": null
+    }
+  ]
+}

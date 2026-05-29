@@ -1,0 +1,1087 @@
+{
+  "theories": [
+    {
+      "id": "u_2n_n4_f_antisym",
+      "name": "N=4 U(2N) SQCD with F hypermultiplets and rank-2 antisymmetric tensor",
+      "gauge_group": "U(2N)",
+      "rank": "2N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null,
+        "adjoints": 1,
+        "tensor": "antisymmetric",
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.1",
+      "notes": "F >= 2N + 2"
+    },
+    {
+      "id": "u_2n_n2_f_antisym",
+      "name": "N=2 U(2N) SQCD with F fundamentals and anti-chiral antisymmetric field",
+      "gauge_group": "U(2N)",
+      "rank": "2N",
+      "cs_level": "(1-F/2+N, 1-2N-F/2)",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null,
+        "adjoints": null,
+        "tensor": "antisymmetric",
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": "Derived from N=4 theory via mass deformation"
+    },
+    {
+      "id": "u_2n_cs_sqcd_0_neg3n",
+      "name": "U(2N)_(0,-3N) CS-SQCD3 with F fundamentals and rank-2 antisymmetric tensor",
+      "gauge_group": "U(2N)",
+      "rank": "2N",
+      "cs_level": "(0, -3N)",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null,
+        "adjoints": null,
+        "tensor": "antisymmetric",
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.4",
+      "notes": "F >= 2N + 2, F must be even"
+    },
+    {
+      "id": "usp_2n_sqcd",
+      "name": "USp(2N) SQCD",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": "0",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null,
+        "adjoints": null,
+        "tensor": null,
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": "Mirror dual to D-type unitary quiver"
+    },
+    {
+      "id": "usp_2n_cs_sqcd",
+      "name": "USp(2N) CS-SQCD3",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": "2N+2-F",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null,
+        "adjoints": null,
+        "tensor": null,
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": "Result of N=4 to N=2 deformation"
+    },
+    {
+      "id": "usp_2_sqcd",
+      "name": "USp(2) SQCD3",
+      "gauge_group": "USp(2)",
+      "rank": "1",
+      "cs_level": "0",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null,
+        "adjoints": null,
+        "tensor": null,
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u1_theory_f_mass",
+      "name": "U(1) theory with F fundamental multiplets",
+      "gauge_group": "U(1)",
+      "rank": "1",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null,
+        "adjoints": null,
+        "tensor": null,
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.10",
+      "notes": "Result of Higgsing USp(2) to U(1)"
+    },
+    {
+      "id": "usp_2n_0_f_fund",
+      "name": "USp(2N)_0 SQCD with F fundamentals",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": "0",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.18",
+      "notes": "F >= 2N + 2"
+    },
+    {
+      "id": "usp_2n_neg1_f_minus_1_fund",
+      "name": "USp(2N)_{-1} SQCD with F-1 fundamentals",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": "-1",
+      "matter_content": {
+        "fundamentals": "F-1"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.21",
+      "notes": "F > 2N + 2"
+    },
+    {
+      "id": "usp_2n_k_f_fund",
+      "name": "USp(2N)_k SQCD with F fundamentals",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": "k",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.22",
+      "notes": "F >= 2N + 2 + |k|"
+    },
+    {
+      "id": "usp_2n_2n_plus_2_minus_f_f_fund",
+      "name": "USp(2N)_{2N+2-F} SQCD with F fundamentals",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": "2N+2-F",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.23",
+      "notes": "N=4 descendant"
+    },
+    {
+      "id": "usp_2n_f_fund",
+      "name": "USp(2N) with F fundamentals",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.24",
+      "notes": "N=4 descendant theory"
+    },
+    {
+      "id": "usp_2n_f_minus_1_fund",
+      "name": "USp(2N) with F-1 fundamentals",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F-1"
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.26",
+      "notes": "Result of +m deformation"
+    },
+    {
+      "id": "usp_2n_f_minus_2_fund",
+      "name": "USp(2N) with F-2 fundamentals",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F-2"
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.29",
+      "notes": "Result of -m deformation"
+    },
+    {
+      "id": "usp_2n_k_1fund",
+      "name": "USp(2N)_k with 1 fundamental",
+      "gauge_group": "USp(2N)",
+      "rank": "N",
+      "cs_level": "k",
+      "matter_content": {
+        "fundamentals": 1
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.35",
+      "notes": null
+    },
+    {
+      "id": "usp_4_neg1_7fund",
+      "name": "USp(4)_{-1} SQCD with 7 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-1",
+      "matter_content": {
+        "fundamentals": 7
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.45",
+      "notes": null
+    },
+    {
+      "id": "usp_4_0_6fund",
+      "name": "USp(4)_0 with 6 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "0",
+      "matter_content": {
+        "fundamentals": 6
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.48",
+      "notes": null
+    },
+    {
+      "id": "usp_4_neg2_6fund",
+      "name": "USp(4)_{-2} with 6 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-2",
+      "matter_content": {
+        "fundamentals": 6
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.49",
+      "notes": null
+    },
+    {
+      "id": "usp4_neg1_7fund",
+      "name": "USp(4)_{-1} SQCD with 7 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-1",
+      "matter_content": {
+        "fundamentals": 7
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_neg2_6fund",
+      "name": "USp(4)_{-2} SQCD with 6 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-2",
+      "matter_content": {
+        "fundamentals": 6
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_0_6fund",
+      "name": "USp(4)_{0} SQCD with 6 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "0",
+      "matter_content": {
+        "fundamentals": 6
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_neg3_5fund",
+      "name": "USp(4)_{-3} SQCD with 5 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-3",
+      "matter_content": {
+        "fundamentals": 5
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_neg1_5fund",
+      "name": "USp(4)_{-1} SQCD with 5 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-1",
+      "matter_content": {
+        "fundamentals": 5
+      },
+      "supersymmetry": "N=4",
+      "s_confines": true,
+      "confinement_condition": "F < 2N+2 AND 2N+2-F=|k|",
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_1_5fund",
+      "name": "USp(4)_{1} SQCD with 5 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "1",
+      "matter_content": {
+        "fundamentals": 5
+      },
+      "supersymmetry": "N=4",
+      "s_confines": true,
+      "confinement_condition": "F < 2N+2 AND 2N+2-F=|k|",
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_neg4_4fund",
+      "name": "USp(4)_{-4} SQCD with 4 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-4",
+      "matter_content": {
+        "fundamentals": 4
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_neg2_4fund",
+      "name": "USp(4)_{-2} SQCD with 4 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-2",
+      "matter_content": {
+        "fundamentals": 4
+      },
+      "supersymmetry": "N=4",
+      "s_confines": true,
+      "confinement_condition": "F < 2N+2 AND 2N+2-F=|k|",
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_2_4fund",
+      "name": "USp(4)_{2} SQCD with 4 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "2",
+      "matter_content": {
+        "fundamentals": 4
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.10"
+    },
+    {
+      "id": "usp4_neg5_3fund",
+      "name": "USp(4)_{-5} SQCD with 3 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-5",
+      "matter_content": {
+        "fundamentals": 3
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.11"
+    },
+    {
+      "id": "usp4_neg3_3fund",
+      "name": "USp(4)_{-3} SQCD with 3 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-3",
+      "matter_content": {
+        "fundamentals": 3
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.11"
+    },
+    {
+      "id": "usp4_neg6_2fund",
+      "name": "USp(4)_{-6} SQCD with 2 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-6",
+      "matter_content": {
+        "fundamentals": 2
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.11"
+    },
+    {
+      "id": "usp4_neg4_2fund",
+      "name": "USp(4)_{-4} SQCD with 2 fundamentals",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-4",
+      "matter_content": {
+        "fundamentals": 2
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.11"
+    },
+    {
+      "id": "usp4_neg7_1fund",
+      "name": "USp(4)_{-7} SQCD with 1 fundamental",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-7",
+      "matter_content": {
+        "fundamentals": 1
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.11"
+    },
+    {
+      "id": "usp4_neg5_1fund",
+      "name": "USp(4)_{-5} SQCD with 1 fundamental",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-5",
+      "matter_content": {
+        "fundamentals": 1
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.11"
+    },
+    {
+      "id": "usp4_neg8",
+      "name": "USp(4)_{-8} SQCD",
+      "gauge_group": "USp(4)",
+      "rank": 2,
+      "cs_level": "-8",
+      "matter_content": {
+        "fundamentals": 0
+      },
+      "supersymmetry": "N=4",
+      "s_confines": false,
+      "chapter_introduced": 4,
+      "figure_ref": "4.11"
+    }
+  ],
+  "quivers": [
+    {
+      "id": "mirror_u_2n_n4_f_antisym",
+      "name": "Mirror D-type quiver for N=4 U(2N) SQCD",
+      "gauge_nodes": [],
+      "supersymmetry": "N=4",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.1",
+      "notes": "Unitary D-type quiver"
+    },
+    {
+      "id": "planar_ab_u_2n_n2_f_antisym",
+      "name": "Planar Abelian mirror for N=2 U(2N) SQCD",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.1",
+      "notes": "Organized into columns of U(1) gauge nodes"
+    },
+    {
+      "id": "planar_ab_u_2n_cs_sqcd_0_neg3n",
+      "name": "Planar Abelian mirror for U(2N)_(0,-3N) CS-SQCD3",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.4",
+      "notes": "Includes monopole superpotential terms"
+    },
+    {
+      "id": "d_type_quiver_usp2n",
+      "name": "D-type unitary quiver",
+      "gauge_nodes": [],
+      "supersymmetry": "N=4",
+      "quiver_type": "other",
+      "chapter_introduced": 4,
+      "figure_ref": "4.2",
+      "notes": "Mirror dual of USp(2N) SQCD"
+    },
+    {
+      "id": "orthosymplectic_quiver_usp2n",
+      "name": "Orthosymplectic mirror dual",
+      "gauge_nodes": [],
+      "supersymmetry": "N=4",
+      "quiver_type": "other",
+      "chapter_introduced": 4,
+      "figure_ref": "4.3",
+      "notes": "Linear quiver with alternating orthogonal and symplectic gauge groups"
+    },
+    {
+      "id": "planar_abelian_usp2n",
+      "name": "Planar Abelian quiver for USp(2N)",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.4",
+      "notes": "Mirror of USp(2N) CS-SQCD3"
+    },
+    {
+      "id": "planar_abelian_usp2",
+      "name": "Planar Abelian quiver for USp(2)",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.5",
+      "notes": "Mirror of U(1) theory"
+    },
+    {
+      "id": "planar_dual_usp_2n_0_f_fund",
+      "name": "Planar Abelian dual of USp(2N)_0",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.18",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp_2n_neg1_f_minus_1_fund",
+      "name": "Planar Abelian dual of USp(2N)_{-1}",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.21",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp_2n_k_f_fund",
+      "name": "Planar Abelian dual of USp(2N)_k",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.22",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp_2n_2n_plus_2_minus_f_f_fund",
+      "name": "Planar Abelian dual of USp(2N)_{2N+2-F}",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.23",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp_2n_f",
+      "name": "Planar dual of USp(2N) with F fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=4",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.24",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp_2n_f_minus_1",
+      "name": "Planar dual of USp(2N) with F-1 fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=4",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.26",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp_2n_f_minus_2",
+      "name": "Planar dual of USp(2N) with F-2 fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=4",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.29",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp_2n_k_1fund",
+      "name": "Planar dual of USp(2N)_k with 1 fundamental",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.35",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp_2n_2n_2f",
+      "name": "Planar dual of USp(2N)_{2+2N-2F}",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.41",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_usp4_neg1_7fund",
+      "name": "Planar mirror of USp(4)_{-1} with 7 fundamentals",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 4,
+      "figure_ref": "4.49"
+    }
+  ],
+  "operators": [
+    {
+      "id": "m_plus_minus",
+      "name": "M^\u00b1",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_2n_n4_f_antisym",
+      "dressing": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": "Fundamental monopoles"
+    },
+    {
+      "id": "lambda_q_tilde_q_tilde",
+      "name": "\u03bbQ\u02dcQ\u02dc",
+      "type": "dressed-monopole",
+      "spin": null,
+      "theory_id": "u_2n_n4_f_antisym",
+      "dressing": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": "Composite operator"
+    },
+    {
+      "id": "m_f_f_minus_1",
+      "name": "M_{F,F-1}",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_2n_n2_f_antisym",
+      "dressing": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": "Simplest monopole operator"
+    },
+    {
+      "id": "monopole_flux_neg1",
+      "name": "M^{-1}",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "usp_2n_cs_sqcd",
+      "dressing": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": "Appears at order x^2"
+    },
+    {
+      "id": "monopole_m_plus",
+      "name": "M^{+}",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "usp_2n_cs_sqcd",
+      "dressing": null,
+      "chapter_introduced": 4,
+      "equation_ref": null,
+      "notes": "R-charge +2"
+    },
+    {
+      "id": "monopole_m_minus_plus",
+      "name": "M^{(+,-)}",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "usp_2n_0_f_fund",
+      "dressing": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.18",
+      "notes": "Linear monopole superpotential for adjacent nodes"
+    },
+    {
+      "id": "monopole_m_dressed_q",
+      "name": "M",
+      "type": "dressed-monopole",
+      "spin": null,
+      "theory_id": "usp_2n_k_1fund",
+      "dressing": "Q",
+      "chapter_introduced": 4,
+      "equation_ref": "4.37",
+      "notes": null
+    },
+    {
+      "id": "monopole_m_dressed_q1q2",
+      "name": "M",
+      "type": "dressed-monopole",
+      "spin": null,
+      "theory_id": "usp_2n_k_1fund",
+      "dressing": "Q1Q2",
+      "chapter_introduced": 4,
+      "equation_ref": "4.39",
+      "notes": null
+    },
+    {
+      "id": "monopole_gamma",
+      "name": "gamma",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "usp_4_0_6fund",
+      "dressing": null,
+      "chapter_introduced": 4,
+      "equation_ref": "4.48",
+      "notes": "Dual to gauge-invariant monopole operator M"
+    }
+  ],
+  "mirror_edges": [
+    {
+      "id": "mirror_n4_u2n",
+      "source": "u_2n_n4_f_antisym",
+      "target": "mirror_u_2n_n4_f_antisym",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "superconformal index"
+    },
+    {
+      "id": "mirror_n2_u2n",
+      "source": "u_2n_n2_f_antisym",
+      "target": "planar_ab_u_2n_n2_f_antisym",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "superconformal index"
+    },
+    {
+      "id": "mirror_usp2n_d_type",
+      "source": "usp_2n_sqcd",
+      "target": "d_type_quiver_usp2n",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "Figure 4.2"
+    },
+    {
+      "id": "mirror_usp2n_ortho",
+      "source": "usp_2n_sqcd",
+      "target": "orthosymplectic_quiver_usp2n",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "Figure 4.3"
+    },
+    {
+      "id": "mirror_usp2n_cs_planar",
+      "source": "usp_2n_cs_sqcd",
+      "target": "planar_abelian_usp2n",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "partition_function_checked": true,
+      "evidence": "Figure 4.4"
+    },
+    {
+      "id": "mirror_usp_2n_0_f_fund",
+      "source": "usp_2n_0_f_fund",
+      "target": "planar_dual_usp_2n_0_f_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "Superconformal index agreement"
+    },
+    {
+      "id": "mirror_usp_2n_f",
+      "source": "usp_2n_f_fund",
+      "target": "planar_dual_usp_2n_f",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "Equation 4.24"
+    },
+    {
+      "id": "mirror_usp_2n_f_minus_1",
+      "source": "usp_2n_f_minus_1_fund",
+      "target": "planar_dual_usp_2n_f_minus_1",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "Equation 4.26"
+    },
+    {
+      "id": "mirror_usp_2n_f_minus_2",
+      "source": "usp_2n_f_minus_2_fund",
+      "target": "planar_dual_usp_2n_f_minus_2",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "Equation 4.29"
+    }
+  ],
+  "operator_maps": [
+    {
+      "id": "map_m_f_f_minus_1",
+      "source_operator_id": "m_f_f_minus_1",
+      "target_operator_id": "m_f_f_minus_1",
+      "mirror_pair_id": "mirror_n2_u2n",
+      "map_type": "monopole-to-meson",
+      "evidence": "chiral ring mapping"
+    }
+  ],
+  "rg_flows": [
+    {
+      "id": "flow_n4_to_n2",
+      "source": "u_2n_n4_f_antisym",
+      "target": "u_2n_n2_f_antisym",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "change_in_rank": 0,
+      "change_in_cs_level": null,
+      "dual_deformation": "Higgsing each U(k) gauge node to maximal torus U(1)^k",
+      "evidence": "Section 4.1"
+    },
+    {
+      "id": "flow_usp2n_to_cs",
+      "source": "usp_2n_sqcd",
+      "target": "usp_2n_cs_sqcd",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "change_in_rank": 0,
+      "change_in_cs_level": null,
+      "dual_deformation": "Mapping to planar Abelian quiver",
+      "evidence": "Section 4.2"
+    },
+    {
+      "id": "flow_usp2_to_u1",
+      "source": "usp_2_sqcd",
+      "target": "u1_theory_f_mass",
+      "deformation_type": "Higgsing",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "change_in_rank": -1,
+      "change_in_cs_level": null,
+      "dual_deformation": "mirror loses one node from left or right column",
+      "evidence": "Figure 4.5"
+    },
+    {
+      "id": "flow_usp_2n_0_to_neg1",
+      "source": "usp_2n_0_f_fund",
+      "target": "usp_2n_neg1_f_minus_1_fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": "-1",
+      "dual_deformation": "Higgsing bottom-left diagonal, chiral field connecting bottom-most gauge and flavor nodes acquires positive mass",
+      "evidence": "4.19"
+    },
+    {
+      "id": "flow_usp_2n_f_plus_m",
+      "source": "usp_2n_f_fund",
+      "target": "usp_2n_f_minus_1_fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": null,
+      "dual_deformation": "large FI limit for the rightmost node",
+      "evidence": "Equation 4.25, 4.26"
+    },
+    {
+      "id": "flow_usp_2n_f_minus_m",
+      "source": "usp_2n_f_fund",
+      "target": "usp_2n_f_minus_1_fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": null,
+      "dual_deformation": "large FI limit for the leftmost node",
+      "evidence": "Equation 4.25, 4.26"
+    },
+    {
+      "id": "flow_usp4_8fund_to_7fund",
+      "source": "usp_4_neg1_7fund",
+      "target": "usp_4_neg1_7fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": "-1/2",
+      "dual_deformation": "mirror loses one node from left column",
+      "evidence": "4.45"
+    },
+    {
+      "id": "flow_usp4_neg1_7fund_to_neg2_6fund",
+      "source": "usp4_neg1_7fund",
+      "target": "usp4_neg2_6fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "-m",
+      "change_in_F": -1,
+      "change_in_cs_level": "-1",
+      "evidence": "Figure 4.10"
+    },
+    {
+      "id": "flow_usp4_neg1_7fund_to_0_6fund",
+      "source": "usp4_neg1_7fund",
+      "target": "usp4_0_6fund",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_cs_level": "+1",
+      "evidence": "Figure 4.10"
+    }
+  ],
+  "abelian_duals": [
+    {
+      "id": "abelian_dual_u2n_n2",
+      "source": "u_2n_n2_f_antisym",
+      "target": "planar_ab_u_2n_n2_f_antisym",
+      "algorithm_steps": "Higgsing each U(k) gauge node to its maximal torus U(1)^k",
+      "evidence": "superconformal index"
+    },
+    {
+      "id": "abelian_dual_usp2n",
+      "source": "usp_2n_cs_sqcd",
+      "target": "planar_abelian_usp2n",
+      "algorithm_steps": "algorithmic generalization of [3]",
+      "evidence": "Figure 4.4"
+    },
+    {
+      "id": "dual_usp_2n_0_f_fund",
+      "source": "usp_2n_0_f_fund",
+      "target": "planar_dual_usp_2n_0_f_fund",
+      "algorithm_steps": null,
+      "evidence": "Superconformal index agreement"
+    },
+    {
+      "id": "abelian_dual_usp_2n_f",
+      "source": "usp_2n_f_fund",
+      "target": "planar_dual_usp_2n_f",
+      "algorithm_steps": null,
+      "evidence": "Equation 4.24"
+    },
+    {
+      "id": "dual_usp4_neg1_7fund",
+      "source": "usp4_neg1_7fund",
+      "target": "planar_dual_usp4_neg1_7fund",
+      "evidence": "Equation 4.49"
+    }
+  ],
+  "symmetry_maps": [
+    {
+      "id": "sym_map_u2n",
+      "mirror_pair_id": "mirror_n4_u2n",
+      "source_symmetry": "SU(F) x U(1)_s x U(1)_eta x U(1)_tau",
+      "target_symmetry": "product of U(1) topological symmetries",
+      "direction": "both",
+      "ir_enhancement": "SU(F) x U(1)_s"
+    },
+    {
+      "id": "sym_map_usp2n",
+      "mirror_pair_id": "mirror_usp2n_cs_planar",
+      "source_symmetry": "U(F)",
+      "target_symmetry": "U(1)^{F-1} x U(1)",
+      "direction": "both",
+      "ir_enhancement": "U(F)"
+    },
+    {
+      "id": "sym_map_usp_2n_0",
+      "mirror_pair_id": "mirror_usp_2n_0_f_fund",
+      "source_symmetry": "flavor",
+      "target_symmetry": "topological",
+      "direction": "both",
+      "ir_enhancement": null
+    }
+  ]
+}

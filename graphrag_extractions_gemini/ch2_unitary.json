@@ -1,0 +1,609 @@
+{
+  "theories": [
+    {
+      "id": "u_n_sqcd_n4",
+      "name": "N=4 U(N) SQCD",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": "F",
+        "adjoints": 1
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": "Parent theory for N=2 chiral-planar mirror dualities"
+    },
+    {
+      "id": "u_n_sqcd_n2",
+      "name": "N=2 U(N) SQCD",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(-F/2+N, -F/2)",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": 0,
+        "adjoints": 0
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.1",
+      "notes": "Obtained by real mass deformation of N=4 U(N) SQCD"
+    },
+    {
+      "id": "su_n_sqcd_n2",
+      "name": "N=2 SU(N) SQCD",
+      "gauge_group": "SU(N)",
+      "rank": "N-1",
+      "cs_level": "(-F/2+N)",
+      "matter_content": {
+        "fundamentals": "F"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": "Obtained by ungauging the diagonal U(1) of U(N) SQCD"
+    },
+    {
+      "id": "ft_u_n_scft",
+      "name": "FT[U(N)] SCFT",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null,
+        "adjoints": 1,
+        "tensor": null,
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.29",
+      "notes": "Self-mirror SCFT with global symmetry SU(N)xSU(N)xU(1)."
+    },
+    {
+      "id": "g_u_n_scft",
+      "name": "G[U(N)] SCFT",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null,
+        "adjoints": null,
+        "tensor": null,
+        "fermions_Nf": null,
+        "scalars_Ns": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.37",
+      "notes": "SCFT with global symmetry SU(N)xU(1)^(N-1)."
+    },
+    {
+      "id": "u_n_cs_sqcd_f1_f2",
+      "name": "U(N) CS-SQCD with [F1+N, F2+N] chiral multiplets",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(-F1+F2/2, -F1+F2/2-N)",
+      "matter_content": {
+        "fundamentals": "F1+N",
+        "anti_fundamentals": "F2+N"
+      },
+      "supersymmetry": "N=2",
+      "chapter_introduced": 2,
+      "equation_ref": "2.126",
+      "notes": "SQCD theory with fundamental and anti-fundamental matter"
+    },
+    {
+      "id": "u_n_sqcd_f1_f2",
+      "name": "U(N) SQCD with [F1+N, F2+N] chiral multiplets",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(-(F1+F2)/2, -(F1+F2)/2 - N)",
+      "matter_content": {
+        "fundamentals": "F1+N",
+        "anti_fundamentals": "F2+N"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.128",
+      "notes": "SQCD theory with bifundamental and flavor blocks"
+    },
+    {
+      "id": "u_n_sqcd_f1_2n_f2",
+      "name": "U(N) SQCD with [F1+2N, F2] chiral multiplets",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(-(F1+F2)/2, -(F1+F2)/2 - N)",
+      "matter_content": {
+        "fundamentals": "F1+2N",
+        "anti_fundamentals": "F2"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.132",
+      "notes": null
+    },
+    {
+      "id": "u_n_adjoint_sqcd",
+      "name": "Adjoint U(N) SQCD",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(-F/2, -F/2)",
+      "matter_content": {
+        "fundamentals": "F",
+        "adjoints": 1
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.139",
+      "notes": null
+    }
+  ],
+  "quivers": [
+    {
+      "id": "n4_mirror_linear_quiver",
+      "name": "N=4 Mirror Linear Quiver",
+      "gauge_nodes": [],
+      "supersymmetry": "N=4",
+      "quiver_type": "linear-unitary",
+      "chapter_introduced": 2,
+      "figure_ref": "2.1",
+      "notes": "Mirror of N=4 U(N) SQCD"
+    },
+    {
+      "id": "planar_abelian_mirror_u_n",
+      "name": "Planar Abelian Mirror of U(N) SQCD",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 2,
+      "figure_ref": "2.2",
+      "notes": "Obtained by Higgsing N=4 mirror nodes to Cartan subgroup"
+    },
+    {
+      "id": "planar_abelian_mirror_su_n",
+      "name": "Planar Abelian Mirror of SU(N) SQCD",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 2,
+      "figure_ref": "2.3",
+      "notes": "Mirror of SU(N) SQCD"
+    },
+    {
+      "id": "ft_u_n_quiver",
+      "name": "FT[U(N)] UV completion",
+      "gauge_nodes": [
+        {
+          "node_id": "node_1",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        },
+        {
+          "node_id": "node_2",
+          "gauge_group": "U(2)",
+          "cs_level": null,
+          "flavor_attached": null
+        },
+        {
+          "node_id": "node_n",
+          "gauge_group": "U(N)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=4",
+      "quiver_type": "FT[U(N)]",
+      "chapter_introduced": 2,
+      "figure_ref": "2.5",
+      "notes": "Linear quiver UV completion of FT[U(N)]."
+    },
+    {
+      "id": "g_u_n_chiral_quiver",
+      "name": "G[U(N)] chiral UV completion",
+      "gauge_nodes": [
+        {
+          "node_id": "chiral_node_1",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        },
+        {
+          "node_id": "chiral_node_n",
+          "gauge_group": "U(N)",
+          "cs_level": "1",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "G[U(N)]",
+      "chapter_introduced": 2,
+      "figure_ref": "2.8",
+      "notes": "Chiral UV completion of G[U(N)]."
+    },
+    {
+      "id": "g_u_n_planar_quiver",
+      "name": "G[U(N)] planar UV completion",
+      "gauge_nodes": [
+        {
+          "node_id": "planar_node_1",
+          "gauge_group": "U(1)",
+          "cs_level": "1",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 2,
+      "figure_ref": "2.9",
+      "notes": "Planar Abelian UV completion of G[U(N)]."
+    },
+    {
+      "id": "g_u_n_chiral",
+      "name": "G[U(N)] chiral UV completion",
+      "gauge_nodes": [
+        {
+          "node_id": "u1_node",
+          "gauge_group": "U(1)",
+          "cs_level": "1"
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "G[U(N)]",
+      "chapter_introduced": 2,
+      "figure_ref": "2.12",
+      "notes": "Chiral UV completion of the N=2 S-wall"
+    },
+    {
+      "id": "g_u_n_planar",
+      "name": "G[U(N)] planar UV completion",
+      "gauge_nodes": [
+        {
+          "node_id": "u1_planar_node",
+          "gauge_group": "U(1)",
+          "cs_level": "0"
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 2,
+      "figure_ref": "2.12",
+      "notes": "Planar UV completion of the N=2 S-wall"
+    },
+    {
+      "id": "planar_dual_u_n_sqcd_f1_f2",
+      "name": "Planar mirror dual of U(N) SQCD [F1+N, F2+N]",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 2,
+      "figure_ref": "2.14",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_u_n_sqcd_f1_2n_f2",
+      "name": "Planar mirror dual of U(N) SQCD [F1+2N, F2]",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 2,
+      "figure_ref": "2.15",
+      "notes": null
+    },
+    {
+      "id": "planar_dual_n4_sqcd_limit",
+      "name": "Planar mirror dual of N=4 SQCD limit",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 2,
+      "figure_ref": "2.16",
+      "notes": null
+    },
+    {
+      "id": "circular_quiver_n4_len3",
+      "name": "N=4 circular quiver of length 3",
+      "gauge_nodes": [],
+      "supersymmetry": "N=4",
+      "quiver_type": "circular",
+      "chapter_introduced": 2,
+      "figure_ref": "2.17",
+      "notes": null
+    },
+    {
+      "id": "circular_quiver_n2_len3",
+      "name": "N=2 circular quiver of length 3",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": "circular",
+      "chapter_introduced": 2,
+      "figure_ref": "2.18",
+      "notes": null
+    }
+  ],
+  "operators": [
+    {
+      "id": "bare_monopole_m_plus",
+      "name": "M^{(+,0,...,0)}",
+      "type": "monopole",
+      "spin": 0,
+      "theory_id": "u_n_sqcd_n2",
+      "dressing": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": "Bare monopole operator"
+    },
+    {
+      "id": "dressed_monopole_m_plus",
+      "name": "M^{(+,0,...,0)}\u03bb^{N-1}",
+      "type": "dressed-monopole",
+      "spin": 0,
+      "theory_id": "u_n_sqcd_n2",
+      "dressing": "N-1 gaugino fields",
+      "chapter_introduced": 2,
+      "equation_ref": "2.6",
+      "notes": "Gauge-invariant generator of the chiral ring"
+    },
+    {
+      "id": "planar_meson_operator",
+      "name": "Meson",
+      "type": "meson",
+      "spin": 0,
+      "theory_id": "planar_abelian_mirror_u_n",
+      "dressing": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": "Generated by contracting F diagonal bifundamental fields"
+    },
+    {
+      "id": "ax_operator",
+      "name": "AX",
+      "type": "meson",
+      "spin": null,
+      "theory_id": "ft_u_n_scft",
+      "dressing": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": "Moment map associated with SU(N)X."
+    },
+    {
+      "id": "ay_operator",
+      "name": "AY",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "ft_u_n_scft",
+      "dressing": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.32",
+      "notes": "Moment map associated with SU(N)Y."
+    },
+    {
+      "id": "dressed_monopole_md",
+      "name": "Md",
+      "type": "dressed-monopole",
+      "spin": null,
+      "theory_id": "g_u_n_scft",
+      "dressing": "Q^(k-1)",
+      "chapter_introduced": 2,
+      "equation_ref": "2.51",
+      "notes": "Dressed monopole operator in G[U(N)]."
+    },
+    {
+      "id": "meson_qf1n_qf2n",
+      "name": "Q_{F1+N} Q~_{F2+N}",
+      "type": "meson",
+      "spin": null,
+      "theory_id": "u_n_sqcd_f1_f2",
+      "dressing": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": "Mapped to monopole operator with flux +1"
+    }
+  ],
+  "mirror_edges": [
+    {
+      "id": "mirror_u_n_sqcd_n4",
+      "source": "u_n_sqcd_n4",
+      "target": "n4_mirror_linear_quiver",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "Partition function equality"
+    },
+    {
+      "id": "mirror_u_n_sqcd_n2",
+      "source": "u_n_sqcd_n2",
+      "target": "planar_abelian_mirror_u_n",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "partition_function_checked": true,
+      "evidence": "Partition function factorization and matching"
+    },
+    {
+      "id": "mirror_su_n_sqcd_n2",
+      "source": "su_n_sqcd_n2",
+      "target": "planar_abelian_mirror_su_n",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "partition_function_checked": true,
+      "evidence": "Ungauging of U(N) duality"
+    },
+    {
+      "id": "ft_u_n_self_mirror",
+      "source": "ft_u_n_scft",
+      "target": "ft_u_n_scft",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "Figure 2.6"
+    },
+    {
+      "id": "g_u_n_mirror_pair",
+      "source": "g_u_n_chiral_quiver",
+      "target": "g_u_n_planar_quiver",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "partition_function_checked": true,
+      "evidence": "Equation 2.49"
+    },
+    {
+      "id": "g_u_n_chiral_planar_mirror",
+      "source": "g_u_n_chiral",
+      "target": "g_u_n_planar",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "partition_function_checked": true,
+      "evidence": "Equation 2.74"
+    },
+    {
+      "id": "mirror_u_n_sqcd_f1_f2",
+      "source": "u_n_sqcd_f1_f2",
+      "target": "planar_dual_u_n_sqcd_f1_f2",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "partition_function_checked": null,
+      "evidence": "Figure 2.14"
+    },
+    {
+      "id": "mirror_u_n_sqcd_f1_2n_f2",
+      "source": "u_n_sqcd_f1_2n_f2",
+      "target": "planar_dual_u_n_sqcd_f1_2n_f2",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "partition_function_checked": null,
+      "evidence": "Figure 2.15"
+    }
+  ],
+  "operator_maps": [
+    {
+      "id": "map_monopole_to_meson",
+      "source_operator_id": "dressed_monopole_m_plus",
+      "target_operator_id": "planar_meson_operator",
+      "mirror_pair_id": "mirror_u_n_sqcd_n2",
+      "map_type": "monopole-to-meson",
+      "evidence": "R-charge computation and chiral ring matching"
+    },
+    {
+      "id": "map_md_to_bifund",
+      "source_operator_id": "dressed_monopole_md",
+      "target_operator_id": null,
+      "mirror_pair_id": "g_u_n_mirror_pair",
+      "map_type": "monopole-to-meson",
+      "evidence": "Section 2.2"
+    },
+    {
+      "id": "map_meson_monopole_f1_f2",
+      "source_operator_id": "meson_qf1n_qf2n",
+      "target_operator_id": "monopole_flux_1",
+      "mirror_pair_id": "mirror_u_n_sqcd_f1_f2",
+      "map_type": "meson-to-monopole",
+      "evidence": "Page 94"
+    }
+  ],
+  "rg_flows": [
+    {
+      "id": "flow_n4_to_n2_u_n",
+      "source": "u_n_sqcd_n4",
+      "target": "u_n_sqcd_n2",
+      "deformation_type": "combined",
+      "deformation_parameter": "real mass deformation",
+      "change_in_F": 0,
+      "change_in_rank": 0,
+      "change_in_cs_level": null,
+      "dual_deformation": "Higgsing of mirror nodes to Cartan subgroup",
+      "evidence": "Partition function limit tau -> infinity"
+    },
+    {
+      "id": "flow_ft_to_g",
+      "source": "ft_u_n_quiver",
+      "target": "g_u_n_chiral_quiver",
+      "deformation_type": "combined",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "change_in_rank": null,
+      "change_in_cs_level": null,
+      "dual_deformation": "real mass deformation breaking U(1)tau",
+      "evidence": "Figure 2.7"
+    },
+    {
+      "id": "flow_sqcd_to_blocks",
+      "source": "u_n_cs_sqcd_f1_f2",
+      "target": "g_u_n_chiral",
+      "deformation_type": "combined",
+      "dual_deformation": "mirror rank decreases by 1",
+      "evidence": "Equation 2.127"
+    }
+  ],
+  "abelian_duals": [
+    {
+      "id": "abelian_dual_u_n",
+      "source": "u_n_sqcd_n2",
+      "target": "planar_abelian_mirror_u_n",
+      "algorithm_steps": "Higgsing each U(k) node to Cartan subgroup",
+      "evidence": "Partition function matching"
+    },
+    {
+      "id": "dual_u_n_sqcd",
+      "source": "u_n_cs_sqcd_f1_f2",
+      "target": "g_u_n_planar",
+      "algorithm_steps": "Step 1: The quiver is chopped into its basic QFT blocks. Step 2: Each QFT block is dualized via the basic duality moves. Step 3: The dualized blocks are glued together via the N=2 chiral/planar fusion to identity.",
+      "evidence": "Section 2.4"
+    },
+    {
+      "id": "abelian_dual_u_n_sqcd_f1_f2",
+      "source": "u_n_sqcd_f1_f2",
+      "target": "planar_dual_u_n_sqcd_f1_f2",
+      "algorithm_steps": "decomposition into fundamental blocks, dualization, gluing via identity walls",
+      "evidence": "Section 2.4.1"
+    }
+  ],
+  "symmetry_maps": [
+    {
+      "id": "sym_map_u_n",
+      "mirror_pair_id": "mirror_u_n_sqcd_n2",
+      "source_symmetry": "SU(F) x U(1)_eta",
+      "target_symmetry": "U(1)^{F-1} x U(1)_eta",
+      "direction": "both",
+      "ir_enhancement": "U(1)^{F-1} enhances to SU(F)"
+    },
+    {
+      "id": "sym_map_g_u_n",
+      "mirror_pair_id": "g_u_n_mirror_pair",
+      "source_symmetry": "SU(N)X x U(1)^(N-1)",
+      "target_symmetry": "U(1)^(N-1) x SU(N)X",
+      "direction": "both",
+      "ir_enhancement": "Topological U(1)^(N-1) enhances to SU(N)"
+    },
+    {
+      "id": "sym_map_u_n_sqcd_f1_f2",
+      "mirror_pair_id": "mirror_u_n_sqcd_f1_f2",
+      "source_symmetry": "S[U(F1+N) x U(F2+N)] x U(1)",
+      "target_symmetry": "U(1)^{F1+F2+N-1}",
+      "direction": "both",
+      "ir_enhancement": "S[U(F1+N) x U(F2+N)]"
+    }
+  ]
+}

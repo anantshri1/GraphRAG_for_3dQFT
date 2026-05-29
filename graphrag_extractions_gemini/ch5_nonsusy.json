@@ -1,0 +1,709 @@
+{
+  "theories": [
+    {
+      "id": "u1_cs_neg_ns_nf2_k",
+      "name": "U(1) QED3 with Ns scalars and Nf fermions",
+      "gauge_group": "U(1)",
+      "rank": 1,
+      "cs_level": "-Ns-Nf/2-k",
+      "matter_content": {
+        "fermions_Nf": "Nf",
+        "scalars_Ns": "Ns"
+      },
+      "supersymmetry": "none",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 5,
+      "equation_ref": null,
+      "notes": "General Abelian duality starting point"
+    },
+    {
+      "id": "su_n_cs_2n_ns_k",
+      "name": "SU(N) QCD3 with Ns scalars",
+      "gauge_group": "SU(N)",
+      "rank": "N-1",
+      "cs_level": "2N-Ns-k",
+      "matter_content": {
+        "scalars_Ns": "Ns"
+      },
+      "supersymmetry": "none",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 5,
+      "equation_ref": null,
+      "notes": "Planar Abelianization target"
+    },
+    {
+      "id": "su2_cs_neg1_5scalars",
+      "name": "SU(2) QCD3 with 5 scalars",
+      "gauge_group": "SU(2)",
+      "rank": 1,
+      "cs_level": "-1",
+      "matter_content": {
+        "scalars_Ns": 5
+      },
+      "supersymmetry": "none",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 5,
+      "equation_ref": null,
+      "notes": "Example 5.2.2"
+    },
+    {
+      "id": "su2_neg2_5scalars",
+      "name": "SU(2)_-2 QCD3 with 5 scalars",
+      "gauge_group": "SU(2)",
+      "rank": "1",
+      "cs_level": "-2",
+      "matter_content": {
+        "scalars_Ns": "5"
+      },
+      "supersymmetry": "none",
+      "s_confines": null,
+      "confinement_condition": null,
+      "chapter_introduced": 5,
+      "equation_ref": null,
+      "notes": "Theory with 5 fundamental scalars and fermions."
+    },
+    {
+      "id": "su_n_qcd3_ns_nf",
+      "name": "SU(N) QCD3 with Ns scalars and Nf fermions",
+      "gauge_group": "SU(N)",
+      "rank": "N-1",
+      "cs_level": "2N - Ns - Nf/2 - k",
+      "matter_content": {
+        "fermions_Nf": "Nf",
+        "scalars_Ns": "Ns"
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": "5.50",
+      "notes": "General proposal for planar Abelian dual"
+    },
+    {
+      "id": "su_3_neg_half_qcd3",
+      "name": "SU(3) at level -1/2 with 6 scalars and 1 fermion",
+      "gauge_group": "SU(3)",
+      "rank": 2,
+      "cs_level": "-1/2",
+      "matter_content": {
+        "fermions_Nf": 1,
+        "scalars_Ns": 6
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": "5.3.2",
+      "notes": "Example with Ns=6, Nf=1"
+    },
+    {
+      "id": "su_2_neg_5_half_qcd3",
+      "name": "SU(2) at level -5/2 with 5 scalars and 1 fermion",
+      "gauge_group": "SU(2)",
+      "rank": 1,
+      "cs_level": "-5/2",
+      "matter_content": {
+        "fermions_Nf": 1,
+        "scalars_Ns": 5
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": "5.3.3",
+      "notes": "Example with Ns=5, Nf=1, k=1"
+    },
+    {
+      "id": "u_n_cs_2n_ns_nf_k",
+      "name": "U(N) QCD3 with Ns scalars and Nf fermions",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(2N-Ns-Nf/2-k, -Ns-Nf/2-k)",
+      "matter_content": {
+        "fermions_Nf": "Nf",
+        "scalars_Ns": "Ns"
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": null,
+      "notes": "Defined at Chern-Simons level (2N-Ns-Nf/2-k, -Ns-Nf/2-k)"
+    },
+    {
+      "id": "su_2_cs_4_f",
+      "name": "SU(2) QCD3 with F scalars",
+      "gauge_group": "SU(2)",
+      "rank": "1",
+      "cs_level": "(4-F)",
+      "matter_content": {
+        "scalars_Ns": "F"
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": null,
+      "notes": "Used for mass deformation example"
+    },
+    {
+      "id": "su_3_cs_6_ns_nf",
+      "name": "SU(3) QCD3 with Ns scalars and Nf fermions",
+      "gauge_group": "SU(3)",
+      "rank": "2",
+      "cs_level": "(6-Ns-Nf/2)",
+      "matter_content": {
+        "fermions_Nf": "Nf",
+        "scalars_Ns": "Ns"
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "su_n_cs_neg1",
+      "name": "SU(N)_-1 QCD",
+      "gauge_group": "SU(N)",
+      "rank": "N-1",
+      "cs_level": "-1",
+      "matter_content": {
+        "scalars_Ns": "2N"
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "su3_0_5scalars_2fermions",
+      "name": "SU(3)_0 QCD3 with 5 scalars and 2 fermions",
+      "gauge_group": "SU(3)",
+      "rank": 2,
+      "cs_level": "0",
+      "matter_content": {
+        "fermions_Nf": 2,
+        "scalars_Ns": 5
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": "Figure 5.15"
+    },
+    {
+      "id": "su2_half_2scalars_3fermions",
+      "name": "SU(2)_1/2 QCD3 with 2 scalars and 3 fermions",
+      "gauge_group": "SU(2)",
+      "rank": 1,
+      "cs_level": "1/2",
+      "matter_content": {
+        "fermions_Nf": 3,
+        "scalars_Ns": 2
+      },
+      "supersymmetry": "none",
+      "chapter_introduced": 5,
+      "equation_ref": "Figure 5.16"
+    }
+  ],
+  "quivers": [
+    {
+      "id": "planar_abelian_dual_u1_ns_nf_k",
+      "name": "Abelian linear quiver dual to QED3",
+      "gauge_nodes": [
+        {
+          "node_id": "u1_node",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "Figure 5.1",
+      "notes": "Dual to U(1) with Ns scalars and Nf fermions"
+    },
+    {
+      "id": "planar_abelian_dual_su_n_ns_k",
+      "name": "Planar Abelian quiver dual to SU(N) QCD3",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "Figure 5.2",
+      "notes": "Dual to SU(N) QCD3 with Ns scalars"
+    },
+    {
+      "id": "planar_abelian_dual_su2_5scalars",
+      "name": "Planar Abelian quiver dual to SU(2) QCD3 with 5 scalars",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "Figure 5.3",
+      "notes": "Example 5.2.2"
+    },
+    {
+      "id": "planar_mirror_fig5_3",
+      "name": "Planar mirror of SU(5) theory",
+      "gauge_nodes": [
+        {
+          "node_id": "node_1",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "Figure 5.3",
+      "notes": "Mirror theory for SU(5) flavor symmetry theory."
+    },
+    {
+      "id": "planar_mirror_fig5_4",
+      "name": "Planar mirror of SU(2)_-2 with 5 scalars",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "Figure 5.4",
+      "notes": "Dual theory for SU(2)_-2 QCD3 with 5 scalars."
+    },
+    {
+      "id": "planar_dual_su_n_qcd3",
+      "name": "Planar Abelian dual of SU(N) QCD3",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "5.5"
+    },
+    {
+      "id": "planar_dual_su_3_neg_half",
+      "name": "Planar Abelian dual of SU(3) at level -1/2",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "5.6"
+    },
+    {
+      "id": "planar_dual_su_2_neg_5_half",
+      "name": "Planar Abelian dual of SU(2) at level -5/2",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "5.7"
+    },
+    {
+      "id": "planar_abelian_fig_5_8",
+      "name": "Planar Abelian Quiver Figure 5.8",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "5.8",
+      "notes": "Dual to U(N) QCD3 with Ns scalars and Nf fermions"
+    },
+    {
+      "id": "planar_abelian_fig_5_11",
+      "name": "Planar Abelian Quiver Figure 5.11",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "5.11",
+      "notes": "Dual to SU(2) QCD3 with F scalars"
+    },
+    {
+      "id": "planar_abelian_fig_5_12",
+      "name": "Planar Abelian Quiver Figure 5.12",
+      "gauge_nodes": [],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "5.12",
+      "notes": "Dual to SU(3) QCD3 with Ns scalars and Nf fermions"
+    },
+    {
+      "id": "planar_mirror_su3_0",
+      "name": "Planar mirror for SU(3)_0",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        },
+        {
+          "node_id": "n2",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "Figure 5.15"
+    },
+    {
+      "id": "planar_mirror_su2_half",
+      "name": "Planar mirror for SU(2)_1/2",
+      "gauge_nodes": [
+        {
+          "node_id": "n1",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "none",
+      "quiver_type": "planar-Abelian",
+      "chapter_introduced": 5,
+      "figure_ref": "Figure 5.16"
+    }
+  ],
+  "operators": [
+    {
+      "id": "fermionic_meson_psi_i_psi_j",
+      "name": "psi_bar_i * psi_j",
+      "type": "meson",
+      "spin": 0,
+      "theory_id": "u1_cs_neg_ns_nf2_k",
+      "dressing": null,
+      "chapter_introduced": 5,
+      "equation_ref": "5.5",
+      "notes": "Spin-0 and spin-1 fermionic mesons"
+    },
+    {
+      "id": "scalar_meson_phi_i_phi_j",
+      "name": "phi*_i * phi_j",
+      "type": "meson",
+      "spin": 0,
+      "theory_id": "u1_cs_neg_ns_nf2_k",
+      "dressing": null,
+      "chapter_introduced": 5,
+      "equation_ref": "5.6",
+      "notes": "Scalar mesons"
+    },
+    {
+      "id": "mixed_meson_psi_i_phi_j",
+      "name": "psi_bar_i * phi_j",
+      "type": "meson",
+      "spin": 0.5,
+      "theory_id": "u1_cs_neg_ns_nf2_k",
+      "dressing": null,
+      "chapter_introduced": 5,
+      "equation_ref": "5.7",
+      "notes": "Mixed mesons"
+    },
+    {
+      "id": "monopole_5_23",
+      "name": "M((+,+,0),(0,0,0,0))",
+      "type": "dressed-monopole",
+      "spin": "0",
+      "theory_id": "planar_mirror_fig5_3",
+      "dressing": "\u03b31\u03b32\u03b1\u00af1,2",
+      "chapter_introduced": 5,
+      "equation_ref": "5.26",
+      "notes": "Mesonic monopole operator."
+    },
+    {
+      "id": "monopole_5_38",
+      "name": "M((0,0,0),(+,+,0,0))",
+      "type": "dressed-monopole",
+      "spin": "0",
+      "theory_id": "planar_mirror_fig5_3",
+      "dressing": "\u03b3\u00af1\u03b1\u00af2,2",
+      "chapter_introduced": 5,
+      "equation_ref": "5.38",
+      "notes": "Baryonic monopole operator."
+    },
+    {
+      "id": "current_j12",
+      "name": "J^\u03bc_12",
+      "type": "topological-current",
+      "spin": "1",
+      "theory_id": "planar_mirror_fig5_3",
+      "dressing": "spin-1 mode of one fermion, spin-0 mode of other",
+      "chapter_introduced": 5,
+      "equation_ref": "5.31",
+      "notes": "Conserved current."
+    },
+    {
+      "id": "generic_baryonic_monopole",
+      "name": "Generic baryonic monopole",
+      "type": "dressed-monopole",
+      "spin": null,
+      "theory_id": "su_n_qcd3_ns_nf",
+      "chapter_introduced": 5,
+      "equation_ref": "5.49"
+    },
+    {
+      "id": "spin0_meson_su3",
+      "name": "M|spin-0",
+      "type": "dressed-monopole",
+      "spin": 0,
+      "theory_id": "su_3_neg_half_qcd3",
+      "chapter_introduced": 5,
+      "equation_ref": "5.54"
+    },
+    {
+      "id": "spin1half_meson_su3",
+      "name": "M|spin-1/2",
+      "type": "dressed-monopole",
+      "spin": 0.5,
+      "theory_id": "su_3_neg_half_qcd3",
+      "chapter_introduced": 5,
+      "equation_ref": "5.56"
+    },
+    {
+      "id": "spin0_baryon_su3",
+      "name": "B|spin-0",
+      "type": "dressed-monopole",
+      "spin": 0,
+      "theory_id": "su_3_neg_half_qcd3",
+      "chapter_introduced": 5,
+      "equation_ref": "5.58"
+    },
+    {
+      "id": "spin1half_baryon_su3",
+      "name": "B|spin-1/2",
+      "type": "dressed-monopole",
+      "spin": 0.5,
+      "theory_id": "su_3_neg_half_qcd3",
+      "chapter_introduced": 5,
+      "equation_ref": "5.60"
+    },
+    {
+      "id": "bare_monopole_m",
+      "name": "M",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_n_cs_2n_ns_nf_k",
+      "dressing": "Ns modes of scalars phi",
+      "chapter_introduced": 5,
+      "equation_ref": "5.69",
+      "notes": "GNO flux (+, 0, ..., 0)"
+    },
+    {
+      "id": "long_meson_op",
+      "name": "long mesons",
+      "type": "meson",
+      "spin": 0,
+      "theory_id": "u_n_cs_2n_ns_nf_k",
+      "dressing": null,
+      "chapter_introduced": 5,
+      "equation_ref": "5.69",
+      "notes": "Spin mod 1 is 1/2(Ns-2N+2) mod 1"
+    },
+    {
+      "id": "monopole_phi2_phi_bar1",
+      "name": "phi2_phi_bar1",
+      "type": "dressed-monopole",
+      "spin": 0,
+      "theory_id": "su3_0_5scalars_2fermions",
+      "chapter_introduced": 5,
+      "equation_ref": "Table 5.7"
+    },
+    {
+      "id": "monopole_phi1_psi1",
+      "name": "phi1_psi1",
+      "type": "dressed-monopole",
+      "spin": 0,
+      "theory_id": "su2_half_2scalars_3fermions",
+      "chapter_introduced": 5,
+      "equation_ref": "Table 5.10"
+    }
+  ],
+  "mirror_edges": [
+    {
+      "id": "mirror_u1_qed3",
+      "source": "u1_cs_neg_ns_nf2_k",
+      "target": "planar_abelian_dual_u1_ns_nf_k",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "Figure 5.1"
+    },
+    {
+      "id": "mirror_su_n_qcd3",
+      "source": "su_n_cs_2n_ns_k",
+      "target": "planar_abelian_dual_su_n_ns_k",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": true,
+      "evidence": "Figure 5.2"
+    },
+    {
+      "id": "mirror_fig5_4",
+      "source": "su2_neg2_5scalars",
+      "target": "planar_mirror_fig5_4",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "Figure 5.4"
+    },
+    {
+      "id": "mirror_su_n_qcd3",
+      "source": "su_n_qcd3_ns_nf",
+      "target": "planar_dual_su_n_qcd3",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false
+    },
+    {
+      "id": "mirror_su_3_neg_half",
+      "source": "su_3_neg_half_qcd3",
+      "target": "planar_dual_su_3_neg_half",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false
+    },
+    {
+      "id": "mirror_su_2_neg_5_half",
+      "source": "su_2_neg_5_half_qcd3",
+      "target": "planar_dual_su_2_neg_5_half",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false
+    },
+    {
+      "id": "mirror_u_n_fig_5_8",
+      "source": "u_n_cs_2n_ns_nf_k",
+      "target": "planar_abelian_fig_5_8",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false,
+      "partition_function_checked": null,
+      "evidence": "Figure 5.8"
+    },
+    {
+      "id": "mirror_su3_0",
+      "source": "su3_0_5scalars_2fermions",
+      "target": "planar_mirror_su3_0",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false
+    },
+    {
+      "id": "mirror_su2_half",
+      "source": "su2_half_2scalars_3fermions",
+      "target": "planar_mirror_su2_half",
+      "duality_type": "non-susy-planar-Abelian",
+      "algorithm_derived": false
+    }
+  ],
+  "operator_maps": [
+    {
+      "id": "map_5_26",
+      "source_operator_id": "monopole_5_23",
+      "target_operator_id": null,
+      "mirror_pair_id": "mirror_fig5_4",
+      "map_type": "monopole-to-meson",
+      "evidence": "Equation 5.26"
+    },
+    {
+      "id": "map_5_38",
+      "source_operator_id": "monopole_5_38",
+      "target_operator_id": null,
+      "mirror_pair_id": "mirror_fig5_4",
+      "map_type": "monopole-to-baryon",
+      "evidence": "Equation 5.38"
+    },
+    {
+      "id": "map_m_to_meson",
+      "source_operator_id": "bare_monopole_m",
+      "target_operator_id": "long_meson_op",
+      "mirror_pair_id": "mirror_u_n_fig_5_8",
+      "map_type": "monopole-to-meson",
+      "evidence": "Equation 5.69"
+    },
+    {
+      "id": "map_phi2_phi_bar1",
+      "source_operator_id": "monopole_phi2_phi_bar1",
+      "target_operator_id": "monopole_phi2_phi_bar1",
+      "mirror_pair_id": "mirror_su3_0",
+      "map_type": "monopole-to-meson"
+    },
+    {
+      "id": "map_phi1_psi1",
+      "source_operator_id": "monopole_phi1_psi1",
+      "target_operator_id": "monopole_phi1_psi1",
+      "mirror_pair_id": "mirror_su2_half",
+      "map_type": "monopole-to-baryon"
+    }
+  ],
+  "rg_flows": [
+    {
+      "id": "flow_su2_scalar_mass",
+      "source": "su_2_cs_4_f",
+      "target": "su_2_cs_4_f_minus_1",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": null,
+      "dual_deformation": "mirror loses one column of fermions",
+      "evidence": "Figure 5.11"
+    },
+    {
+      "id": "flow_su3_fermion_mass",
+      "source": "su_3_cs_6_ns_nf",
+      "target": "su_3_cs_6_ns_nf_minus_1",
+      "deformation_type": "real-mass-fundamental",
+      "deformation_parameter": "+m",
+      "change_in_F": -1,
+      "change_in_rank": 0,
+      "change_in_cs_level": "+1/2",
+      "dual_deformation": "mirror loses one column of bosons",
+      "evidence": "Figure 5.12"
+    }
+  ],
+  "abelian_duals": [
+    {
+      "id": "abelian_dual_u1_qed3",
+      "source": "u1_cs_neg_ns_nf2_k",
+      "target": "planar_abelian_dual_u1_ns_nf_k",
+      "algorithm_steps": null,
+      "evidence": "Figure 5.1"
+    },
+    {
+      "id": "abelian_dual_su_n_qcd3",
+      "source": "su_n_cs_2n_ns_k",
+      "target": "planar_abelian_dual_su_n_ns_k",
+      "algorithm_steps": null,
+      "evidence": "Figure 5.2"
+    },
+    {
+      "id": "abelian_dual_su_n",
+      "source": "su_n_qcd3_ns_nf",
+      "target": "planar_dual_su_n_qcd3"
+    },
+    {
+      "id": "abelian_dual_u_n",
+      "source": "u_n_cs_2n_ns_nf_k",
+      "target": "planar_abelian_fig_5_8",
+      "algorithm_steps": null,
+      "evidence": "Figure 5.8"
+    },
+    {
+      "id": "dual_su3_0",
+      "source": "su3_0_5scalars_2fermions",
+      "target": "planar_mirror_su3_0"
+    },
+    {
+      "id": "dual_su2_half",
+      "source": "su2_half_2scalars_3fermions",
+      "target": "planar_mirror_su2_half"
+    }
+  ],
+  "symmetry_maps": [
+    {
+      "id": "sym_map_u1_qed3",
+      "mirror_pair_id": "mirror_u1_qed3",
+      "source_symmetry": "U(1)top x S(U(Ns) x U(Nf))",
+      "target_symmetry": "U(1)Ns+Nf",
+      "direction": "both",
+      "ir_enhancement": "U(1)Ns+Nf -> S(U(Ns) x U(Nf))"
+    },
+    {
+      "id": "sym_map_su_n",
+      "mirror_pair_id": "mirror_su_n_qcd3",
+      "source_symmetry": "U(Ns) x U(Nf)",
+      "target_symmetry": "U(1)^Ns+Nf",
+      "direction": "topological-to-flavor",
+      "ir_enhancement": "U(1)^Ns+Nf -> U(Ns) x U(Nf)"
+    }
+  ]
+}
