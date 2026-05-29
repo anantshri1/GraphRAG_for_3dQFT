@@ -46,6 +46,7 @@ This enables multi-hop contextual expansion aligned with the structure of theore
 - These were fixed via:
    - manual seed augmentation for operator mappings 
    - improved extraction prompts for relation consistency
+   
 The resulting graph correctly supports multi-hop queries over operator mappings and extended quiver structures.
   <img width="1389" height="890" alt="image" src="https://github.com/user-attachments/assets/49649dd6-cb73-4383-9bd7-e0252b170aa7" />
 - A lightweight synthesis layer using llama-3.3-70b-versatile generates natural language responses from retrieved subgraphs, demonstrating early graph-conditioned generation capability.
