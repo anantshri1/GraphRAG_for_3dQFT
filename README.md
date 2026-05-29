@@ -71,7 +71,7 @@ This stage was used exclusively to validate schema design, test extraction robus
 - A typed knowledge graph was constructed using NetworkX, enabling multi-hop traversal over physics entities such as operators, dualities, and quiver gauge structures.
 - The retrieval system is hybrid, combining:
    - vector similarity search over the legacy embedding index
-   - graph-based retrieval via adaptive k-hop (BFS-style) expansion from seed nodes
+   - graph-based retrieval 
 - Retrieval strategy uses a soft routing mechanism (`Gemini 3.1 Flash-Lite`), which classifies queries into:
    - vector-based retrieval
    - graph-based reasoning
@@ -81,3 +81,25 @@ Due to computational constraints, the pipeline does not include a final synthesi
 - The system includes an experimental MLOps tracking layer using MLflow, used to log and compare entity/relation extraction prompts, graph construction variants, retrieval configurations (vector vs graph vs hybrid), and LLM model settings and routing behavior.
 - The inference layer is exposed via a Flask-based API service, which serves as the backend interface for vector retrieval queries, graph-based multi-hop queries, and hybrid retrieval requests.
 - A Gradio-based interactive interface was implemented for end-to-end testing and qualitative evaluation of retrieval behavior. However, full deployment in the current Colab environment is partially unstable due to dependency conflicts between Gradio and the existing runtime constraints. As a result, Gradio is treated as a prototype-level UI layer, with planned stabilization and separation of environment dependencies in a future version.
+
+---
+## Future Work
+- Improved chunking strategies for equation-dense and LaTeX-heavy sections to better preserve mathematical structure during entity and relation extraction (e.g., equation-aware segmentation and structure-preserving parsing).
+- **RAGAS evaluation:** systematic evaluation of the full pipeline once generation is stabilized, including faithfulness, answer relevancy, context precision, and context recall for both vector and graph-based retrieval paths.
+- Exploration of domain-adaptive LLM fine-tuning or continued pretraining on the corpus to improve extraction quality, particularly for operator-level mappings and physics-specific entity consistency. 
+
+---
+
+## Stack
+
+- Python 3.12, Google Colab T4
+- LlamaIndex (`VectorStoreIndex`), PyMuPDF, HuggingFace Transformers
+- `BAAI/bge-large-en-v1.5` (embeddings)
+- Anthropic `claude-sonnet-4-5` (summary generation)
+- Google `Gemini 3.5 Flash-Lite` (multimodal PDF parsing and schema extraction, soft router)
+- Meta `llama-3.3-70b-versatile` (schema extraction)
+- NetworkX (knowledge graph)
+- Pydantic (schema validation)
+- MLFlow
+- Flask API
+- Gradio
