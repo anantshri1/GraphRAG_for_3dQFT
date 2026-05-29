@@ -1,0 +1,673 @@
+{
+  "theories": [
+    {
+      "id": "u_n_k_f_fund",
+      "name": "U(N) SQCD",
+      "gauge_group": "U(N)",
+      "rank": null,
+      "cs_level": "-F/2+N,-F/2",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_k_f_fund_n4",
+      "name": "U(N) SQCD N=4",
+      "gauge_group": "U(N)",
+      "rank": null,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_k_f_fund",
+      "name": "U(N) SQCD with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "-F/2 + N",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.21",
+      "notes": null
+    },
+    {
+      "id": "su_n_k",
+      "name": "SU(N) SQCD",
+      "gauge_group": "SU(N)",
+      "rank": "N-1",
+      "cs_level": "-F\u00b2+N",
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "ft_u_n",
+      "name": "FT[U(N)] SCFT",
+      "gauge_group": null,
+      "rank": null,
+      "cs_level": null,
+      "matter_content": null,
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": "self-mirror"
+    },
+    {
+      "id": "ft_u_n",
+      "name": "FT[U(N)]",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.38-2.39",
+      "notes": null
+    },
+    {
+      "id": "g_u_n",
+      "name": "G[U(N)]",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.40",
+      "notes": null
+    },
+    {
+      "id": "n2_sqcd",
+      "name": "N=2 SQCD",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_k_f_fund",
+      "name": "U(N)k with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": null,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "s_wall",
+      "name": "S-wall",
+      "gauge_group": null,
+      "rank": null,
+      "cs_level": null,
+      "matter_content": null,
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "g_theory",
+      "name": "G theory",
+      "gauge_group": null,
+      "rank": null,
+      "cs_level": null,
+      "matter_content": null,
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_k_f_fund",
+      "name": "U(N) SQCD",
+      "gauge_group": "U(N)",
+      "rank": null,
+      "cs_level": "(-(F\u2081+F\u2082)/2, -(F\u2081+F\u2082)/2-N)",
+      "matter_content": {
+        "fundamentals": "[F\u2081+N, F\u2082+N]",
+        "anti_fundamentals": "[F\u2081+N, F\u2082+N]"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "planar_abelian_quiver",
+      "name": "Planar Abelian Quiver",
+      "gauge_group": null,
+      "rank": null,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_k_f_fund",
+      "name": "U(N) SQCD",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(-(F\u2081\u2212F\u2082)/2, -(F\u2081\u2212F\u2082)/2\u2212N)",
+      "matter_content": {
+        "fundamentals": "F\u2081+2N",
+        "anti_fundamentals": "F\u2082"
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "su_n_k_f_fund",
+      "name": "SU(N) SQCD",
+      "gauge_group": "SU(N)",
+      "rank": "N-1",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_adj_fund",
+      "name": "U(N) adjoint SQCD",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": "(-F/2, -F/2)",
+      "matter_content": {
+        "fundamentals": "[F,0]",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": 2,
+      "equation_ref": "2.139",
+      "notes": null
+    }
+  ],
+  "quivers": [
+    {
+      "id": "planar_quiver",
+      "name": "Planar Quiver",
+      "gauge_nodes": [
+        {
+          "node_id": "u_1",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar",
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "abelian_planar_quiver",
+      "name": "Abelian Planar Quiver",
+      "gauge_nodes": [
+        {
+          "node_id": "u_1",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar",
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "planar_quiver",
+      "name": "Planar quiver",
+      "gauge_nodes": [
+        {
+          "node_id": "u_n_k",
+          "gauge_group": "U(N)",
+          "cs_level": "-F/2 + N",
+          "flavor_attached": "F"
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "planar",
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "linear_quiver",
+      "name": "Linear quiver",
+      "gauge_nodes": [
+        {
+          "node_id": "su_n_x",
+          "gauge_group": "SU(N)",
+          "cs_level": null,
+          "flavor_attached": null
+        },
+        {
+          "node_id": "u_1_y",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=4",
+      "quiver_type": "linear",
+      "equation_ref": null,
+      "notes": "UV completion of FT[U(N)]"
+    },
+    {
+      "id": "chiral_quiver",
+      "name": "Chiral Quiver",
+      "gauge_nodes": [
+        {
+          "node_id": "u_n",
+          "gauge_group": "U(N)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "Chiral",
+      "equation_ref": "2.42",
+      "notes": null
+    },
+    {
+      "id": "planar_quiver",
+      "name": "Planar Quiver",
+      "gauge_nodes": [
+        {
+          "node_id": "u_n",
+          "gauge_group": "U(N)",
+          "cs_level": "+1",
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "Planar",
+      "equation_ref": "2.44-2.45",
+      "notes": null
+    },
+    {
+      "id": "generalized_quiver",
+      "name": "Generalized Quiver",
+      "gauge_nodes": [
+        {
+          "node_id": null,
+          "gauge_group": null,
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "linear_quiver_u_n",
+      "name": "Linear quiver with U(1)\u00d7U(2)\u00d7...\u00d7U(N) gauge groups",
+      "gauge_nodes": [
+        {
+          "node_id": "u_1",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        },
+        {
+          "node_id": "u_2",
+          "gauge_group": "U(2)",
+          "cs_level": null,
+          "flavor_attached": null
+        },
+        {
+          "node_id": "u_n",
+          "gauge_group": "U(N)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=4",
+      "quiver_type": "linear",
+      "equation_ref": "2.136",
+      "notes": null
+    },
+    {
+      "id": "circular_quiver_n",
+      "name": "Circular quiver gauge theory of length 3",
+      "gauge_nodes": [
+        {
+          "node_id": "u_1",
+          "gauge_group": "U(N)",
+          "cs_level": null,
+          "flavor_attached": "F\u2081"
+        },
+        {
+          "node_id": "u_2",
+          "gauge_group": "U(N)",
+          "cs_level": null,
+          "flavor_attached": "F\u2082"
+        },
+        {
+          "node_id": "u_3",
+          "gauge_group": "U(N)",
+          "cs_level": null,
+          "flavor_attached": "F\u2083"
+        }
+      ],
+      "supersymmetry": "N=4",
+      "quiver_type": "circular",
+      "equation_ref": null,
+      "notes": null
+    }
+  ],
+  "operators": [
+    {
+      "id": "m_0",
+      "name": "M\u208a,\u2080,...,\u2080",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_n_k_f_fund",
+      "dressing": "(N\u22121) gaugino components",
+      "equation_ref": "2.4",
+      "notes": null
+    },
+    {
+      "id": "a_x",
+      "name": "A_X",
+      "type": "adjoint",
+      "spin": null,
+      "theory_id": "ft_u_n",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": "moment map operator"
+    },
+    {
+      "id": "a_y",
+      "name": "A_Y",
+      "type": "adjoint",
+      "spin": null,
+      "theory_id": "ft_u_n",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": "non-perturbative operator"
+    },
+    {
+      "id": "monopole_operator",
+      "name": "Monopole Operator",
+      "type": "Monopole",
+      "spin": null,
+      "theory_id": "g_u_n",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "bifundamental_field",
+      "name": "Bifundamental Field",
+      "type": "Bifundamental",
+      "spin": null,
+      "theory_id": "g_u_n",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "monopole_operator",
+      "name": "Monopole Operator",
+      "type": null,
+      "spin": null,
+      "theory_id": "u_n_k_f_fund",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "mesonic_operator",
+      "name": "Mesonic Operator",
+      "type": null,
+      "spin": null,
+      "theory_id": "u_n_k_f_fund",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    }
+  ],
+  "mirror_edges": [
+    {
+      "id": "mirror_u_n_k_f_fund",
+      "source": "u_n_k_f_fund",
+      "target": "planar_quiver",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": null,
+      "evidence": "matching of oscillatory phases in the large-mass limit of S\u00b3b partition functions"
+    },
+    {
+      "id": "mirror_u_n_k_f_fund_n4",
+      "source": "u_n_k_f_fund_n4",
+      "target": "abelian_planar_quiver",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": null,
+      "evidence": "real mass deformation of N=4 mirror pairs"
+    },
+    {
+      "id": "u_n_k_f_fund_mirror",
+      "source": "u_n_k_f_fund",
+      "target": "planar_quiver",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": null,
+      "evidence": "partition function analysis"
+    },
+    {
+      "id": "su_n_k_mirror",
+      "source": "su_n_k",
+      "target": "planar_quiver",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": null,
+      "evidence": "ungauging formula"
+    },
+    {
+      "id": "ft_u_n_self_mirror",
+      "source": "ft_u_n",
+      "target": "ft_u_n",
+      "duality_type": "self-mirror",
+      "algorithm_derived": null,
+      "evidence": "recursive identity"
+    },
+    {
+      "id": "ft_u_n_to_g_u_n",
+      "source": "ft_u_n",
+      "target": "g_u_n",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": null,
+      "evidence": "equation 2.40"
+    },
+    {
+      "id": "chiral_to_planar",
+      "source": "chiral_quiver",
+      "target": "planar_quiver",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": null,
+      "evidence": "equation 2.49"
+    },
+    {
+      "id": "mirror_u_n_k_f_fund_s_wall",
+      "source": "u_n_k_f_fund",
+      "target": "s_wall",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": null,
+      "evidence": "prose summary"
+    },
+    {
+      "id": "mirror_s_wall_g_theory",
+      "source": "s_wall",
+      "target": "g_theory",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": null,
+      "evidence": "prose summary"
+    },
+    {
+      "id": "u_n_k_f_fund_mirror",
+      "source": "u_n_k_f_fund",
+      "target": "planar_abelian_quiver",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "evidence": "Page 130"
+    },
+    {
+      "id": "mirror_u_n_k_f_fund",
+      "source": "u_n_k_f_fund",
+      "target": null,
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "evidence": "planar mirror duality"
+    },
+    {
+      "id": "mirror_u_n_adj_fund",
+      "source": "u_n_adj_fund",
+      "target": null,
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": true,
+      "evidence": "dualization algorithm"
+    }
+  ],
+  "operator_maps": [
+    {
+      "id": "operator_map_m_0",
+      "source_operator_id": "m_0",
+      "target_operator_id": null,
+      "mirror_pair_id": "mirror_u_n_k_f_fund",
+      "map_type": "monopole to meson",
+      "evidence": "equation 2.5"
+    },
+    {
+      "id": "monopole_to_bifundamental",
+      "source_operator_id": "monopole_operator",
+      "target_operator_id": "bifundamental_field",
+      "mirror_pair_id": "chiral_to_planar",
+      "map_type": "Duality",
+      "evidence": "equation 2.51"
+    },
+    {
+      "id": "monopole_map",
+      "source_operator_id": "monopole_operator",
+      "target_operator_id": null,
+      "mirror_pair_id": "u_n_k_f_fund_mirror",
+      "map_type": null,
+      "evidence": "Page 130"
+    },
+    {
+      "id": "mesonic_map",
+      "source_operator_id": "mesonic_operator",
+      "target_operator_id": null,
+      "mirror_pair_id": "u_n_k_f_fund_mirror",
+      "map_type": null,
+      "evidence": "Page 130"
+    }
+  ],
+  "rg_flows": [
+    {
+      "id": "u_n_k_f_fund_rg_flow",
+      "source": "u_n_k_f_fund",
+      "target": "su_n_k",
+      "deformation_type": "real mass deformation",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "dual_deformation": null,
+      "evidence": "equations of motion analysis"
+    },
+    {
+      "id": "ft_u_n_to_g_u_n_rg_flow",
+      "source": "ft_u_n",
+      "target": "g_u_n",
+      "deformation_type": "Real mass deformation",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "dual_deformation": null,
+      "evidence": "equation 2.38-2.39"
+    },
+    {
+      "id": "rg_flow_u_n_k_f_fund_s_wall",
+      "source": "u_n_k_f_fund",
+      "target": "s_wall",
+      "deformation_type": "mass deformation",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "dual_deformation": null,
+      "evidence": "prose summary"
+    }
+  ],
+  "abelian_duals": [
+    {
+      "id": "u_n_k_f_fund_abelian_dual",
+      "source": "u_n_k_f_fund",
+      "target": "planar_quiver",
+      "algorithm_steps": null,
+      "evidence": "partition function analysis"
+    }
+  ],
+  "symmetry_maps": []
+}

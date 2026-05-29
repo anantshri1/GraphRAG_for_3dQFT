@@ -1,0 +1,309 @@
+{
+  "theories": [
+    {
+      "id": "u_1_0_2_fund",
+      "name": "N=2 SQED",
+      "gauge_group": "U(1)",
+      "rank": "1",
+      "cs_level": 0,
+      "matter_content": {
+        "fundamentals": 2,
+        "anti_fundamentals": 2
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_1_1_2_fund",
+      "name": "U(1)\u2081 with [2,2] flavors",
+      "gauge_group": "U(1)",
+      "rank": "1",
+      "cs_level": 1,
+      "matter_content": {
+        "fundamentals": 2,
+        "anti_fundamentals": 2
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_1_half_2_fund",
+      "name": "U(1)\u2081/\u2082 with [2,1] flavors",
+      "gauge_group": "U(1)",
+      "rank": "1",
+      "cs_level": 0.5,
+      "matter_content": {
+        "fundamentals": 2,
+        "anti_fundamentals": 1
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_1_1_fund",
+      "name": "U(1)\u2081 with [1,1] flavors",
+      "gauge_group": "U(1)",
+      "rank": "1",
+      "cs_level": 1,
+      "matter_content": {
+        "fundamentals": 1,
+        "anti_fundamentals": 1
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_1_0_1_fund",
+      "name": "U(1)\u2080 with [1,1] flavors",
+      "gauge_group": "U(1)",
+      "rank": "1",
+      "cs_level": 0,
+      "matter_content": {
+        "fundamentals": 1,
+        "anti_fundamentals": 1
+      },
+      "supersymmetry": "N=2",
+      "s_confines": true,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    }
+  ],
+  "quivers": [
+    {
+      "id": "planar_quiver",
+      "name": "Planar quiver",
+      "gauge_nodes": [
+        {
+          "node_id": "u_1",
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=2",
+      "quiver_type": "Planar",
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "n_free_chiral_fields",
+      "name": "N free chiral fields",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "n_1_n_1_bifundamental_block",
+      "name": "[N-1, N-1] bifundamental block",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "column_22",
+      "name": "Column 22",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "column_33",
+      "name": "Column 33",
+      "gauge_nodes": [],
+      "supersymmetry": "N=2",
+      "quiver_type": null,
+      "equation_ref": null,
+      "notes": null
+    }
+  ],
+  "operators": [
+    {
+      "id": "m_plus",
+      "name": "M+",
+      "type": "Meson",
+      "spin": null,
+      "theory_id": "u_1_0_2_fund",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "m_minus",
+      "name": "M-",
+      "type": "Meson",
+      "spin": null,
+      "theory_id": "u_1_0_2_fund",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "b_1_2",
+      "name": "B\u2081\u2082",
+      "type": null,
+      "spin": null,
+      "theory_id": null,
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "type": null,
+      "spin": null,
+      "theory_id": null,
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "q",
+      "name": "Q",
+      "type": null,
+      "spin": null,
+      "theory_id": null,
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "q_tilde",
+      "name": "Q\u0303",
+      "type": null,
+      "spin": null,
+      "theory_id": null,
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "m_minus_000_000",
+      "name": "M_-{000/000}",
+      "type": null,
+      "spin": null,
+      "theory_id": null,
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    }
+  ],
+  "mirror_edges": [
+    {
+      "id": "u_1_0_2_fund_mirror",
+      "source": "u_1_0_2_fund",
+      "target": "u_1_0_2_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "evidence": "Equations B.5-B.8"
+    },
+    {
+      "id": "u_1_0_1_fund_mirror",
+      "source": "u_1_0_1_fund",
+      "target": "u_1_0_1_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "evidence": "Equation B.3"
+    },
+    {
+      "id": "u_1_1_fund_mirror",
+      "source": "u_1_1_fund",
+      "target": "u_1_1_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "evidence": "Equation B.15"
+    },
+    {
+      "id": "u_1_half_2_fund_mirror",
+      "source": "u_1_half_2_fund",
+      "target": "u_1_half_2_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "evidence": "Equation B.1"
+    },
+    {
+      "id": "u_1_1_2_fund_mirror",
+      "source": "u_1_1_2_fund",
+      "target": "u_1_1_2_fund",
+      "duality_type": "N=2-planar-Abelian",
+      "algorithm_derived": false,
+      "evidence": "Equation B.1"
+    }
+  ],
+  "operator_maps": [
+    {
+      "id": "m_plus_map",
+      "source_operator_id": "m_plus",
+      "target_operator_id": "q",
+      "mirror_pair_id": "u_1_0_2_fund_mirror",
+      "map_type": "Meson to flipped field",
+      "evidence": "Equations B.5-B.8"
+    },
+    {
+      "id": "m_minus_map",
+      "source_operator_id": "m_minus",
+      "target_operator_id": "q_tilde",
+      "mirror_pair_id": "u_1_0_2_fund_mirror",
+      "map_type": "Meson to flipped field",
+      "evidence": "Equations B.5-B.8"
+    },
+    {
+      "id": "x_map",
+      "source_operator_id": "x",
+      "target_operator_id": "m_plus",
+      "mirror_pair_id": null,
+      "map_type": "Operator map",
+      "evidence": "Equation B.18"
+    }
+  ],
+  "rg_flows": [
+    {
+      "id": "u_1_0_2_fund_rg_flow",
+      "source": "u_1_0_2_fund",
+      "target": "u_1_0_1_fund",
+      "deformation_type": "Real mass deformation",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "dual_deformation": null,
+      "evidence": "Equation B.3"
+    }
+  ],
+  "abelian_duals": [
+    {
+      "id": "u_1_0_1_fund_abelian_dual",
+      "source": "u_1_0_1_fund",
+      "target": "u_1_0_1_fund",
+      "algorithm_steps": null,
+      "evidence": "Equation B.1"
+    }
+  ],
+  "symmetry_maps": [
+    {
+      "id": "u_1_symmetry_map",
+      "mirror_pair_id": "u_1_0_2_fund_mirror",
+      "source_symmetry": "U(1)_\u03bb",
+      "target_symmetry": "Flavor symmetry",
+      "direction": null,
+      "ir_enhancement": null
+    }
+  ]
+}

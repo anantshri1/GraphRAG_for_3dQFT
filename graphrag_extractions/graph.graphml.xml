@@ -1,0 +1,4309 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d48" for="edge" attr.name="map_type" attr.type="string"/>
+<key id="d47" for="edge" attr.name="target_operator_id" attr.type="string"/>
+<key id="d46" for="edge" attr.name="source_operator_id" attr.type="string"/>
+<key id="d45" for="edge" attr.name="algorithm_derived" attr.type="string"/>
+<key id="d44" for="edge" attr.name="change_in_rank" attr.type="string"/>
+<key id="d43" for="edge" attr.name="change_in_F" attr.type="string"/>
+<key id="d42" for="edge" attr.name="algorithm_steps" attr.type="string"/>
+<key id="d41" for="edge" attr.name="ir_enhancement" attr.type="string"/>
+<key id="d40" for="edge" attr.name="direction" attr.type="string"/>
+<key id="d39" for="edge" attr.name="target_symmetry" attr.type="string"/>
+<key id="d38" for="edge" attr.name="source_symmetry" attr.type="string"/>
+<key id="d37" for="edge" attr.name="mirror_pair_id" attr.type="string"/>
+<key id="d36" for="edge" attr.name="dual_deformation" attr.type="string"/>
+<key id="d35" for="edge" attr.name="change_in_cs_level" attr.type="string"/>
+<key id="d34" for="edge" attr.name="change_in_rank" attr.type="long"/>
+<key id="d33" for="edge" attr.name="change_in_F" attr.type="long"/>
+<key id="d32" for="edge" attr.name="deformation_parameter" attr.type="string"/>
+<key id="d31" for="edge" attr.name="deformation_type" attr.type="string"/>
+<key id="d30" for="edge" attr.name="edge_id" attr.type="string"/>
+<key id="d29" for="edge" attr.name="notes" attr.type="string"/>
+<key id="d28" for="edge" attr.name="evidence" attr.type="string"/>
+<key id="d27" for="edge" attr.name="algorithm_derived" attr.type="boolean"/>
+<key id="d26" for="edge" attr.name="duality_type" attr.type="string"/>
+<key id="d25" for="edge" attr.name="target" attr.type="string"/>
+<key id="d24" for="edge" attr.name="source" attr.type="string"/>
+<key id="d23" for="edge" attr.name="edge_type" attr.type="string"/>
+<key id="d22" for="node" attr.name="dressing" attr.type="string"/>
+<key id="d21" for="node" attr.name="theory_id" attr.type="string"/>
+<key id="d20" for="node" attr.name="spin" attr.type="string"/>
+<key id="d19" for="node" attr.name="type" attr.type="string"/>
+<key id="d18" for="node" attr.name="quiver_type" attr.type="string"/>
+<key id="d17" for="node" attr.name="gauge_nodes" attr.type="string"/>
+<key id="d16" for="node" attr.name="chapter_introduced" attr.type="string"/>
+<key id="d15" for="node" attr.name="rank" attr.type="long"/>
+<key id="d14" for="node" attr.name="s_confines" attr.type="boolean"/>
+<key id="d13" for="node" attr.name="reference_only" attr.type="boolean"/>
+<key id="d12" for="node" attr.name="notes" attr.type="string"/>
+<key id="d11" for="node" attr.name="equation_ref" attr.type="string"/>
+<key id="d10" for="node" attr.name="chapter_introduced" attr.type="long"/>
+<key id="d9" for="node" attr.name="confinement_condition" attr.type="string"/>
+<key id="d8" for="node" attr.name="s_confines" attr.type="string"/>
+<key id="d7" for="node" attr.name="supersymmetry" attr.type="string"/>
+<key id="d6" for="node" attr.name="matter_content" attr.type="string"/>
+<key id="d5" for="node" attr.name="cs_level" attr.type="string"/>
+<key id="d4" for="node" attr.name="rank" attr.type="string"/>
+<key id="d3" for="node" attr.name="gauge_group" attr.type="string"/>
+<key id="d2" for="node" attr.name="name" attr.type="string"/>
+<key id="d1" for="node" attr.name="id" attr.type="string"/>
+<key id="d0" for="node" attr.name="node_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="u_n_sqcd_n4">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_sqcd_n4</data>
+  <data key="d2">N=4 U(N) SQCD</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5"></data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": "F", "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=4</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Parent theory for N=2 chiral-planar mirror dualities</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_sqcd_n2">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_sqcd_n2</data>
+  <data key="d2">N=2 U(N) SQCD</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">(-F/2+N, -F/2)</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": 0, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2.1</data>
+  <data key="d12">Obtained by real mass deformation of N=4 U(N) SQCD</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_n_sqcd_n2">
+  <data key="d0">Theory</data>
+  <data key="d1">su_n_sqcd_n2</data>
+  <data key="d2">N=2 SU(N) SQCD</data>
+  <data key="d3">SU(N)</data>
+  <data key="d4">N-1</data>
+  <data key="d5">(-F/2+N)</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Obtained by ungauging the diagonal U(1) of U(N) SQCD</data>
+  <data key="d13">False</data>
+</node>
+<node id="ft_u_n_scft">
+  <data key="d0">Theory</data>
+  <data key="d1">ft_u_n_scft</data>
+  <data key="d2">FT[U(N)] SCFT</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5"></data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=4</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2.29</data>
+  <data key="d12">Self-mirror SCFT with global symmetry SU(N)xSU(N)xU(1).</data>
+  <data key="d13">False</data>
+</node>
+<node id="g_u_n_scft">
+  <data key="d0">Theory</data>
+  <data key="d1">g_u_n_scft</data>
+  <data key="d2">G[U(N)] SCFT</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5"></data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2.37</data>
+  <data key="d12">SCFT with global symmetry SU(N)xU(1)^(N-1).</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_cs_sqcd_f1_f2">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_cs_sqcd_f1_f2</data>
+  <data key="d2">U(N) CS-SQCD with [F1+N, F2+N] chiral multiplets</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">(-F1+F2/2, -F1+F2/2-N)</data>
+  <data key="d6">{"fundamentals": "F1+N", "anti_fundamentals": "F2+N", "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2.126</data>
+  <data key="d12">SQCD theory with fundamental and anti-fundamental matter</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_sqcd_f1_f2">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_sqcd_f1_f2</data>
+  <data key="d2">U(N) SQCD with [F1+N, F2+N] chiral multiplets</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">(-(F1+F2)/2, -(F1+F2)/2 - N)</data>
+  <data key="d6">{"fundamentals": "F1+N", "anti_fundamentals": "F2+N", "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2.128</data>
+  <data key="d12">SQCD theory with bifundamental and flavor blocks</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_sqcd_f1_2n_f2">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_sqcd_f1_2n_f2</data>
+  <data key="d2">U(N) SQCD with [F1+2N, F2] chiral multiplets</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">(-(F1+F2)/2, -(F1+F2)/2 - N)</data>
+  <data key="d6">{"fundamentals": "F1+2N", "anti_fundamentals": "F2", "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2.132</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_adjoint_sqcd">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_adjoint_sqcd</data>
+  <data key="d2">Adjoint U(N) SQCD</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">(-F/2, -F/2)</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2.139</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_k_f_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_k_f_fund</data>
+  <data key="d2">U(N)_k with F fundamentals</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">k</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.59</data>
+  <data key="d12">Aharony dual theory</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_k_k_plus_n_ell_f_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_k_k_plus_n_ell_f_fund</data>
+  <data key="d2">U(N)k,k+Nℓ SQCD with F fundamentals</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">(k, k+Nℓ)</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Parent theory for mass deformations</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_0_f_fundamentals">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_0_f_fundamentals</data>
+  <data key="d2">U(N)_0 with F fundamentals</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">0</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.37</data>
+  <data key="d12">Limiting case of k=0 duality</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_neg_n_2_plus_1_2_n_plus_1_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+  <data key="d2">U(N)_{-N/2 + 1/2} with N+1 fundamentals</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">-N/2 + 1/2</data>
+  <data key="d6">{"fundamentals": "N+1", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.41</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_neg_n_2_n_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_neg_n_2_n_fund</data>
+  <data key="d2">U(N)_{-N/2} with N fundamentals</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">-N/2</data>
+  <data key="d6">{"fundamentals": "N", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">True</data>
+  <data key="d9">F=N</data>
+  <data key="d10">3</data>
+  <data key="d11">3.41</data>
+  <data key="d12">Confines to a single free chiral multiplet</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_neg_f_2_f_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_neg_f_2_f_fund</data>
+  <data key="d2">U(N)_{-F/2} with F fundamentals</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">-F/2</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.54</data>
+  <data key="d12">Marginally chiral SQCD</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_k_cs_ym">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_k_cs_ym</data>
+  <data key="d2">N=2 U(N)_k CS-YM</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">k</data>
+  <data key="d6">{"fundamentals": 0, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.55</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u_3_0_8_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u_3_0_8_fund</data>
+  <data key="d2">U(3)_0 with 8 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d4">3</data>
+  <data key="d5">0</data>
+  <data key="d6">{"fundamentals": 8, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.56</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_neg1_2_7fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_neg1_2_7fund</data>
+  <data key="d2">U(3)_{-1/2} with 7 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">-1/2</data>
+  <data key="d6">{"fundamentals": 7, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.8</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_neg2_neg5_4fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_neg2_neg5_4fund</data>
+  <data key="d2">U(3)_{(-2,-5)} with 4 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(-2,-5)</data>
+  <data key="d6">{"fundamentals": 4, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_neg1_neg4_4fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_neg1_neg4_4fund</data>
+  <data key="d2">U(3)_{(-1,-4)} with 4 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(-1,-4)</data>
+  <data key="d6">{"fundamentals": 4, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_neg0_neg3_4fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_neg0_neg3_4fund</data>
+  <data key="d2">U(3)_{(0,-3)} with 4 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(0,-3)</data>
+  <data key="d6">{"fundamentals": 4, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_1_neg2_4fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_1_neg2_4fund</data>
+  <data key="d2">U(3)_{(1,-2)} with 4 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(1,-2)</data>
+  <data key="d6">{"fundamentals": 4, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_neg2_5_neg11_2_3fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_neg2_5_neg11_2_3fund</data>
+  <data key="d2">U(3)_{(-5/2, -11/2)} with 3 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(-5/2, -11/2)</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_neg3_2_neg9_2_3fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_neg3_2_neg9_2_3fund</data>
+  <data key="d2">U(3)_{(-3/2, -9/2)} with 3 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(-3/2, -9/2)</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_neg1_2_neg7_2_3fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_neg1_2_neg7_2_3fund</data>
+  <data key="d2">U(3)_{(-1/2, -7/2)} with 3 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(-1/2, -7/2)</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">True</data>
+  <data key="d9">reduces to TQFT</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_1_2_neg5_2_3fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_1_2_neg5_2_3fund</data>
+  <data key="d2">U(3)_{(1/2, -5/2)} with 3 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(1/2, -5/2)</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">True</data>
+  <data key="d9">reduces to TQFT</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u3_3_2_neg3_2_3fund">
+  <data key="d0">Theory</data>
+  <data key="d1">u3_3_2_neg3_2_3fund</data>
+  <data key="d2">U(3)_{(3/2, -3/2)} with 3 fundamentals</data>
+  <data key="d3">U(3)</data>
+  <data key="d15">3</data>
+  <data key="d5">(3/2, -3/2)</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">True</data>
+  <data key="d9">reduces to free chirals</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Figure 3.6</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_f_minus_n_neg_k_f_antifund">
+  <data key="d0">Theory</data>
+  <data key="d1">u_f_minus_n_neg_k_f_antifund</data>
+  <data key="d2">U(F-N)_{-k} with F anti-fundamentals</data>
+  <data key="d3">U(F-N)</data>
+  <data key="d4">F-N</data>
+  <data key="d5">-k</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": "F", "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.59</data>
+  <data key="d12">Aharony dual theory</data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_neg1_neg3_3_3">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_neg1_neg3_3_3</data>
+  <data key="d2">U(2)_{(-1,-3)} w/ [3,3]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(-1, -3)</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": 3, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.73</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_neg05_neg25_2_3">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_neg05_neg25_2_3</data>
+  <data key="d2">U(2)_{(-1/2,-5/2)} SQCD with [2,3]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(-1/2,-5/2)</data>
+  <data key="d6">{"fundamentals": 2, "anti_fundamentals": 3, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.68</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_0_neg2_1_3">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_0_neg2_1_3</data>
+  <data key="d2">U(2)_{(0,-2)} SQCD with [1,3]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(0,-2)</data>
+  <data key="d6">{"fundamentals": 1, "anti_fundamentals": 3, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.68</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_neg15_neg35_2_3">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_neg15_neg35_2_3</data>
+  <data key="d2">U(2)_{(-3/2,-7/2)} SQCD with [2,3]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(-3/2,-7/2)</data>
+  <data key="d6">{"fundamentals": 2, "anti_fundamentals": 3, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.69</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_neg2_neg4_1_3">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_neg2_neg4_1_3</data>
+  <data key="d2">U(2)_{(-2,-4)} SQCD with [1,3]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(-2,-4)</data>
+  <data key="d6">{"fundamentals": 1, "anti_fundamentals": 3, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.69</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_neg1_neg3_1_3">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_neg1_neg3_1_3</data>
+  <data key="d2">U(2)_{(-1,-3)} w/ [1,3]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(-1, -3)</data>
+  <data key="d6">{"fundamentals": 1, "anti_fundamentals": 3, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_neg2_neg4_2_2">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_neg2_neg4_2_2</data>
+  <data key="d2">U(2)_{(-2,-4)} SQCD with [2,2]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(-2,-4)</data>
+  <data key="d6">{"fundamentals": 2, "anti_fundamentals": 2, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.71</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_0_neg2_2_2">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_0_neg2_2_2</data>
+  <data key="d2">U(2)_{(0,-2)} SQCD with [2,2]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(0,-2)</data>
+  <data key="d6">{"fundamentals": 2, "anti_fundamentals": 2, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.72</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_neg1_neg3_2_2">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_neg1_neg3_2_2</data>
+  <data key="d2">U(2)_{(-1,-3)} w/ [2,2]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(-1, -3)</data>
+  <data key="d6">{"fundamentals": 2, "anti_fundamentals": 2, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u2_neg1_3_3">
+  <data key="d0">Theory</data>
+  <data key="d1">u2_neg1_3_3</data>
+  <data key="d2">U(2)_{-1} w/ [3,3]</data>
+  <data key="d3">U(2)</data>
+  <data key="d15">2</data>
+  <data key="d5">(-1, -1)</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": 3, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.74</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u_2n_n4_f_antisym">
+  <data key="d0">Theory</data>
+  <data key="d1">u_2n_n4_f_antisym</data>
+  <data key="d2">N=4 U(2N) SQCD with F hypermultiplets and rank-2 antisymmetric tensor</data>
+  <data key="d3">U(2N)</data>
+  <data key="d4">2N</data>
+  <data key="d5"></data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=4</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.1</data>
+  <data key="d12">F &gt;= 2N + 2</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_2n_n2_f_antisym">
+  <data key="d0">Theory</data>
+  <data key="d1">u_2n_n2_f_antisym</data>
+  <data key="d2">N=2 U(2N) SQCD with F fundamentals and anti-chiral antisymmetric field</data>
+  <data key="d3">U(2N)</data>
+  <data key="d4">2N</data>
+  <data key="d5">(1-F/2+N, 1-2N-F/2)</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Derived from N=4 theory via mass deformation</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_2n_cs_sqcd_0_neg3n">
+  <data key="d0">Theory</data>
+  <data key="d1">u_2n_cs_sqcd_0_neg3n</data>
+  <data key="d2">U(2N)_(0,-3N) CS-SQCD3 with F fundamentals and rank-2 antisymmetric tensor</data>
+  <data key="d3">U(2N)</data>
+  <data key="d4">2N</data>
+  <data key="d5">(0, -3N)</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.4</data>
+  <data key="d12">F &gt;= 2N + 2, F must be even</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_0_f_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_0_f_fund</data>
+  <data key="d2">USp(2N)_0 SQCD with F fundamentals</data>
+  <data key="d3">USp(2N)</data>
+  <data key="d4">N</data>
+  <data key="d5">0</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.18</data>
+  <data key="d12">F &gt;= 2N + 2</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_2n_plus_2_minus_f_f_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_2n_plus_2_minus_f_f_fund</data>
+  <data key="d2">USp(2N)_{2N+2-F} SQCD with F fundamentals</data>
+  <data key="d3">USp(2N)</data>
+  <data key="d4">N</data>
+  <data key="d5">2N+2-F</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.23</data>
+  <data key="d12">N=4 descendant</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2_sqcd">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2_sqcd</data>
+  <data key="d2">USp(2) SQCD3</data>
+  <data key="d3">USp(2)</data>
+  <data key="d4">1</data>
+  <data key="d5">0</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u1_theory_f_mass">
+  <data key="d0">Theory</data>
+  <data key="d1">u1_theory_f_mass</data>
+  <data key="d2">U(1) theory with F fundamental multiplets</data>
+  <data key="d3">U(1)</data>
+  <data key="d4">1</data>
+  <data key="d5"></data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.10</data>
+  <data key="d12">Result of Higgsing USp(2) to U(1)</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_neg1_f_minus_1_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_neg1_f_minus_1_fund</data>
+  <data key="d2">USp(2N)_{-1} SQCD with F-1 fundamentals</data>
+  <data key="d3">USp(2N)</data>
+  <data key="d4">N</data>
+  <data key="d5">-1</data>
+  <data key="d6">{"fundamentals": "F-1", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.21</data>
+  <data key="d12">F &gt; 2N + 2</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_k_f_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_k_f_fund</data>
+  <data key="d2">USp(2N)_k SQCD with F fundamentals</data>
+  <data key="d3">USp(2N)</data>
+  <data key="d4">N</data>
+  <data key="d5">k</data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.22</data>
+  <data key="d12">F &gt;= 2N + 2 + |k|</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_f_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_f_fund</data>
+  <data key="d2">USp(2N) with F fundamentals</data>
+  <data key="d3">USp(2N)</data>
+  <data key="d4">N</data>
+  <data key="d5"></data>
+  <data key="d6">{"fundamentals": "F", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=4</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.24</data>
+  <data key="d12">N=4 descendant theory</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_f_minus_1_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_f_minus_1_fund</data>
+  <data key="d2">USp(2N) with F-1 fundamentals</data>
+  <data key="d3">USp(2N)</data>
+  <data key="d4">N</data>
+  <data key="d5"></data>
+  <data key="d6">{"fundamentals": "F-1", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=4</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.26</data>
+  <data key="d12">Result of +m deformation</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_f_minus_2_fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_f_minus_2_fund</data>
+  <data key="d2">USp(2N) with F-2 fundamentals</data>
+  <data key="d3">USp(2N)</data>
+  <data key="d4">N</data>
+  <data key="d5"></data>
+  <data key="d6">{"fundamentals": "F-2", "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=4</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.29</data>
+  <data key="d12">Result of -m deformation</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_k_1fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_k_1fund</data>
+  <data key="d2">USp(2N)_k with 1 fundamental</data>
+  <data key="d3">USp(2N)</data>
+  <data key="d4">N</data>
+  <data key="d5">k</data>
+  <data key="d6">{"fundamentals": 1, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.35</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg1_7fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg1_7fund</data>
+  <data key="d2">USp(4)_{-1} SQCD with 7 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-1</data>
+  <data key="d6">{"fundamentals": 7, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_0_6fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_0_6fund</data>
+  <data key="d2">USp(4)_{0} SQCD with 6 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">0</data>
+  <data key="d6">{"fundamentals": 6, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg2_6fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg2_6fund</data>
+  <data key="d2">USp(4)_{-2} SQCD with 6 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-2</data>
+  <data key="d6">{"fundamentals": 6, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg3_5fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg3_5fund</data>
+  <data key="d2">USp(4)_{-3} SQCD with 5 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-3</data>
+  <data key="d6">{"fundamentals": 5, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg1_5fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg1_5fund</data>
+  <data key="d2">USp(4)_{-1} SQCD with 5 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-1</data>
+  <data key="d6">{"fundamentals": 5, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">True</data>
+  <data key="d9">F &lt; 2N+2 AND 2N+2-F=|k|</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_1_5fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_1_5fund</data>
+  <data key="d2">USp(4)_{1} SQCD with 5 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">1</data>
+  <data key="d6">{"fundamentals": 5, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">True</data>
+  <data key="d9">F &lt; 2N+2 AND 2N+2-F=|k|</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg4_4fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg4_4fund</data>
+  <data key="d2">USp(4)_{-4} SQCD with 4 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-4</data>
+  <data key="d6">{"fundamentals": 4, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg2_4fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg2_4fund</data>
+  <data key="d2">USp(4)_{-2} SQCD with 4 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-2</data>
+  <data key="d6">{"fundamentals": 4, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">True</data>
+  <data key="d9">F &lt; 2N+2 AND 2N+2-F=|k|</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_2_4fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_2_4fund</data>
+  <data key="d2">USp(4)_{2} SQCD with 4 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">2</data>
+  <data key="d6">{"fundamentals": 4, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg5_3fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg5_3fund</data>
+  <data key="d2">USp(4)_{-5} SQCD with 3 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-5</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg3_3fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg3_3fund</data>
+  <data key="d2">USp(4)_{-3} SQCD with 3 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-3</data>
+  <data key="d6">{"fundamentals": 3, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg6_2fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg6_2fund</data>
+  <data key="d2">USp(4)_{-6} SQCD with 2 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-6</data>
+  <data key="d6">{"fundamentals": 2, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg4_2fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg4_2fund</data>
+  <data key="d2">USp(4)_{-4} SQCD with 2 fundamentals</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-4</data>
+  <data key="d6">{"fundamentals": 2, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg7_1fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg7_1fund</data>
+  <data key="d2">USp(4)_{-7} SQCD with 1 fundamental</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-7</data>
+  <data key="d6">{"fundamentals": 1, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg5_1fund">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg5_1fund</data>
+  <data key="d2">USp(4)_{-5} SQCD with 1 fundamental</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-5</data>
+  <data key="d6">{"fundamentals": 1, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="usp4_neg8">
+  <data key="d0">Theory</data>
+  <data key="d1">usp4_neg8</data>
+  <data key="d2">USp(4)_{-8} SQCD</data>
+  <data key="d3">USp(4)</data>
+  <data key="d15">2</data>
+  <data key="d5">-8</data>
+  <data key="d6">{"fundamentals": 0, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">False</data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u1_cs_neg_ns_nf2_k">
+  <data key="d0">Theory</data>
+  <data key="d1">u1_cs_neg_ns_nf2_k</data>
+  <data key="d2">U(1) QED3 with Ns scalars and Nf fermions</data>
+  <data key="d3">U(1)</data>
+  <data key="d15">1</data>
+  <data key="d5">-Ns-Nf/2-k</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": "Nf", "scalars_Ns": "Ns"}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">General Abelian duality starting point</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_n_cs_2n_ns_k">
+  <data key="d0">Theory</data>
+  <data key="d1">su_n_cs_2n_ns_k</data>
+  <data key="d2">SU(N) QCD3 with Ns scalars</data>
+  <data key="d3">SU(N)</data>
+  <data key="d4">N-1</data>
+  <data key="d5">2N-Ns-k</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": "Ns"}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Planar Abelianization target</data>
+  <data key="d13">False</data>
+</node>
+<node id="su2_cs_neg1_5scalars">
+  <data key="d0">Theory</data>
+  <data key="d1">su2_cs_neg1_5scalars</data>
+  <data key="d2">SU(2) QCD3 with 5 scalars</data>
+  <data key="d3">SU(2)</data>
+  <data key="d15">1</data>
+  <data key="d5">-1</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": 5}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Example 5.2.2</data>
+  <data key="d13">False</data>
+</node>
+<node id="su2_neg2_5scalars">
+  <data key="d0">Theory</data>
+  <data key="d1">su2_neg2_5scalars</data>
+  <data key="d2">SU(2)_-2 QCD3 with 5 scalars</data>
+  <data key="d3">SU(2)</data>
+  <data key="d4">1</data>
+  <data key="d5">-2</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": "5"}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Theory with 5 fundamental scalars and fermions.</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_n_qcd3_ns_nf">
+  <data key="d0">Theory</data>
+  <data key="d1">su_n_qcd3_ns_nf</data>
+  <data key="d2">SU(N) QCD3 with Ns scalars and Nf fermions</data>
+  <data key="d3">SU(N)</data>
+  <data key="d4">N-1</data>
+  <data key="d5">2N - Ns - Nf/2 - k</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": "Nf", "scalars_Ns": "Ns"}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.50</data>
+  <data key="d12">General proposal for planar Abelian dual</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_3_neg_half_qcd3">
+  <data key="d0">Theory</data>
+  <data key="d1">su_3_neg_half_qcd3</data>
+  <data key="d2">SU(3) at level -1/2 with 6 scalars and 1 fermion</data>
+  <data key="d3">SU(3)</data>
+  <data key="d15">2</data>
+  <data key="d5">-1/2</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": 1, "scalars_Ns": 6}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.3.2</data>
+  <data key="d12">Example with Ns=6, Nf=1</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_2_neg_5_half_qcd3">
+  <data key="d0">Theory</data>
+  <data key="d1">su_2_neg_5_half_qcd3</data>
+  <data key="d2">SU(2) at level -5/2 with 5 scalars and 1 fermion</data>
+  <data key="d3">SU(2)</data>
+  <data key="d15">1</data>
+  <data key="d5">-5/2</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": 1, "scalars_Ns": 5}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.3.3</data>
+  <data key="d12">Example with Ns=5, Nf=1, k=1</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_cs_2n_ns_nf_k">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_cs_2n_ns_nf_k</data>
+  <data key="d2">U(N) QCD3 with Ns scalars and Nf fermions</data>
+  <data key="d3">U(N)</data>
+  <data key="d4">N</data>
+  <data key="d5">(2N-Ns-Nf/2-k, -Ns-Nf/2-k)</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": "Nf", "scalars_Ns": "Ns"}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Defined at Chern-Simons level (2N-Ns-Nf/2-k, -Ns-Nf/2-k)</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_2_cs_4_f">
+  <data key="d0">Theory</data>
+  <data key="d1">su_2_cs_4_f</data>
+  <data key="d2">SU(2) QCD3 with F scalars</data>
+  <data key="d3">SU(2)</data>
+  <data key="d4">1</data>
+  <data key="d5">(4-F)</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": "F"}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Used for mass deformation example</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_3_cs_6_ns_nf">
+  <data key="d0">Theory</data>
+  <data key="d1">su_3_cs_6_ns_nf</data>
+  <data key="d2">SU(3) QCD3 with Ns scalars and Nf fermions</data>
+  <data key="d3">SU(3)</data>
+  <data key="d4">2</data>
+  <data key="d5">(6-Ns-Nf/2)</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": "Nf", "scalars_Ns": "Ns"}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="su_n_cs_neg1">
+  <data key="d0">Theory</data>
+  <data key="d1">su_n_cs_neg1</data>
+  <data key="d2">SU(N)_-1 QCD</data>
+  <data key="d3">SU(N)</data>
+  <data key="d4">N-1</data>
+  <data key="d5">-1</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": "2N"}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="su3_0_5scalars_2fermions">
+  <data key="d0">Theory</data>
+  <data key="d1">su3_0_5scalars_2fermions</data>
+  <data key="d2">SU(3)_0 QCD3 with 5 scalars and 2 fermions</data>
+  <data key="d3">SU(3)</data>
+  <data key="d15">2</data>
+  <data key="d5">0</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": 2, "scalars_Ns": 5}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11">Figure 5.15</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="su2_half_2scalars_3fermions">
+  <data key="d0">Theory</data>
+  <data key="d1">su2_half_2scalars_3fermions</data>
+  <data key="d2">SU(2)_1/2 QCD3 with 2 scalars and 3 fermions</data>
+  <data key="d3">SU(2)</data>
+  <data key="d15">1</data>
+  <data key="d5">1/2</data>
+  <data key="d6">{"fundamentals": null, "anti_fundamentals": null, "fermions_Nf": 3, "scalars_Ns": 2}</data>
+  <data key="d7">none</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">5</data>
+  <data key="d11">Figure 5.16</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u1_0_1_1_chiral">
+  <data key="d0">Theory</data>
+  <data key="d1">u1_0_1_1_chiral</data>
+  <data key="d2">U(1)_0 with [1, 1] chiral fields</data>
+  <data key="d3">U(1)</data>
+  <data key="d15">1</data>
+  <data key="d5">0</data>
+  <data key="d6">{"fundamentals": 1, "anti_fundamentals": 1, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d14">True</data>
+  <data key="d9">F=N</data>
+  <data key="d10">4</data>
+  <data key="d11">B.3</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u1_neg1_2_1_0_chiral">
+  <data key="d0">Theory</data>
+  <data key="d1">u1_neg1_2_1_0_chiral</data>
+  <data key="d2">U(1)_{-1/2} with [1, 0] chiral fields</data>
+  <data key="d3">U(1)</data>
+  <data key="d15">1</data>
+  <data key="d5">-1/2</data>
+  <data key="d6">{"fundamentals": 1, "anti_fundamentals": null, "fermions_Nf": null, "scalars_Ns": null}</data>
+  <data key="d7">N=2</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">B.18</data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_k_f_fundamentals">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_k_f_fundamentals</data>
+  <data key="d2">u n k f fundamentals</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+  <data key="d7"></data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d16"></data>
+  <data key="d11"></data>
+  <data key="d12">auto-generated stub — needs enrichment</data>
+  <data key="d13">False</data>
+</node>
+<node id="u_n_k_f_fund_zone1">
+  <data key="d0">Theory</data>
+  <data key="d1">u_n_k_f_fund_zone1</data>
+  <data key="d2">u n k f fund zone1</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+  <data key="d7"></data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d16"></data>
+  <data key="d11"></data>
+  <data key="d12">auto-generated stub — needs enrichment</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_sqcd">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_sqcd</data>
+  <data key="d2">usp 2n sqcd</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+  <data key="d7"></data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d16"></data>
+  <data key="d11"></data>
+  <data key="d12">auto-generated stub — needs enrichment</data>
+  <data key="d13">False</data>
+</node>
+<node id="usp_2n_cs_sqcd">
+  <data key="d0">Theory</data>
+  <data key="d1">usp_2n_cs_sqcd</data>
+  <data key="d2">usp 2n cs sqcd</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+  <data key="d7"></data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d16"></data>
+  <data key="d11"></data>
+  <data key="d12">auto-generated stub — needs enrichment</data>
+  <data key="d13">False</data>
+</node>
+<node id="monopole_flux_1">
+  <data key="d0">Theory</data>
+  <data key="d1">monopole_flux_1</data>
+  <data key="d2">monopole flux 1</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+  <data key="d7"></data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d16"></data>
+  <data key="d11"></data>
+  <data key="d12">auto-generated stub — needs enrichment</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_2_cs_4_f_minus_1">
+  <data key="d0">Theory</data>
+  <data key="d1">su_2_cs_4_f_minus_1</data>
+  <data key="d2">su 2 cs 4 f minus 1</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+  <data key="d7"></data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d16"></data>
+  <data key="d11"></data>
+  <data key="d12">auto-generated stub — needs enrichment</data>
+  <data key="d13">False</data>
+</node>
+<node id="su_3_cs_6_ns_nf_minus_1">
+  <data key="d0">Theory</data>
+  <data key="d1">su_3_cs_6_ns_nf_minus_1</data>
+  <data key="d2">su 3 cs 6 ns nf minus 1</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+  <data key="d7"></data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d16"></data>
+  <data key="d11"></data>
+  <data key="d12">auto-generated stub — needs enrichment</data>
+  <data key="d13">False</data>
+</node>
+<node id="n4_mirror_linear_quiver">
+  <data key="d0">Quiver</data>
+  <data key="d1">n4_mirror_linear_quiver</data>
+  <data key="d2">N=4 Mirror Linear Quiver</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">linear-unitary</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Mirror of N=4 U(N) SQCD</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_mirror_u_n">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_mirror_u_n</data>
+  <data key="d2">Planar Abelian Mirror of U(N) SQCD</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Obtained by Higgsing N=4 mirror nodes to Cartan subgroup</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_mirror_su_n">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_mirror_su_n</data>
+  <data key="d2">Planar Abelian Mirror of SU(N) SQCD</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Mirror of SU(N) SQCD</data>
+  <data key="d13">False</data>
+</node>
+<node id="ft_u_n_quiver">
+  <data key="d0">Quiver</data>
+  <data key="d1">ft_u_n_quiver</data>
+  <data key="d2">FT[U(N)] UV completion</data>
+  <data key="d17">[{"node_id": "node_1", "gauge_group": "U(1)", "cs_level": null, "flavor_attached": null}, {"node_id": "node_2", "gauge_group": "U(2)", "cs_level": null, "flavor_attached": null}, {"node_id": "node_n", "gauge_group": "U(N)", "cs_level": null, "flavor_attached": null}]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">FT[U(N)]</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Linear quiver UV completion of FT[U(N)].</data>
+  <data key="d13">False</data>
+</node>
+<node id="g_u_n_chiral">
+  <data key="d0">Quiver</data>
+  <data key="d1">g_u_n_chiral</data>
+  <data key="d2">G[U(N)] chiral UV completion</data>
+  <data key="d17">[{"node_id": "chiral_node_1", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}, {"node_id": "chiral_node_n", "gauge_group": "U(N)", "cs_level": "1", "flavor_attached": null}]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">G[U(N)]</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Chiral UV completion of G[U(N)].</data>
+  <data key="d13">False</data>
+</node>
+<node id="g_u_n_planar">
+  <data key="d0">Quiver</data>
+  <data key="d1">g_u_n_planar</data>
+  <data key="d2">G[U(N)] planar UV completion</data>
+  <data key="d17">[{"node_id": "planar_node_1", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Planar Abelian UV completion of G[U(N)].</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_sqcd_f1_f2">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_sqcd_f1_f2</data>
+  <data key="d2">Planar mirror dual of U(N) SQCD [F1+N, F2+N]</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_sqcd_f1_2n_f2">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_sqcd_f1_2n_f2</data>
+  <data key="d2">Planar mirror dual of U(N) SQCD [F1+2N, F2]</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_n4_sqcd_limit">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_n4_sqcd_limit</data>
+  <data key="d2">Planar mirror dual of N=4 SQCD limit</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="circular_quiver_n4_len3">
+  <data key="d0">Quiver</data>
+  <data key="d1">circular_quiver_n4_len3</data>
+  <data key="d2">N=4 circular quiver of length 3</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">circular</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="circular_quiver_n2_len3">
+  <data key="d0">Quiver</data>
+  <data key="d1">circular_quiver_n2_len3</data>
+  <data key="d2">N=2 circular quiver of length 3</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">circular</data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_u_n_n_minus_f_2">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_u_n_n_minus_f_2</data>
+  <data key="d2">Planar Abelian dual of U(N)N-F/2</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Planar Abelian quiver for N=4 descendant theory</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_k_f">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_k_f</data>
+  <data key="d2">Planar Abelian dual of U(N)_k with F fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Quiver with F/2-|k| nodes and F/2+|k| nodes</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_0_f">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_0_f</data>
+  <data key="d2">Planar Abelian dual of U(N)_0 with F fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">Symmetric planar quiver</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_k_f_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_k_f_fund</data>
+  <data key="d2">Planar Abelian dual of U(N)_k with F fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_neg_n_2_plus_1_2_n_plus_1_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+  <data key="d2">Planar Abelian dual of U(N)_{-N/2+1/2} with N+1 fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_neg_n_2_n_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_neg_n_2_n_fund</data>
+  <data key="d2">Planar Abelian dual of U(N)_{-N/2} with N fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_k_f_fund_zone1">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_k_f_fund_zone1</data>
+  <data key="d2">Planar Abelian dual of U(N)_k with F fundamentals (Zone 1)</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_neg_f_2_f_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_neg_f_2_f_fund</data>
+  <data key="d2">Planar Abelian dual of U(N)_{-F/2} with F fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_n_k_cs_ym">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_n_k_cs_ym</data>
+  <data key="d2">Planar Abelian dual of U(N)_k CS-YM</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_3_0_8_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_3_0_8_fund</data>
+  <data key="d2">Planar Abelian dual of U(3)_0 with 8 fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_u_3_neg_1_2_7_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_u_3_neg_1_2_7_fund</data>
+  <data key="d2">Planar Abelian dual of U(3)_{-1/2} with 7 fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_mirror_u2_neg1_neg3_3_3">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_mirror_u2_neg1_neg3_3_3</data>
+  <data key="d2">Planar mirror of U(2)_{(-1,-3)} [3,3]</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_mirror_u2_neg05_neg25_2_3">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_mirror_u2_neg05_neg25_2_3</data>
+  <data key="d2">Planar mirror of U(2)_{(-1/2,-5/2)} [2,3]</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_mirror_u2_0_neg2_1_3">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_mirror_u2_0_neg2_1_3</data>
+  <data key="d2">Planar mirror of U(2)_{(0,-2)} [1,3]</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="mirror_u2_neg1_neg3_3_3">
+  <data key="d0">Quiver</data>
+  <data key="d1">mirror_u2_neg1_neg3_3_3</data>
+  <data key="d2">W = Wmirror for U(2)_{(-1,-3)} w/ [3,3]</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="mirror_u_2n_n4_f_antisym">
+  <data key="d0">Quiver</data>
+  <data key="d1">mirror_u_2n_n4_f_antisym</data>
+  <data key="d2">Mirror D-type quiver for N=4 U(2N) SQCD</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Unitary D-type quiver</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_ab_u_2n_n2_f_antisym">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_ab_u_2n_n2_f_antisym</data>
+  <data key="d2">Planar Abelian mirror for N=2 U(2N) SQCD</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Organized into columns of U(1) gauge nodes</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_ab_u_2n_cs_sqcd_0_neg3n">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_ab_u_2n_cs_sqcd_0_neg3n</data>
+  <data key="d2">Planar Abelian mirror for U(2N)_(0,-3N) CS-SQCD3</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Includes monopole superpotential terms</data>
+  <data key="d13">False</data>
+</node>
+<node id="d_type_quiver_usp2n">
+  <data key="d0">Quiver</data>
+  <data key="d1">d_type_quiver_usp2n</data>
+  <data key="d2">D-type unitary quiver</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">other</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Mirror dual of USp(2N) SQCD</data>
+  <data key="d13">False</data>
+</node>
+<node id="orthosymplectic_quiver_usp2n">
+  <data key="d0">Quiver</data>
+  <data key="d1">orthosymplectic_quiver_usp2n</data>
+  <data key="d2">Orthosymplectic mirror dual</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">other</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Linear quiver with alternating orthogonal and symplectic gauge groups</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_usp2n">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_usp2n</data>
+  <data key="d2">Planar Abelian quiver for USp(2N)</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Mirror of USp(2N) CS-SQCD3</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_usp2">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_usp2</data>
+  <data key="d2">Planar Abelian quiver for USp(2)</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Mirror of U(1) theory</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_0_f_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_0_f_fund</data>
+  <data key="d2">Planar Abelian dual of USp(2N)_0</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_neg1_f_minus_1_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_neg1_f_minus_1_fund</data>
+  <data key="d2">Planar Abelian dual of USp(2N)_{-1}</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_k_f_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_k_f_fund</data>
+  <data key="d2">Planar Abelian dual of USp(2N)_k</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_2n_plus_2_minus_f_f_fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_2n_plus_2_minus_f_f_fund</data>
+  <data key="d2">Planar Abelian dual of USp(2N)_{2N+2-F}</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_f">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_f</data>
+  <data key="d2">Planar dual of USp(2N) with F fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_f_minus_1">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_f_minus_1</data>
+  <data key="d2">Planar dual of USp(2N) with F-1 fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_f_minus_2">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_f_minus_2</data>
+  <data key="d2">Planar dual of USp(2N) with F-2 fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_k_1fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_k_1fund</data>
+  <data key="d2">Planar dual of USp(2N)_k with 1 fundamental</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp_2n_2n_2f">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp_2n_2n_2f</data>
+  <data key="d2">Planar dual of USp(2N)_{2+2N-2F}</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_usp4_neg1_7fund">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_usp4_neg1_7fund</data>
+  <data key="d2">Planar mirror of USp(4)_{-1} with 7 fundamentals</data>
+  <data key="d17">[]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_dual_u1_ns_nf_k">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_dual_u1_ns_nf_k</data>
+  <data key="d2">Abelian linear quiver dual to QED3</data>
+  <data key="d17">[{"node_id": "u1_node", "gauge_group": "U(1)", "cs_level": null, "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Dual to U(1) with Ns scalars and Nf fermions</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_dual_su_n_ns_k">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_dual_su_n_ns_k</data>
+  <data key="d2">Planar Abelian quiver dual to SU(N) QCD3</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Dual to SU(N) QCD3 with Ns scalars</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_dual_su2_5scalars">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_dual_su2_5scalars</data>
+  <data key="d2">Planar Abelian quiver dual to SU(2) QCD3 with 5 scalars</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Example 5.2.2</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_mirror_fig5_3">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_mirror_fig5_3</data>
+  <data key="d2">Planar mirror of SU(5) theory</data>
+  <data key="d17">[{"node_id": "node_1", "gauge_group": "U(1)", "cs_level": null, "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Mirror theory for SU(5) flavor symmetry theory.</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_mirror_fig5_4">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_mirror_fig5_4</data>
+  <data key="d2">Planar mirror of SU(2)_-2 with 5 scalars</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Dual theory for SU(2)_-2 QCD3 with 5 scalars.</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_su_n_qcd3">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_su_n_qcd3</data>
+  <data key="d2">Planar Abelian dual of SU(N) QCD3</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_su_3_neg_half">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_su_3_neg_half</data>
+  <data key="d2">Planar Abelian dual of SU(3) at level -1/2</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_dual_su_2_neg_5_half">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_dual_su_2_neg_5_half</data>
+  <data key="d2">Planar Abelian dual of SU(2) at level -5/2</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_fig_5_8">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_fig_5_8</data>
+  <data key="d2">Planar Abelian Quiver Figure 5.8</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Dual to U(N) QCD3 with Ns scalars and Nf fermions</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_fig_5_11">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_fig_5_11</data>
+  <data key="d2">Planar Abelian Quiver Figure 5.11</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Dual to SU(2) QCD3 with F scalars</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_abelian_fig_5_12">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_abelian_fig_5_12</data>
+  <data key="d2">Planar Abelian Quiver Figure 5.12</data>
+  <data key="d17">[]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">Dual to SU(3) QCD3 with Ns scalars and Nf fermions</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_mirror_su3_0">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_mirror_su3_0</data>
+  <data key="d2">Planar mirror for SU(3)_0</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": null, "flavor_attached": null}, {"node_id": "n2", "gauge_group": "U(1)", "cs_level": null, "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_mirror_su2_half">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_mirror_su2_half</data>
+  <data key="d2">Planar mirror for SU(2)_1/2</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": null, "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="n4_abelian_mirror_pair">
+  <data key="d0">Quiver</data>
+  <data key="d1">n4_abelian_mirror_pair</data>
+  <data key="d2">N=4 Abelian mirror pair</data>
+  <data key="d17">[{"node_id": "u1_n4", "gauge_group": "U(1)", "cs_level": null, "flavor_attached": 1}]</data>
+  <data key="d7">N=4</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="n2_fundamental_mirror_pair">
+  <data key="d0">Quiver</data>
+  <data key="d1">n2_fundamental_mirror_pair</data>
+  <data key="d2">N=2 fundamental mirror pair</data>
+  <data key="d17">[{"node_id": "u1_n2", "gauge_group": "U(1)", "cs_level": "0", "flavor_attached": 1}]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="n2_self_dual_sqed_f2">
+  <data key="d0">Quiver</data>
+  <data key="d1">n2_self_dual_sqed_f2</data>
+  <data key="d2">N=2 self-dual SQED F=2</data>
+  <data key="d17">[{"node_id": "u1_1", "gauge_group": "U(1)", "cs_level": "0", "flavor_attached": 2}]</data>
+  <data key="d7">N=2</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_quiver_page_289_top">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_quiver_page_289_top</data>
+  <data key="d2">Planar quiver 1</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": "0", "flavor_attached": null}, {"node_id": "n2", "gauge_group": "U(1)", "cs_level": "-1/2", "flavor_attached": null}, {"node_id": "n3", "gauge_group": "U(1)", "cs_level": "-1/2", "flavor_attached": null}, {"node_id": "n4", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}, {"node_id": "n5", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">W = Wplanar + Wmonopoles</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_quiver_page_289_bottom">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_quiver_page_289_bottom</data>
+  <data key="d2">Planar quiver 2</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": "-1/2", "flavor_attached": null}, {"node_id": "n2", "gauge_group": "U(1)", "cs_level": "1/2", "flavor_attached": null}, {"node_id": "n3", "gauge_group": "U(1)", "cs_level": "1/2", "flavor_attached": null}, {"node_id": "n4", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">W = Wplanar + Wmonopoles</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_quiver_page_290_top">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_quiver_page_290_top</data>
+  <data key="d2">Planar quiver 3</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": "1/2", "flavor_attached": null}, {"node_id": "n2", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}, {"node_id": "n3", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">W = Wplanar + Wmonopoles</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_quiver_page_290_bottom">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_quiver_page_290_bottom</data>
+  <data key="d2">Planar quiver 4</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": "0", "flavor_attached": null}, {"node_id": "n2", "gauge_group": "U(1)", "cs_level": "-1", "flavor_attached": null}, {"node_id": "n3", "gauge_group": "U(1)", "cs_level": "1/2", "flavor_attached": null}, {"node_id": "n4", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">W = Wplanar + Wmonopoles</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_quiver_page_291_top">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_quiver_page_291_top</data>
+  <data key="d2">Planar quiver 5</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": "1/2", "flavor_attached": null}, {"node_id": "n2", "gauge_group": "U(1)", "cs_level": "1", "flavor_attached": null}, {"node_id": "n3", "gauge_group": "U(1)", "cs_level": "0", "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">W = Wplanar</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_quiver_page_291_mid">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_quiver_page_291_mid</data>
+  <data key="d2">Planar quiver 6</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": "1/2", "flavor_attached": null}, {"node_id": "n2", "gauge_group": "U(1)", "cs_level": "0", "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">W = 0</data>
+  <data key="d13">False</data>
+</node>
+<node id="planar_quiver_page_291_bottom">
+  <data key="d0">Quiver</data>
+  <data key="d1">planar_quiver_page_291_bottom</data>
+  <data key="d2">Planar quiver 7</data>
+  <data key="d17">[{"node_id": "n1", "gauge_group": "U(1)", "cs_level": "-1/2", "flavor_attached": null}]</data>
+  <data key="d7">none</data>
+  <data key="d18">planar-Abelian</data>
+  <data key="d10">5</data>
+  <data key="d11"></data>
+  <data key="d12">W = 0</data>
+  <data key="d13">False</data>
+</node>
+<node id="bare_monopole_m_plus">
+  <data key="d0">Operator</data>
+  <data key="d1">bare_monopole_m_plus</data>
+  <data key="d2">M^{(+,0,...,0)}</data>
+  <data key="d19">monopole</data>
+  <data key="d20">0</data>
+  <data key="d21">u_n_sqcd_n2</data>
+  <data key="d22"></data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Bare monopole operator</data>
+</node>
+<node id="dressed_monopole_m_plus">
+  <data key="d0">Operator</data>
+  <data key="d1">dressed_monopole_m_plus</data>
+  <data key="d2">M^{(+,0,...,0)}λ^{N-1}</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0</data>
+  <data key="d21">u_n_sqcd_n2</data>
+  <data key="d22">N-1 gaugino fields</data>
+  <data key="d10">2</data>
+  <data key="d11">2.6</data>
+  <data key="d12">Gauge-invariant generator of the chiral ring</data>
+</node>
+<node id="planar_meson_operator">
+  <data key="d0">Operator</data>
+  <data key="d1">planar_meson_operator</data>
+  <data key="d2">Meson</data>
+  <data key="d19">meson</data>
+  <data key="d20">0</data>
+  <data key="d21">planar_abelian_mirror_u_n</data>
+  <data key="d22"></data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Generated by contracting F diagonal bifundamental fields</data>
+</node>
+<node id="ax_operator">
+  <data key="d0">Operator</data>
+  <data key="d1">ax_operator</data>
+  <data key="d2">AX</data>
+  <data key="d19">meson</data>
+  <data key="d20"></data>
+  <data key="d21">ft_u_n_scft</data>
+  <data key="d22"></data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Moment map associated with SU(N)X.</data>
+</node>
+<node id="ay_operator">
+  <data key="d0">Operator</data>
+  <data key="d1">ay_operator</data>
+  <data key="d2">AY</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">ft_u_n_scft</data>
+  <data key="d22"></data>
+  <data key="d10">2</data>
+  <data key="d11">2.32</data>
+  <data key="d12">Moment map associated with SU(N)Y.</data>
+</node>
+<node id="dressed_monopole_md">
+  <data key="d0">Operator</data>
+  <data key="d1">dressed_monopole_md</data>
+  <data key="d2">Md</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20"></data>
+  <data key="d21">g_u_n_scft</data>
+  <data key="d22">Q^(k-1)</data>
+  <data key="d10">2</data>
+  <data key="d11">2.51</data>
+  <data key="d12">Dressed monopole operator in G[U(N)].</data>
+</node>
+<node id="meson_qf1n_qf2n">
+  <data key="d0">Operator</data>
+  <data key="d1">meson_qf1n_qf2n</data>
+  <data key="d2">Q_{F1+N} Q~_{F2+N}</data>
+  <data key="d19">meson</data>
+  <data key="d20"></data>
+  <data key="d21">u_n_sqcd_f1_f2</data>
+  <data key="d22"></data>
+  <data key="d10">2</data>
+  <data key="d11"></data>
+  <data key="d12">Mapped to monopole operator with flux +1</data>
+</node>
+<node id="monopole_mag_f_2_eq_k">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_mag_f_2_eq_k</data>
+  <data key="d2">TM∓</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20"></data>
+  <data key="d21">u_n_k_f_fund</data>
+  <data key="d22">monopole flipped by gauge singlet</data>
+  <data key="d10">3</data>
+  <data key="d11">3.20</data>
+  <data key="d12">Appears in marginally chiral case</data>
+</node>
+<node id="monopole_operator_u_n_neg_n_2_n_fund">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_operator_u_n_neg_n_2_n_fund</data>
+  <data key="d2">monopole operator</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">u_n_neg_n_2_n_fund</data>
+  <data key="d22"></data>
+  <data key="d10">3</data>
+  <data key="d11">3.42</data>
+  <data key="d12">Identified with free chiral</data>
+</node>
+<node id="mesonic_operator_u2_neg1_1_3">
+  <data key="d0">Operator</data>
+  <data key="d1">mesonic_operator_u2_neg1_1_3</data>
+  <data key="d2">mesonic operator</data>
+  <data key="d19">meson</data>
+  <data key="d20"></data>
+  <data key="d21">u2_neg1_neg3_1_3</data>
+  <data key="d22"></data>
+  <data key="d10">3</data>
+  <data key="d11"></data>
+  <data key="d12">dual to a gauge invariant monopole</data>
+</node>
+<node id="m_plus_minus">
+  <data key="d0">Operator</data>
+  <data key="d1">m_plus_minus</data>
+  <data key="d2">M^±</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">u_2n_n4_f_antisym</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Fundamental monopoles</data>
+</node>
+<node id="lambda_q_tilde_q_tilde">
+  <data key="d0">Operator</data>
+  <data key="d1">lambda_q_tilde_q_tilde</data>
+  <data key="d2">λQ˜Q˜</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20"></data>
+  <data key="d21">u_2n_n4_f_antisym</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Composite operator</data>
+</node>
+<node id="m_f_f_minus_1">
+  <data key="d0">Operator</data>
+  <data key="d1">m_f_f_minus_1</data>
+  <data key="d2">M_{F,F-1}</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">u_2n_n2_f_antisym</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Simplest monopole operator</data>
+</node>
+<node id="monopole_flux_neg1">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_flux_neg1</data>
+  <data key="d2">M^{-1}</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">usp_2n_cs_sqcd</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">Appears at order x^2</data>
+</node>
+<node id="monopole_m_plus">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_m_plus</data>
+  <data key="d2">M^{+}</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">usp_2n_cs_sqcd</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11"></data>
+  <data key="d12">R-charge +2</data>
+</node>
+<node id="monopole_m_minus_plus">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_m_minus_plus</data>
+  <data key="d2">M^{(+,-)}</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">usp_2n_0_f_fund</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.18</data>
+  <data key="d12">Linear monopole superpotential for adjacent nodes</data>
+</node>
+<node id="monopole_m_dressed_q">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_m_dressed_q</data>
+  <data key="d2">M</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20"></data>
+  <data key="d21">usp_2n_k_1fund</data>
+  <data key="d22">Q</data>
+  <data key="d10">4</data>
+  <data key="d11">4.37</data>
+  <data key="d12"></data>
+</node>
+<node id="monopole_gamma">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_gamma</data>
+  <data key="d2">gamma</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">usp_4_0_6fund</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11">4.48</data>
+  <data key="d12">Dual to gauge-invariant monopole operator M</data>
+</node>
+<node id="fermionic_meson_psi_i_psi_j">
+  <data key="d0">Operator</data>
+  <data key="d1">fermionic_meson_psi_i_psi_j</data>
+  <data key="d2">psi_bar_i * psi_j</data>
+  <data key="d19">meson</data>
+  <data key="d20">0</data>
+  <data key="d21">u1_cs_neg_ns_nf2_k</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.5</data>
+  <data key="d12">Spin-0 and spin-1 fermionic mesons</data>
+</node>
+<node id="scalar_meson_phi_i_phi_j">
+  <data key="d0">Operator</data>
+  <data key="d1">scalar_meson_phi_i_phi_j</data>
+  <data key="d2">phi*_i * phi_j</data>
+  <data key="d19">meson</data>
+  <data key="d20">0</data>
+  <data key="d21">u1_cs_neg_ns_nf2_k</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.6</data>
+  <data key="d12">Scalar mesons</data>
+</node>
+<node id="mixed_meson_psi_i_phi_j">
+  <data key="d0">Operator</data>
+  <data key="d1">mixed_meson_psi_i_phi_j</data>
+  <data key="d2">psi_bar_i * phi_j</data>
+  <data key="d19">meson</data>
+  <data key="d20">0.5</data>
+  <data key="d21">u1_cs_neg_ns_nf2_k</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.7</data>
+  <data key="d12">Mixed mesons</data>
+</node>
+<node id="monopole_5_23">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_5_23</data>
+  <data key="d2">M((+,+,0),(0,0,0,0))</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0</data>
+  <data key="d21">planar_mirror_fig5_3</data>
+  <data key="d22">γ1γ2α¯1,2</data>
+  <data key="d10">5</data>
+  <data key="d11">5.26</data>
+  <data key="d12">Mesonic monopole operator.</data>
+</node>
+<node id="monopole_5_38">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_5_38</data>
+  <data key="d2">M((0,0,0),(+,+,0,0))</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0</data>
+  <data key="d21">planar_mirror_fig5_3</data>
+  <data key="d22">γ¯1α¯2,2</data>
+  <data key="d10">5</data>
+  <data key="d11">5.38</data>
+  <data key="d12">Baryonic monopole operator.</data>
+</node>
+<node id="current_j12">
+  <data key="d0">Operator</data>
+  <data key="d1">current_j12</data>
+  <data key="d2">J^μ_12</data>
+  <data key="d19">topological-current</data>
+  <data key="d20">1</data>
+  <data key="d21">planar_mirror_fig5_3</data>
+  <data key="d22">spin-1 mode of one fermion, spin-0 mode of other</data>
+  <data key="d10">5</data>
+  <data key="d11">5.31</data>
+  <data key="d12">Conserved current.</data>
+</node>
+<node id="generic_baryonic_monopole">
+  <data key="d0">Operator</data>
+  <data key="d1">generic_baryonic_monopole</data>
+  <data key="d2">Generic baryonic monopole</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20"></data>
+  <data key="d21">su_n_qcd3_ns_nf</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.49</data>
+  <data key="d12"></data>
+</node>
+<node id="spin0_meson_su3">
+  <data key="d0">Operator</data>
+  <data key="d1">spin0_meson_su3</data>
+  <data key="d2">M|spin-0</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0</data>
+  <data key="d21">su_3_neg_half_qcd3</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.54</data>
+  <data key="d12"></data>
+</node>
+<node id="spin1half_meson_su3">
+  <data key="d0">Operator</data>
+  <data key="d1">spin1half_meson_su3</data>
+  <data key="d2">M|spin-1/2</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0.5</data>
+  <data key="d21">su_3_neg_half_qcd3</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.56</data>
+  <data key="d12"></data>
+</node>
+<node id="spin0_baryon_su3">
+  <data key="d0">Operator</data>
+  <data key="d1">spin0_baryon_su3</data>
+  <data key="d2">B|spin-0</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0</data>
+  <data key="d21">su_3_neg_half_qcd3</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.58</data>
+  <data key="d12"></data>
+</node>
+<node id="spin1half_baryon_su3">
+  <data key="d0">Operator</data>
+  <data key="d1">spin1half_baryon_su3</data>
+  <data key="d2">B|spin-1/2</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0.5</data>
+  <data key="d21">su_3_neg_half_qcd3</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.60</data>
+  <data key="d12"></data>
+</node>
+<node id="bare_monopole_m">
+  <data key="d0">Operator</data>
+  <data key="d1">bare_monopole_m</data>
+  <data key="d2">M</data>
+  <data key="d19">monopole</data>
+  <data key="d20"></data>
+  <data key="d21">u_n_cs_2n_ns_nf_k</data>
+  <data key="d22">Ns modes of scalars phi</data>
+  <data key="d10">5</data>
+  <data key="d11">5.69</data>
+  <data key="d12">GNO flux (+, 0, ..., 0)</data>
+</node>
+<node id="long_meson_op">
+  <data key="d0">Operator</data>
+  <data key="d1">long_meson_op</data>
+  <data key="d2">long mesons</data>
+  <data key="d19">meson</data>
+  <data key="d20">0</data>
+  <data key="d21">u_n_cs_2n_ns_nf_k</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">5.69</data>
+  <data key="d12">Spin mod 1 is 1/2(Ns-2N+2) mod 1</data>
+</node>
+<node id="monopole_phi2_phi_bar1">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_phi2_phi_bar1</data>
+  <data key="d2">phi2_phi_bar1</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0</data>
+  <data key="d21">su3_0_5scalars_2fermions</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">Table 5.7</data>
+  <data key="d12"></data>
+</node>
+<node id="monopole_phi1_psi1">
+  <data key="d0">Operator</data>
+  <data key="d1">monopole_phi1_psi1</data>
+  <data key="d2">phi1_psi1</data>
+  <data key="d19">dressed-monopole</data>
+  <data key="d20">0</data>
+  <data key="d21">su2_half_2scalars_3fermions</data>
+  <data key="d22"></data>
+  <data key="d10">5</data>
+  <data key="d11">Table 5.10</data>
+  <data key="d12"></data>
+</node>
+<node id="m_plus">
+  <data key="d0">Operator</data>
+  <data key="d1">m_plus</data>
+  <data key="d2">M+</data>
+  <data key="d19">meson</data>
+  <data key="d20"></data>
+  <data key="d21">n4_abelian_mirror_pair</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11">B.2</data>
+  <data key="d12"></data>
+</node>
+<node id="m_minus">
+  <data key="d0">Operator</data>
+  <data key="d1">m_minus</data>
+  <data key="d2">M-</data>
+  <data key="d19">meson</data>
+  <data key="d20"></data>
+  <data key="d21">n4_abelian_mirror_pair</data>
+  <data key="d22"></data>
+  <data key="d10">4</data>
+  <data key="d11">B.2</data>
+  <data key="d12"></data>
+</node>
+<edge source="u_n_sqcd_n4" target="n4_mirror_linear_quiver" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_sqcd_n4</data>
+  <data key="d25">n4_mirror_linear_quiver</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Partition function equality</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_sqcd_n4</data>
+</edge>
+<edge source="u_n_sqcd_n4" target="u_n_sqcd_n2" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u_n_sqcd_n4</data>
+  <data key="d25">u_n_sqcd_n2</data>
+  <data key="d31">combined</data>
+  <data key="d32">real mass deformation</data>
+  <data key="d33">0</data>
+  <data key="d34">0</data>
+  <data key="d35"></data>
+  <data key="d36">Higgsing of mirror nodes to Cartan subgroup</data>
+  <data key="d28">Partition function limit tau -&gt; infinity</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_n4_to_n2_u_n</data>
+</edge>
+<edge source="u_n_sqcd_n2" target="planar_abelian_mirror_u_n" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_sqcd_n2</data>
+  <data key="d25">planar_abelian_mirror_u_n</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Partition function factorization and matching</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_u_n_sqcd_n2</data>
+  <data key="d38">SU(F) x U(1)_eta</data>
+  <data key="d39">U(1)^{F-1} x U(1)_eta</data>
+  <data key="d40">both</data>
+  <data key="d41">U(1)^{F-1} enhances to SU(F)</data>
+  <data key="d30">mirror_u_n_sqcd_n2</data>
+</edge>
+<edge source="u_n_sqcd_n2" target="planar_abelian_mirror_u_n" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">u_n_sqcd_n2</data>
+  <data key="d25">planar_abelian_mirror_u_n</data>
+  <data key="d42">Higgsing each U(k) node to Cartan subgroup</data>
+  <data key="d28">Partition function matching</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_u_n</data>
+</edge>
+<edge source="su_n_sqcd_n2" target="planar_abelian_mirror_su_n" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_n_sqcd_n2</data>
+  <data key="d25">planar_abelian_mirror_su_n</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Ungauging of U(N) duality</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su_n_sqcd_n2</data>
+</edge>
+<edge source="ft_u_n_scft" target="ft_u_n_scft" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">ft_u_n_scft</data>
+  <data key="d25">ft_u_n_scft</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 2.6</data>
+  <data key="d29"></data>
+  <data key="d30">ft_u_n_self_mirror</data>
+</edge>
+<edge source="ft_u_n_scft" target="ft_u_n_scft" id="1">
+  <data key="d23">mirror_of</data>
+  <data key="d24">ft_u_n_scft</data>
+  <data key="d25">ft_u_n_scft</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 2.6</data>
+  <data key="d29"></data>
+  <data key="d30">ft_u_n_self_mirror</data>
+</edge>
+<edge source="u_n_cs_sqcd_f1_f2" target="g_u_n_planar" id="0">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">u_n_cs_sqcd_f1_f2</data>
+  <data key="d25">g_u_n_planar</data>
+  <data key="d42">Step 1: The quiver is chopped into its basic QFT blocks. Step 2: Each QFT block is dualized via the basic duality moves. Step 3: The dualized blocks are glued together via the N=2 chiral/planar fusion to identity.</data>
+  <data key="d28">Section 2.4</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">dual_u_n_sqcd</data>
+</edge>
+<edge source="u_n_cs_sqcd_f1_f2" target="g_u_n_chiral" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u_n_cs_sqcd_f1_f2</data>
+  <data key="d25">g_u_n_chiral</data>
+  <data key="d31">combined</data>
+  <data key="d32"></data>
+  <data key="d43"></data>
+  <data key="d44"></data>
+  <data key="d35"></data>
+  <data key="d36">mirror rank decreases by 1</data>
+  <data key="d28">Equation 2.127</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_sqcd_to_blocks</data>
+</edge>
+<edge source="u_n_sqcd_f1_f2" target="planar_dual_u_n_sqcd_f1_f2" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_sqcd_f1_f2</data>
+  <data key="d25">planar_dual_u_n_sqcd_f1_f2</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Figure 2.14</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_u_n_sqcd_f1_f2</data>
+  <data key="d38">S[U(F1+N) x U(F2+N)] x U(1)</data>
+  <data key="d39">U(1)^{F1+F2+N-1}</data>
+  <data key="d40">both</data>
+  <data key="d41">S[U(F1+N) x U(F2+N)]</data>
+  <data key="d30">mirror_u_n_sqcd_f1_f2</data>
+</edge>
+<edge source="u_n_sqcd_f1_f2" target="planar_dual_u_n_sqcd_f1_f2" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">u_n_sqcd_f1_f2</data>
+  <data key="d25">planar_dual_u_n_sqcd_f1_f2</data>
+  <data key="d42">decomposition into fundamental blocks, dualization, gluing via identity walls</data>
+  <data key="d28">Section 2.4.1</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_u_n_sqcd_f1_f2</data>
+</edge>
+<edge source="u_n_sqcd_f1_2n_f2" target="planar_dual_u_n_sqcd_f1_2n_f2" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_sqcd_f1_2n_f2</data>
+  <data key="d25">planar_dual_u_n_sqcd_f1_2n_f2</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Figure 2.15</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_sqcd_f1_2n_f2</data>
+</edge>
+<edge source="u_n_k_f_fund" target="planar_dual_u_n_k_f_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_f_fund</data>
+  <data key="d25">planar_dual_u_n_k_f_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.40</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_k_f_fund</data>
+</edge>
+<edge source="u_n_k_f_fund" target="planar_dual_u_n_k_f_fund" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">u_n_k_f_fund</data>
+  <data key="d25">planar_dual_u_n_k_f_fund</data>
+  <data key="d42"></data>
+  <data key="d28">3.40</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_u_n_k_f_fund</data>
+</edge>
+<edge source="u_n_k_f_fund" target="u_f_minus_n_neg_k_f_antifund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_f_fund</data>
+  <data key="d25">u_f_minus_n_neg_k_f_antifund</data>
+  <data key="d26">N=2-Aharony-like</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 3.59</data>
+  <data key="d29"></data>
+  <data key="d37">aharony_duality_3_59</data>
+  <data key="d38">U(1)_top</data>
+  <data key="d39">k U(1)_R - U(1)_top</data>
+  <data key="d40">both</data>
+  <data key="d41"></data>
+  <data key="d30">aharony_duality_3_59</data>
+</edge>
+<edge source="u_n_0_f_fundamentals" target="planar_dual_u_n_0_f" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_0_f_fundamentals</data>
+  <data key="d25">planar_dual_u_n_0_f</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 3.37</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_u_n_0_f</data>
+  <data key="d38">U(1)_eta</data>
+  <data key="d39">U(1)_Lambda</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">mirror_u_n_0_f</data>
+</edge>
+<edge source="u_n_neg_n_2_plus_1_2_n_plus_1_fund" target="planar_dual_u_n_neg_n_2_plus_1_2_n_plus_1_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+  <data key="d25">planar_dual_u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.41</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+</edge>
+<edge source="u_n_neg_n_2_plus_1_2_n_plus_1_fund" target="u_n_neg_n_2_n_fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+  <data key="d25">u_n_neg_n_2_n_fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">-m</data>
+  <data key="d33">-1</data>
+  <data key="d34">0</data>
+  <data key="d35">-1/2</data>
+  <data key="d36"></data>
+  <data key="d28">3.41</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_u_n_neg_n_2_plus_1_2_n_plus_1_fund_to_u_n_neg_n_2_n_fund</data>
+</edge>
+<edge source="u_n_neg_n_2_n_fund" target="planar_dual_u_n_neg_n_2_n_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_neg_n_2_n_fund</data>
+  <data key="d25">planar_dual_u_n_neg_n_2_n_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.41</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_neg_n_2_n_fund</data>
+</edge>
+<edge source="u_n_neg_f_2_f_fund" target="planar_dual_u_n_neg_f_2_f_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_neg_f_2_f_fund</data>
+  <data key="d25">planar_dual_u_n_neg_f_2_f_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.54</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_neg_f_2_f_fund</data>
+</edge>
+<edge source="u_n_k_cs_ym" target="planar_dual_u_n_k_cs_ym" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_cs_ym</data>
+  <data key="d25">planar_dual_u_n_k_cs_ym</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.55</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_k_cs_ym</data>
+</edge>
+<edge source="u_3_0_8_fund" target="planar_dual_u_3_0_8_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_3_0_8_fund</data>
+  <data key="d25">planar_dual_u_3_0_8_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.56</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_3_0_8_fund</data>
+</edge>
+<edge source="u_3_0_8_fund" target="u3_neg1_2_7fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u_3_0_8_fund</data>
+  <data key="d25">u_3_neg_1_2_7_fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">-m</data>
+  <data key="d33">-1</data>
+  <data key="d34">0</data>
+  <data key="d35">-1/2</data>
+  <data key="d36"></data>
+  <data key="d28">3.57</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_u_3_0_8_fund_to_u_3_neg_1_2_7_fund</data>
+</edge>
+<edge source="u3_neg1_2_7fund" target="planar_dual_u_3_neg_1_2_7_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_3_neg_1_2_7_fund</data>
+  <data key="d25">planar_dual_u_3_neg_1_2_7_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.57</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_3_neg_1_2_7_fund</data>
+</edge>
+<edge source="u3_neg2_neg5_4fund" target="u3_neg1_neg4_4fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u3_neg2_neg5_4fund</data>
+  <data key="d25">u3_neg1_neg4_4fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">+1/2</data>
+  <data key="d36"></data>
+  <data key="d28">Figure 3.6</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_u3_neg2_neg5_4fund_to_u3_neg1_neg4_4fund</data>
+</edge>
+<edge source="u3_neg1_neg4_4fund" target="u3_neg0_neg3_4fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u3_neg1_neg4_4fund</data>
+  <data key="d25">u3_neg0_neg3_4fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">+1/2</data>
+  <data key="d36"></data>
+  <data key="d28">Figure 3.6</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_u3_neg1_neg4_4fund_to_u3_neg0_neg3_4fund</data>
+</edge>
+<edge source="u3_neg0_neg3_4fund" target="u3_1_neg2_4fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u3_neg0_neg3_4fund</data>
+  <data key="d25">u3_1_neg2_4fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">+1/2</data>
+  <data key="d36"></data>
+  <data key="d28">Figure 3.6</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_u3_neg0_neg3_4fund_to_u3_1_neg2_4fund</data>
+</edge>
+<edge source="u_f_minus_n_neg_k_f_antifund" target="u_n_k_f_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_f_fund</data>
+  <data key="d25">u_f_minus_n_neg_k_f_antifund</data>
+  <data key="d26">N=2-Aharony-like</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 3.59</data>
+  <data key="d29"></data>
+  <data key="d37">aharony_duality_3_59</data>
+  <data key="d38">U(1)_top</data>
+  <data key="d39">k U(1)_R - U(1)_top</data>
+  <data key="d40">both</data>
+  <data key="d41"></data>
+  <data key="d30">aharony_duality_3_59</data>
+</edge>
+<edge source="u2_neg1_neg3_3_3" target="planar_mirror_u2_neg1_neg3_3_3" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u2_neg1_neg3_3_3</data>
+  <data key="d25">planar_mirror_u2_neg1_neg3_3_3</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u2_neg1_neg3_3_3</data>
+</edge>
+<edge source="u2_neg1_neg3_3_3" target="mirror_u2_neg1_neg3_3_3" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u2_neg1_neg3_3_3</data>
+  <data key="d25">mirror_u2_neg1_neg3_3_3</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d45"></data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u2_neg1_neg3_3_3_edge</data>
+</edge>
+<edge source="u2_neg1_neg3_3_3" target="u2_neg05_neg25_2_3" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u2_neg1_neg3_3_3</data>
+  <data key="d25">u2_neg05_neg25_2_3</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">+1/2</data>
+  <data key="d36"></data>
+  <data key="d28">3.68</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_368_1</data>
+</edge>
+<edge source="u2_neg1_neg3_3_3" target="u2_neg1_neg3_2_2" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u2_neg1_neg3_3_3</data>
+  <data key="d25">u2_neg1_neg3_2_2</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">-mF</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">±1/2</data>
+  <data key="d36"></data>
+  <data key="d28"></data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_u2_neg1_neg3_3_3_to_2_3</data>
+</edge>
+<edge source="u2_neg1_neg3_3_3" target="u2_neg1_neg3_1_3" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u2_neg1_neg3_3_3</data>
+  <data key="d25">u2_neg1_neg3_1_3</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">-mA</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">±1/2</data>
+  <data key="d36"></data>
+  <data key="d28"></data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_u2_neg1_neg3_3_3_to_1_3</data>
+</edge>
+<edge source="u2_neg05_neg25_2_3" target="u2_0_neg2_1_3" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u2_neg05_neg25_2_3</data>
+  <data key="d25">u2_0_neg2_1_3</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">+1/2</data>
+  <data key="d36"></data>
+  <data key="d28">3.68</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_368_2</data>
+</edge>
+<edge source="u_2n_n4_f_antisym" target="mirror_u_2n_n4_f_antisym" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_2n_n4_f_antisym</data>
+  <data key="d25">mirror_u_2n_n4_f_antisym</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">superconformal index</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_n4_u2n</data>
+  <data key="d38">SU(F) x U(1)_s x U(1)_eta x U(1)_tau</data>
+  <data key="d39">product of U(1) topological symmetries</data>
+  <data key="d40">both</data>
+  <data key="d41">SU(F) x U(1)_s</data>
+  <data key="d30">mirror_n4_u2n</data>
+</edge>
+<edge source="u_2n_n4_f_antisym" target="u_2n_n2_f_antisym" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">u_2n_n4_f_antisym</data>
+  <data key="d25">u_2n_n2_f_antisym</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32"></data>
+  <data key="d43"></data>
+  <data key="d34">0</data>
+  <data key="d35"></data>
+  <data key="d36">Higgsing each U(k) gauge node to maximal torus U(1)^k</data>
+  <data key="d28">Section 4.1</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_n4_to_n2</data>
+</edge>
+<edge source="u_2n_n2_f_antisym" target="planar_ab_u_2n_n2_f_antisym" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_2n_n2_f_antisym</data>
+  <data key="d25">planar_ab_u_2n_n2_f_antisym</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">superconformal index</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_n2_u2n</data>
+</edge>
+<edge source="u_2n_n2_f_antisym" target="planar_ab_u_2n_n2_f_antisym" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">u_2n_n2_f_antisym</data>
+  <data key="d25">planar_ab_u_2n_n2_f_antisym</data>
+  <data key="d42">Higgsing each U(k) gauge node to its maximal torus U(1)^k</data>
+  <data key="d28">superconformal index</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_u2n_n2</data>
+</edge>
+<edge source="usp_2n_0_f_fund" target="planar_dual_usp_2n_0_f_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_0_f_fund</data>
+  <data key="d25">planar_dual_usp_2n_0_f_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Superconformal index agreement</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_usp_2n_0_f_fund</data>
+  <data key="d38">flavor</data>
+  <data key="d39">topological</data>
+  <data key="d40">both</data>
+  <data key="d41"></data>
+  <data key="d30">mirror_usp_2n_0_f_fund</data>
+</edge>
+<edge source="usp_2n_0_f_fund" target="planar_dual_usp_2n_0_f_fund" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">usp_2n_0_f_fund</data>
+  <data key="d25">planar_dual_usp_2n_0_f_fund</data>
+  <data key="d42"></data>
+  <data key="d28">Superconformal index agreement</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">dual_usp_2n_0_f_fund</data>
+</edge>
+<edge source="usp_2n_0_f_fund" target="usp_2n_neg1_f_minus_1_fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">usp_2n_0_f_fund</data>
+  <data key="d25">usp_2n_neg1_f_minus_1_fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">-m</data>
+  <data key="d33">-1</data>
+  <data key="d34">0</data>
+  <data key="d35">-1</data>
+  <data key="d36">Higgsing bottom-left diagonal, chiral field connecting bottom-most gauge and flavor nodes acquires positive mass</data>
+  <data key="d28">4.19</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_usp_2n_0_to_neg1</data>
+</edge>
+<edge source="usp_2_sqcd" target="u1_theory_f_mass" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">usp_2_sqcd</data>
+  <data key="d25">u1_theory_f_mass</data>
+  <data key="d31">Higgsing</data>
+  <data key="d32"></data>
+  <data key="d43"></data>
+  <data key="d34">-1</data>
+  <data key="d35"></data>
+  <data key="d36">mirror loses one node from left or right column</data>
+  <data key="d28">Figure 4.5</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_usp2_to_u1</data>
+</edge>
+<edge source="usp_2n_f_fund" target="planar_dual_usp_2n_f" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_f_fund</data>
+  <data key="d25">planar_dual_usp_2n_f</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 4.24</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp_2n_f</data>
+</edge>
+<edge source="usp_2n_f_fund" target="planar_dual_usp_2n_f" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">usp_2n_f_fund</data>
+  <data key="d25">planar_dual_usp_2n_f</data>
+  <data key="d42"></data>
+  <data key="d28">Equation 4.24</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_usp_2n_f</data>
+</edge>
+<edge source="usp_2n_f_fund" target="usp_2n_f_minus_1_fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">usp_2n_f_fund</data>
+  <data key="d25">usp_2n_f_minus_1_fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d34">0</data>
+  <data key="d35"></data>
+  <data key="d36">large FI limit for the rightmost node</data>
+  <data key="d28">Equation 4.25, 4.26</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_usp_2n_f_plus_m</data>
+</edge>
+<edge source="usp_2n_f_fund" target="usp_2n_f_minus_1_fund" id="1">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">usp_2n_f_fund</data>
+  <data key="d25">usp_2n_f_minus_1_fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">-m</data>
+  <data key="d33">-1</data>
+  <data key="d34">0</data>
+  <data key="d35"></data>
+  <data key="d36">large FI limit for the leftmost node</data>
+  <data key="d28">Equation 4.25, 4.26</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_usp_2n_f_minus_m</data>
+</edge>
+<edge source="usp_2n_f_minus_1_fund" target="planar_dual_usp_2n_f_minus_1" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_f_minus_1_fund</data>
+  <data key="d25">planar_dual_usp_2n_f_minus_1</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 4.26</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp_2n_f_minus_1</data>
+</edge>
+<edge source="usp_2n_f_minus_2_fund" target="planar_dual_usp_2n_f_minus_2" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_f_minus_2_fund</data>
+  <data key="d25">planar_dual_usp_2n_f_minus_2</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 4.29</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp_2n_f_minus_2</data>
+</edge>
+<edge source="usp4_neg1_7fund" target="planar_dual_usp4_neg1_7fund" id="0">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">usp4_neg1_7fund</data>
+  <data key="d25">planar_dual_usp4_neg1_7fund</data>
+  <data key="d42"></data>
+  <data key="d28">Equation 4.49</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">dual_usp4_neg1_7fund</data>
+</edge>
+<edge source="usp4_neg1_7fund" target="usp4_neg2_6fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">usp4_neg1_7fund</data>
+  <data key="d25">usp4_neg2_6fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">-m</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">-1</data>
+  <data key="d36"></data>
+  <data key="d28">Figure 4.10</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_usp4_neg1_7fund_to_neg2_6fund</data>
+</edge>
+<edge source="usp4_neg1_7fund" target="usp4_0_6fund" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">usp4_neg1_7fund</data>
+  <data key="d25">usp4_0_6fund</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d44"></data>
+  <data key="d35">+1</data>
+  <data key="d36"></data>
+  <data key="d28">Figure 4.10</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_usp4_neg1_7fund_to_0_6fund</data>
+</edge>
+<edge source="u1_cs_neg_ns_nf2_k" target="planar_abelian_dual_u1_ns_nf_k" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u1_cs_neg_ns_nf2_k</data>
+  <data key="d25">planar_abelian_dual_u1_ns_nf_k</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 5.1</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_u1_qed3</data>
+  <data key="d38">U(1)top x S(U(Ns) x U(Nf))</data>
+  <data key="d39">U(1)Ns+Nf</data>
+  <data key="d40">both</data>
+  <data key="d41">U(1)Ns+Nf -&gt; S(U(Ns) x U(Nf))</data>
+  <data key="d30">mirror_u1_qed3</data>
+</edge>
+<edge source="u1_cs_neg_ns_nf2_k" target="planar_abelian_dual_u1_ns_nf_k" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">u1_cs_neg_ns_nf2_k</data>
+  <data key="d25">planar_abelian_dual_u1_ns_nf_k</data>
+  <data key="d42"></data>
+  <data key="d28">Figure 5.1</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_u1_qed3</data>
+</edge>
+<edge source="su_n_cs_2n_ns_k" target="planar_abelian_dual_su_n_ns_k" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_n_cs_2n_ns_k</data>
+  <data key="d25">planar_abelian_dual_su_n_ns_k</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 5.2</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_su_n_qcd3</data>
+  <data key="d38">U(Ns) x U(Nf)</data>
+  <data key="d39">U(1)^Ns+Nf</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41">U(1)^Ns+Nf -&gt; U(Ns) x U(Nf)</data>
+  <data key="d30">mirror_su_n_qcd3</data>
+</edge>
+<edge source="su_n_cs_2n_ns_k" target="planar_abelian_dual_su_n_ns_k" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">su_n_cs_2n_ns_k</data>
+  <data key="d25">planar_abelian_dual_su_n_ns_k</data>
+  <data key="d42"></data>
+  <data key="d28">Figure 5.2</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_su_n_qcd3</data>
+</edge>
+<edge source="su2_neg2_5scalars" target="planar_mirror_fig5_4" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su2_neg2_5scalars</data>
+  <data key="d25">planar_mirror_fig5_4</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 5.4</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_fig5_4</data>
+</edge>
+<edge source="su_n_qcd3_ns_nf" target="planar_dual_su_n_qcd3" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_n_qcd3_ns_nf</data>
+  <data key="d25">planar_dual_su_n_qcd3</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d37">mirror_su_n_qcd3</data>
+  <data key="d38">U(Ns) x U(Nf)</data>
+  <data key="d39">U(1)^Ns+Nf</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41">U(1)^Ns+Nf -&gt; U(Ns) x U(Nf)</data>
+  <data key="d30">mirror_su_n_qcd3</data>
+</edge>
+<edge source="su_n_qcd3_ns_nf" target="planar_dual_su_n_qcd3" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">su_n_qcd3_ns_nf</data>
+  <data key="d25">planar_dual_su_n_qcd3</data>
+  <data key="d42"></data>
+  <data key="d28"></data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_su_n</data>
+</edge>
+<edge source="su_3_neg_half_qcd3" target="planar_dual_su_3_neg_half" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_3_neg_half_qcd3</data>
+  <data key="d25">planar_dual_su_3_neg_half</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su_3_neg_half</data>
+</edge>
+<edge source="su_2_neg_5_half_qcd3" target="planar_dual_su_2_neg_5_half" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_2_neg_5_half_qcd3</data>
+  <data key="d25">planar_dual_su_2_neg_5_half</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su_2_neg_5_half</data>
+</edge>
+<edge source="u_n_cs_2n_ns_nf_k" target="planar_abelian_fig_5_8" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_cs_2n_ns_nf_k</data>
+  <data key="d25">planar_abelian_fig_5_8</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 5.8</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_fig_5_8</data>
+</edge>
+<edge source="u_n_cs_2n_ns_nf_k" target="planar_abelian_fig_5_8" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">u_n_cs_2n_ns_nf_k</data>
+  <data key="d25">planar_abelian_fig_5_8</data>
+  <data key="d42"></data>
+  <data key="d28">Figure 5.8</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_u_n</data>
+</edge>
+<edge source="su_2_cs_4_f" target="su_2_cs_4_f_minus_1" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">su_2_cs_4_f</data>
+  <data key="d25">su_2_cs_4_f_minus_1</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d34">0</data>
+  <data key="d35"></data>
+  <data key="d36">mirror loses one column of fermions</data>
+  <data key="d28">Figure 5.11</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_su2_scalar_mass</data>
+</edge>
+<edge source="su_3_cs_6_ns_nf" target="su_3_cs_6_ns_nf_minus_1" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">su_3_cs_6_ns_nf</data>
+  <data key="d25">su_3_cs_6_ns_nf_minus_1</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32">+m</data>
+  <data key="d33">-1</data>
+  <data key="d34">0</data>
+  <data key="d35">+1/2</data>
+  <data key="d36">mirror loses one column of bosons</data>
+  <data key="d28">Figure 5.12</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_su3_fermion_mass</data>
+</edge>
+<edge source="su3_0_5scalars_2fermions" target="planar_mirror_su3_0" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su3_0_5scalars_2fermions</data>
+  <data key="d25">planar_mirror_su3_0</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su3_0</data>
+</edge>
+<edge source="su3_0_5scalars_2fermions" target="planar_mirror_su3_0" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">su3_0_5scalars_2fermions</data>
+  <data key="d25">planar_mirror_su3_0</data>
+  <data key="d42"></data>
+  <data key="d28"></data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">dual_su3_0</data>
+</edge>
+<edge source="su2_half_2scalars_3fermions" target="planar_mirror_su2_half" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su2_half_2scalars_3fermions</data>
+  <data key="d25">planar_mirror_su2_half</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su2_half</data>
+</edge>
+<edge source="su2_half_2scalars_3fermions" target="planar_mirror_su2_half" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">su2_half_2scalars_3fermions</data>
+  <data key="d25">planar_mirror_su2_half</data>
+  <data key="d42"></data>
+  <data key="d28"></data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">dual_su2_half</data>
+</edge>
+<edge source="u1_0_1_1_chiral" target="n2_fundamental_mirror_pair" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u1_0_1_1_chiral</data>
+  <data key="d25">n2_fundamental_mirror_pair</data>
+  <data key="d26">N=2-Aharony-like</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">mirror_b3</data>
+</edge>
+<edge source="u_n_k_f_fundamentals" target="planar_dual_u_n_k_f" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_f_fundamentals</data>
+  <data key="d25">planar_dual_u_n_k_f</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Equation 3.35</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_k_f</data>
+</edge>
+<edge source="u_n_k_f_fundamentals" target="planar_dual_u_n_k_f" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">u_n_k_f_fundamentals</data>
+  <data key="d25">planar_dual_u_n_k_f</data>
+  <data key="d42">sequential-local-dualizations</data>
+  <data key="d28">Equation 3.36</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_u_n_k_f</data>
+</edge>
+<edge source="u_n_k_f_fund_zone1" target="planar_dual_u_n_k_f_fund_zone1" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_f_fund_zone1</data>
+  <data key="d25">planar_dual_u_n_k_f_fund_zone1</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.43</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_k_f_fund_zone1</data>
+</edge>
+<edge source="usp_2n_sqcd" target="d_type_quiver_usp2n" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_sqcd</data>
+  <data key="d25">d_type_quiver_usp2n</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 4.2</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp2n_d_type</data>
+</edge>
+<edge source="usp_2n_sqcd" target="orthosymplectic_quiver_usp2n" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_sqcd</data>
+  <data key="d25">orthosymplectic_quiver_usp2n</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 4.3</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp2n_ortho</data>
+</edge>
+<edge source="usp_2n_sqcd" target="usp_2n_cs_sqcd" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">usp_2n_sqcd</data>
+  <data key="d25">usp_2n_cs_sqcd</data>
+  <data key="d31">real-mass-fundamental</data>
+  <data key="d32"></data>
+  <data key="d43"></data>
+  <data key="d34">0</data>
+  <data key="d35"></data>
+  <data key="d36">Mapping to planar Abelian quiver</data>
+  <data key="d28">Section 4.2</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_usp2n_to_cs</data>
+</edge>
+<edge source="usp_2n_cs_sqcd" target="planar_abelian_usp2n" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_cs_sqcd</data>
+  <data key="d25">planar_abelian_usp2n</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Figure 4.4</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_usp2n_cs_planar</data>
+  <data key="d38">U(F)</data>
+  <data key="d39">U(1)^{F-1} x U(1)</data>
+  <data key="d40">both</data>
+  <data key="d41">U(F)</data>
+  <data key="d30">mirror_usp2n_cs_planar</data>
+</edge>
+<edge source="usp_2n_cs_sqcd" target="planar_abelian_usp2n" id="1">
+  <data key="d23">abelian_dual_of</data>
+  <data key="d24">usp_2n_cs_sqcd</data>
+  <data key="d25">planar_abelian_usp2n</data>
+  <data key="d42">algorithmic generalization of [3]</data>
+  <data key="d28">Figure 4.4</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">abelian_dual_usp2n</data>
+</edge>
+<edge source="n4_mirror_linear_quiver" target="u_n_sqcd_n4" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_sqcd_n4</data>
+  <data key="d25">n4_mirror_linear_quiver</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Partition function equality</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_sqcd_n4</data>
+</edge>
+<edge source="planar_abelian_mirror_u_n" target="u_n_sqcd_n2" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_sqcd_n2</data>
+  <data key="d25">planar_abelian_mirror_u_n</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Partition function factorization and matching</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_u_n_sqcd_n2</data>
+  <data key="d38">SU(F) x U(1)_eta</data>
+  <data key="d39">U(1)^{F-1} x U(1)_eta</data>
+  <data key="d40">both</data>
+  <data key="d41">U(1)^{F-1} enhances to SU(F)</data>
+  <data key="d30">mirror_u_n_sqcd_n2</data>
+</edge>
+<edge source="planar_abelian_mirror_su_n" target="su_n_sqcd_n2" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_n_sqcd_n2</data>
+  <data key="d25">planar_abelian_mirror_su_n</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Ungauging of U(N) duality</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su_n_sqcd_n2</data>
+</edge>
+<edge source="ft_u_n_quiver" target="g_u_n_chiral" id="0">
+  <data key="d23">rg_flows_to</data>
+  <data key="d24">ft_u_n_quiver</data>
+  <data key="d25">g_u_n_chiral</data>
+  <data key="d31">combined</data>
+  <data key="d32"></data>
+  <data key="d43"></data>
+  <data key="d44"></data>
+  <data key="d35"></data>
+  <data key="d36">real mass deformation breaking U(1)tau</data>
+  <data key="d28">Figure 2.7</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">flow_ft_to_g</data>
+</edge>
+<edge source="g_u_n_chiral" target="g_u_n_planar" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">g_u_n_chiral</data>
+  <data key="d25">g_u_n_planar</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Equation 2.49</data>
+  <data key="d29"></data>
+  <data key="d37">g_u_n_mirror_pair</data>
+  <data key="d38">SU(N)X x U(1)^(N-1)</data>
+  <data key="d39">U(1)^(N-1) x SU(N)X</data>
+  <data key="d40">both</data>
+  <data key="d41">Topological U(1)^(N-1) enhances to SU(N)</data>
+  <data key="d30">g_u_n_mirror_pair</data>
+</edge>
+<edge source="g_u_n_chiral" target="g_u_n_planar" id="1">
+  <data key="d23">mirror_of</data>
+  <data key="d24">g_u_n_chiral</data>
+  <data key="d25">g_u_n_planar</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Equation 2.74</data>
+  <data key="d29"></data>
+  <data key="d30">g_u_n_chiral_planar_mirror</data>
+</edge>
+<edge source="g_u_n_planar" target="g_u_n_chiral" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">g_u_n_chiral</data>
+  <data key="d25">g_u_n_planar</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Equation 2.49</data>
+  <data key="d29"></data>
+  <data key="d37">g_u_n_mirror_pair</data>
+  <data key="d38">SU(N)X x U(1)^(N-1)</data>
+  <data key="d39">U(1)^(N-1) x SU(N)X</data>
+  <data key="d40">both</data>
+  <data key="d41">Topological U(1)^(N-1) enhances to SU(N)</data>
+  <data key="d30">g_u_n_mirror_pair</data>
+</edge>
+<edge source="g_u_n_planar" target="g_u_n_chiral" id="1">
+  <data key="d23">mirror_of</data>
+  <data key="d24">g_u_n_chiral</data>
+  <data key="d25">g_u_n_planar</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Equation 2.74</data>
+  <data key="d29"></data>
+  <data key="d30">g_u_n_chiral_planar_mirror</data>
+</edge>
+<edge source="planar_dual_u_n_sqcd_f1_f2" target="u_n_sqcd_f1_f2" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_sqcd_f1_f2</data>
+  <data key="d25">planar_dual_u_n_sqcd_f1_f2</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Figure 2.14</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_u_n_sqcd_f1_f2</data>
+  <data key="d38">S[U(F1+N) x U(F2+N)] x U(1)</data>
+  <data key="d39">U(1)^{F1+F2+N-1}</data>
+  <data key="d40">both</data>
+  <data key="d41">S[U(F1+N) x U(F2+N)]</data>
+  <data key="d30">mirror_u_n_sqcd_f1_f2</data>
+</edge>
+<edge source="planar_dual_u_n_sqcd_f1_2n_f2" target="u_n_sqcd_f1_2n_f2" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_sqcd_f1_2n_f2</data>
+  <data key="d25">planar_dual_u_n_sqcd_f1_2n_f2</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Figure 2.15</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_sqcd_f1_2n_f2</data>
+</edge>
+<edge source="planar_dual_u_n_k_f" target="u_n_k_f_fundamentals" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_f_fundamentals</data>
+  <data key="d25">planar_dual_u_n_k_f</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Equation 3.35</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_k_f</data>
+</edge>
+<edge source="planar_dual_u_n_0_f" target="u_n_0_f_fundamentals" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_0_f_fundamentals</data>
+  <data key="d25">planar_dual_u_n_0_f</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 3.37</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_u_n_0_f</data>
+  <data key="d38">U(1)_eta</data>
+  <data key="d39">U(1)_Lambda</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">mirror_u_n_0_f</data>
+</edge>
+<edge source="planar_dual_u_n_k_f_fund" target="u_n_k_f_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_f_fund</data>
+  <data key="d25">planar_dual_u_n_k_f_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.40</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_k_f_fund</data>
+</edge>
+<edge source="planar_dual_u_n_neg_n_2_plus_1_2_n_plus_1_fund" target="u_n_neg_n_2_plus_1_2_n_plus_1_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+  <data key="d25">planar_dual_u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.41</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_neg_n_2_plus_1_2_n_plus_1_fund</data>
+</edge>
+<edge source="planar_dual_u_n_neg_n_2_n_fund" target="u_n_neg_n_2_n_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_neg_n_2_n_fund</data>
+  <data key="d25">planar_dual_u_n_neg_n_2_n_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.41</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_neg_n_2_n_fund</data>
+</edge>
+<edge source="planar_dual_u_n_k_f_fund_zone1" target="u_n_k_f_fund_zone1" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_f_fund_zone1</data>
+  <data key="d25">planar_dual_u_n_k_f_fund_zone1</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.43</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_k_f_fund_zone1</data>
+</edge>
+<edge source="planar_dual_u_n_neg_f_2_f_fund" target="u_n_neg_f_2_f_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_neg_f_2_f_fund</data>
+  <data key="d25">planar_dual_u_n_neg_f_2_f_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.54</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_neg_f_2_f_fund</data>
+</edge>
+<edge source="planar_dual_u_n_k_cs_ym" target="u_n_k_cs_ym" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_k_cs_ym</data>
+  <data key="d25">planar_dual_u_n_k_cs_ym</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.55</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_k_cs_ym</data>
+</edge>
+<edge source="planar_dual_u_3_0_8_fund" target="u_3_0_8_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_3_0_8_fund</data>
+  <data key="d25">planar_dual_u_3_0_8_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.56</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_3_0_8_fund</data>
+</edge>
+<edge source="planar_dual_u_3_neg_1_2_7_fund" target="u3_neg1_2_7fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_3_neg_1_2_7_fund</data>
+  <data key="d25">planar_dual_u_3_neg_1_2_7_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">3.57</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_3_neg_1_2_7_fund</data>
+</edge>
+<edge source="planar_mirror_u2_neg1_neg3_3_3" target="u2_neg1_neg3_3_3" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u2_neg1_neg3_3_3</data>
+  <data key="d25">planar_mirror_u2_neg1_neg3_3_3</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u2_neg1_neg3_3_3</data>
+</edge>
+<edge source="mirror_u2_neg1_neg3_3_3" target="u2_neg1_neg3_3_3" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u2_neg1_neg3_3_3</data>
+  <data key="d25">mirror_u2_neg1_neg3_3_3</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d45"></data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u2_neg1_neg3_3_3_edge</data>
+</edge>
+<edge source="mirror_u_2n_n4_f_antisym" target="u_2n_n4_f_antisym" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_2n_n4_f_antisym</data>
+  <data key="d25">mirror_u_2n_n4_f_antisym</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">superconformal index</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_n4_u2n</data>
+  <data key="d38">SU(F) x U(1)_s x U(1)_eta x U(1)_tau</data>
+  <data key="d39">product of U(1) topological symmetries</data>
+  <data key="d40">both</data>
+  <data key="d41">SU(F) x U(1)_s</data>
+  <data key="d30">mirror_n4_u2n</data>
+</edge>
+<edge source="planar_ab_u_2n_n2_f_antisym" target="u_2n_n2_f_antisym" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_2n_n2_f_antisym</data>
+  <data key="d25">planar_ab_u_2n_n2_f_antisym</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">superconformal index</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_n2_u2n</data>
+</edge>
+<edge source="d_type_quiver_usp2n" target="usp_2n_sqcd" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_sqcd</data>
+  <data key="d25">d_type_quiver_usp2n</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 4.2</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp2n_d_type</data>
+</edge>
+<edge source="orthosymplectic_quiver_usp2n" target="usp_2n_sqcd" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_sqcd</data>
+  <data key="d25">orthosymplectic_quiver_usp2n</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 4.3</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp2n_ortho</data>
+</edge>
+<edge source="planar_abelian_usp2n" target="usp_2n_cs_sqcd" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_cs_sqcd</data>
+  <data key="d25">planar_abelian_usp2n</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">True</data>
+  <data key="d28">Figure 4.4</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_usp2n_cs_planar</data>
+  <data key="d38">U(F)</data>
+  <data key="d39">U(1)^{F-1} x U(1)</data>
+  <data key="d40">both</data>
+  <data key="d41">U(F)</data>
+  <data key="d30">mirror_usp2n_cs_planar</data>
+</edge>
+<edge source="planar_dual_usp_2n_0_f_fund" target="usp_2n_0_f_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_0_f_fund</data>
+  <data key="d25">planar_dual_usp_2n_0_f_fund</data>
+  <data key="d26">N=2-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Superconformal index agreement</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_usp_2n_0_f_fund</data>
+  <data key="d38">flavor</data>
+  <data key="d39">topological</data>
+  <data key="d40">both</data>
+  <data key="d41"></data>
+  <data key="d30">mirror_usp_2n_0_f_fund</data>
+</edge>
+<edge source="planar_dual_usp_2n_f" target="usp_2n_f_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_f_fund</data>
+  <data key="d25">planar_dual_usp_2n_f</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 4.24</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp_2n_f</data>
+</edge>
+<edge source="planar_dual_usp_2n_f_minus_1" target="usp_2n_f_minus_1_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_f_minus_1_fund</data>
+  <data key="d25">planar_dual_usp_2n_f_minus_1</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 4.26</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp_2n_f_minus_1</data>
+</edge>
+<edge source="planar_dual_usp_2n_f_minus_2" target="usp_2n_f_minus_2_fund" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">usp_2n_f_minus_2_fund</data>
+  <data key="d25">planar_dual_usp_2n_f_minus_2</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28">Equation 4.29</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_usp_2n_f_minus_2</data>
+</edge>
+<edge source="planar_abelian_dual_u1_ns_nf_k" target="u1_cs_neg_ns_nf2_k" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u1_cs_neg_ns_nf2_k</data>
+  <data key="d25">planar_abelian_dual_u1_ns_nf_k</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 5.1</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_u1_qed3</data>
+  <data key="d38">U(1)top x S(U(Ns) x U(Nf))</data>
+  <data key="d39">U(1)Ns+Nf</data>
+  <data key="d40">both</data>
+  <data key="d41">U(1)Ns+Nf -&gt; S(U(Ns) x U(Nf))</data>
+  <data key="d30">mirror_u1_qed3</data>
+</edge>
+<edge source="planar_abelian_dual_su_n_ns_k" target="su_n_cs_2n_ns_k" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_n_cs_2n_ns_k</data>
+  <data key="d25">planar_abelian_dual_su_n_ns_k</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 5.2</data>
+  <data key="d29"></data>
+  <data key="d37">mirror_su_n_qcd3</data>
+  <data key="d38">U(Ns) x U(Nf)</data>
+  <data key="d39">U(1)^Ns+Nf</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41">U(1)^Ns+Nf -&gt; U(Ns) x U(Nf)</data>
+  <data key="d30">mirror_su_n_qcd3</data>
+</edge>
+<edge source="planar_mirror_fig5_4" target="su2_neg2_5scalars" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su2_neg2_5scalars</data>
+  <data key="d25">planar_mirror_fig5_4</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 5.4</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_fig5_4</data>
+</edge>
+<edge source="planar_dual_su_n_qcd3" target="su_n_qcd3_ns_nf" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_n_qcd3_ns_nf</data>
+  <data key="d25">planar_dual_su_n_qcd3</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d37">mirror_su_n_qcd3</data>
+  <data key="d38">U(Ns) x U(Nf)</data>
+  <data key="d39">U(1)^Ns+Nf</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41">U(1)^Ns+Nf -&gt; U(Ns) x U(Nf)</data>
+  <data key="d30">mirror_su_n_qcd3</data>
+</edge>
+<edge source="planar_dual_su_3_neg_half" target="su_3_neg_half_qcd3" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_3_neg_half_qcd3</data>
+  <data key="d25">planar_dual_su_3_neg_half</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su_3_neg_half</data>
+</edge>
+<edge source="planar_dual_su_2_neg_5_half" target="su_2_neg_5_half_qcd3" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su_2_neg_5_half_qcd3</data>
+  <data key="d25">planar_dual_su_2_neg_5_half</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su_2_neg_5_half</data>
+</edge>
+<edge source="planar_abelian_fig_5_8" target="u_n_cs_2n_ns_nf_k" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u_n_cs_2n_ns_nf_k</data>
+  <data key="d25">planar_abelian_fig_5_8</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28">Figure 5.8</data>
+  <data key="d29"></data>
+  <data key="d30">mirror_u_n_fig_5_8</data>
+</edge>
+<edge source="planar_mirror_su3_0" target="su3_0_5scalars_2fermions" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su3_0_5scalars_2fermions</data>
+  <data key="d25">planar_mirror_su3_0</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su3_0</data>
+</edge>
+<edge source="planar_mirror_su2_half" target="su2_half_2scalars_3fermions" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">su2_half_2scalars_3fermions</data>
+  <data key="d25">planar_mirror_su2_half</data>
+  <data key="d26">non-susy-planar-Abelian</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_su2_half</data>
+</edge>
+<edge source="n4_abelian_mirror_pair" target="n4_abelian_mirror_pair" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">n4_abelian_mirror_pair</data>
+  <data key="d25">n4_abelian_mirror_pair</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_b1</data>
+</edge>
+<edge source="n4_abelian_mirror_pair" target="n4_abelian_mirror_pair" id="1">
+  <data key="d23">mirror_of</data>
+  <data key="d24">n4_abelian_mirror_pair</data>
+  <data key="d25">n4_abelian_mirror_pair</data>
+  <data key="d26">N=4-mirror</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30">mirror_b1</data>
+</edge>
+<edge source="n2_fundamental_mirror_pair" target="u1_0_1_1_chiral" id="0">
+  <data key="d23">mirror_of</data>
+  <data key="d24">u1_0_1_1_chiral</data>
+  <data key="d25">n2_fundamental_mirror_pair</data>
+  <data key="d26">N=2-Aharony-like</data>
+  <data key="d27">False</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d37">mirror_b3</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">mirror_b3</data>
+</edge>
+<edge source="dressed_monopole_m_plus" target="planar_meson_operator" id="0">
+  <data key="d23">operator_map</data>
+  <data key="d46">dressed_monopole_m_plus</data>
+  <data key="d47">planar_meson_operator</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d48">monopole-to-meson</data>
+  <data key="d28">R-charge computation and chiral ring matching</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">map_monopole_to_meson</data>
+</edge>
+<edge source="meson_qf1n_qf2n" target="monopole_flux_1" id="0">
+  <data key="d23">operator_map</data>
+  <data key="d46">meson_qf1n_qf2n</data>
+  <data key="d47">monopole_flux_1</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d48">meson-to-monopole</data>
+  <data key="d28">Page 94</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">map_meson_monopole_f1_f2</data>
+</edge>
+<edge source="m_f_f_minus_1" target="m_f_f_minus_1" id="0">
+  <data key="d23">operator_map</data>
+  <data key="d46">m_f_f_minus_1</data>
+  <data key="d47">m_f_f_minus_1</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d48">monopole-to-meson</data>
+  <data key="d28">chiral ring mapping</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">map_m_f_f_minus_1</data>
+</edge>
+<edge source="bare_monopole_m" target="long_meson_op" id="0">
+  <data key="d23">operator_map</data>
+  <data key="d46">bare_monopole_m</data>
+  <data key="d47">long_meson_op</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d48">monopole-to-meson</data>
+  <data key="d28">Equation 5.69</data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">map_m_to_meson</data>
+</edge>
+<edge source="monopole_phi2_phi_bar1" target="monopole_phi2_phi_bar1" id="0">
+  <data key="d23">operator_map</data>
+  <data key="d46">monopole_phi2_phi_bar1</data>
+  <data key="d47">monopole_phi2_phi_bar1</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d48">monopole-to-meson</data>
+  <data key="d28"></data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">map_phi2_phi_bar1</data>
+</edge>
+<edge source="monopole_phi1_psi1" target="monopole_phi1_psi1" id="0">
+  <data key="d23">operator_map</data>
+  <data key="d46">monopole_phi1_psi1</data>
+  <data key="d47">monopole_phi1_psi1</data>
+  <data key="d37">mirror_b3</data>
+  <data key="d48">monopole-to-baryon</data>
+  <data key="d28"></data>
+  <data key="d38">U(1)_lambda</data>
+  <data key="d39">flavor symmetry</data>
+  <data key="d40">topological-to-flavor</data>
+  <data key="d41"></data>
+  <data key="d30">map_phi1_psi1</data>
+</edge>
+</graph></graphml>

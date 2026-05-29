@@ -1,0 +1,274 @@
+{
+  "theories": [
+    {
+      "id": "u_1_0",
+      "name": "3d U(1) gauge theory",
+      "gauge_group": "U(1)",
+      "rank": 1,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "chapter_introduced": 1,
+      "equation_ref": null,
+      "notes": "topological U(1)T symmetry"
+    },
+    {
+      "id": "u_n_k",
+      "name": "3d N=4 U(N) gauge theory",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "chapter_introduced": 1,
+      "equation_ref": null,
+      "notes": "Yang-Mills action"
+    },
+    {
+      "id": "u_1_k",
+      "name": "3d U(1) Chern-Simons gauge theory",
+      "gauge_group": "U(1)",
+      "rank": 1,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_1_k_n_f",
+      "name": "3d U(1) gauge theory with Nf massless Dirac fermions",
+      "gauge_group": "U(1)",
+      "rank": 1,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "Nf",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_chern_simons",
+      "name": "3d U(N) Chern-Simons gauge theory",
+      "gauge_group": "U(N)",
+      "rank": "N",
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": null,
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_3_sqcd3",
+      "name": "U(3) SQCD3 with [6,2] chiral multiplets",
+      "gauge_group": "U(3)",
+      "rank": 3,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": 6,
+        "anti_fundamentals": 2
+      },
+      "supersymmetry": "N=2",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_f",
+      "name": "U(N) with F fundamentals",
+      "gauge_group": "U(N)",
+      "rank": null,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_nf_mirror",
+      "name": "Mirror of U(N) with F fundamentals",
+      "gauge_group": null,
+      "rank": null,
+      "cs_level": null,
+      "matter_content": null,
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "u_n_f",
+      "name": "U(N) SQCD",
+      "gauge_group": "U(N)",
+      "rank": null,
+      "cs_level": null,
+      "matter_content": {
+        "fundamentals": "F",
+        "anti_fundamentals": null
+      },
+      "supersymmetry": "N=4",
+      "s_confines": null,
+      "chapter_introduced": null,
+      "equation_ref": null,
+      "notes": null
+    }
+  ],
+  "quivers": [
+    {
+      "id": "linear_quiver_f_minus_1",
+      "name": "Linear quiver gauge theory",
+      "gauge_nodes": [
+        {
+          "node_id": null,
+          "gauge_group": "U(1)",
+          "cs_level": null,
+          "flavor_attached": null
+        }
+      ],
+      "supersymmetry": "N=4",
+      "quiver_type": "linear",
+      "equation_ref": null,
+      "notes": null
+    }
+  ],
+  "operators": [
+    {
+      "id": "m_m",
+      "name": "monopole operator M_m",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_1_k",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "m_0_0_0",
+      "name": "monopole operator M[0,0,\u00b11]",
+      "type": "monopole",
+      "spin": 0,
+      "theory_id": null,
+      "dressing": "fermion zero modes",
+      "equation_ref": "1.31",
+      "notes": null
+    },
+    {
+      "id": "m_plus_0_0",
+      "name": "monopole operator M(+,0,0)",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_3_sqcd3",
+      "dressing": "scalar zero modes",
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "m_plus",
+      "name": "M+",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_n_f",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    },
+    {
+      "id": "m_minus",
+      "name": "M-",
+      "type": "monopole",
+      "spin": null,
+      "theory_id": "u_n_f",
+      "dressing": null,
+      "equation_ref": null,
+      "notes": null
+    }
+  ],
+  "mirror_edges": [
+    {
+      "id": "u_n_f_mirror_edge",
+      "source": "u_n_f",
+      "target": "u_nf_mirror",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": null,
+      "evidence": "S-duality transformation in Type IIB string theory"
+    },
+    {
+      "id": "u_n_f_to_linear_quiver",
+      "source": "u_n_f",
+      "target": "linear_quiver_f_minus_1",
+      "duality_type": "N=4-mirror",
+      "algorithm_derived": null,
+      "evidence": "matching Higgs/Coulomb branch metrics, comparing S\u00b3_b partition functions, and studying correlation functions"
+    }
+  ],
+  "operator_maps": [
+    {
+      "id": "m_plus_to_meson",
+      "source_operator_id": "m_plus",
+      "target_operator_id": null,
+      "mirror_pair_id": "u_n_f_to_linear_quiver",
+      "map_type": "monopole to meson",
+      "evidence": "specific operator mappings"
+    },
+    {
+      "id": "m_minus_to_meson",
+      "source_operator_id": "m_minus",
+      "target_operator_id": null,
+      "mirror_pair_id": "u_n_f_to_linear_quiver",
+      "map_type": "monopole to meson",
+      "evidence": "specific operator mappings"
+    }
+  ],
+  "rg_flows": [
+    {
+      "id": "rg_flow_u_1",
+      "source": "u_1_0",
+      "target": null,
+      "deformation_type": "real mass deformation",
+      "deformation_parameter": null,
+      "change_in_F": null,
+      "dual_deformation": null,
+      "evidence": "Fayet-Iliopoulos parameters"
+    }
+  ],
+  "abelian_duals": [],
+  "symmetry_maps": [
+    {
+      "id": "su_f_to_u1",
+      "mirror_pair_id": "u_n_f_to_linear_quiver",
+      "source_symmetry": "SU(F)",
+      "target_symmetry": "U(1)_\u03b7 and U(1)_\u03c4",
+      "direction": "infrared enhancement",
+      "ir_enhancement": true
+    }
+  ]
+}
