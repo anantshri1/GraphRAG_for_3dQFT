@@ -30,7 +30,7 @@ This enables multi-hop contextual expansion aligned with the structure of theore
 
 - **Source:** PhD thesis "The ABCD's of Mirror Symmetry", Pages 39–327 (289 pages) — front matter and bibliography excluded
 - **Rationale for exclusion:** Bibliography pages produced hallucinated summaries (e.g. holomorphic 3-forms, Calabi-Yau geometry) in preliminary runs, adding noise without signal
-- **Parser:** LLM-assisted extraction using Gemini 3.1 Flash-Lite
+- **Parser:** Multimodal PDF parsing and structured extraction using Gemini 3.1 Flash-Lite (handles TikZ quiver diagrams and LaTeX equations)
 - **Embedding Model:** `BAAI/bge-large-en-v1.5` (top MTEB leaderboard, free, runs on T4)
 - **Index:** `VectorStoreIndex` 
 
@@ -58,7 +58,7 @@ The resulting graph correctly supports multi-hop queries over operator mappings 
    - `llama-3.3-70b-versatile` for structured entity and relation extraction on synthetic text
 This stage was used exclusively to validate schema design, test extraction robustness, and identify postprocessing issues prior to full corpus ingestion.
 - After validation, the full PDF corpus was processed using `Gemini 3.1 Flash-Lite` as the primary extraction model, which was selected for its ability to handle dense mathematical content, figures, and structured physics text.
-- Extracted outputs were normalized using a Pydantic-validated schema, followed by postprocessing steps including duplicate entity removal, hallucinated node filtering, relation normalization, and consistency correction.
+- Extracted outputs were normalized using a Pydantic-validated schema (a typed ontology with 3 node types (Theory, Quiver, Operator) and 5 edge types (mirror_of, rg_flows_to, abelian_dual_of, operator_map, symmetry_map) was hand-designed based on the physics of the domain), followed by postprocessing steps including duplicate entity removal, hallucinated node filtering, relation normalization, and consistency correction.
 - A typed knowledge graph was constructed using NetworkX, enabling multi-hop traversal over physics entities such as operators, dualities, and quiver gauge structures.
 <img width="1389" height="890" alt="image" src="https://github.com/user-attachments/assets/e4e67d7b-9d34-44d8-8a0d-b01ea20c8ad4" />
   
@@ -70,16 +70,16 @@ This stage was used exclusively to validate schema design, test extraction robus
    - graph-based reasoning
    - hybrid execution (allowed when both signals are relevant)
 - The final system operates at the level of retrieval + fusion, where Gemini performs LLM-based merging of graph neighborhood context and vector-retrieved passages
-Due to computational constraints, the pipeline does not include a final synthesis layer on this run.
+The synthesis layer uses Gemini 3.1 Flash-Lite to merge graph neighborhood context and vector-retrieved passages into a natural language response
 - The system includes an experimental MLOps tracking layer using MLflow, used to log and compare entity/relation extraction prompts, graph construction variants, retrieval configurations (vector vs graph vs hybrid), and LLM model settings and routing behavior.
 - The inference layer is exposed via a Flask-based API service, which serves as the backend interface for vector retrieval queries, graph-based multi-hop queries, and hybrid retrieval requests.
-- A Gradio-based interactive interface was implemented for end-to-end testing and qualitative evaluation of retrieval behavior. However, full deployment in the current Colab environment is partially unstable due to dependency conflicts between Gradio and the existing runtime constraints. As a result, Gradio is treated as a prototype-level UI layer, with planned stabilization and separation of environment dependencies in a future version.
-
+- A Gradio-based interactive interface was prototyped but not fully deployed due to dependency conflicts between Gradio, uvicorn, and Colab's Python 3.12 runtime. The Flask API serves as the stable inference interface for v1.
 ---
 ## Future Work
 - Improved chunking strategies for equation-dense and LaTeX-heavy sections to better preserve mathematical structure during entity and relation extraction (e.g., equation-aware segmentation and structure-preserving parsing).
 - **RAGAS evaluation:** systematic evaluation of the full pipeline once generation is stabilized, including faithfulness, answer relevancy, context precision, and context recall for both vector and graph-based retrieval paths.
-- Exploration of domain-adaptive LLM fine-tuning or continued pretraining on the corpus to improve extraction quality, particularly for operator-level mappings and physics-specific entity consistency. 
+- Exploration of domain-adaptive LLM fine-tuning or continued pretraining on the corpus to improve extraction quality, particularly for operator-level mappings and physics-specific entity consistency.
+- Gradio UI stabilisation and deployment separation from the extraction environment.
 
 ---
 
@@ -89,7 +89,7 @@ Due to computational constraints, the pipeline does not include a final synthesi
 - LlamaIndex (`VectorStoreIndex`), PyMuPDF, HuggingFace Transformers
 - `BAAI/bge-large-en-v1.5` (embeddings)
 - Anthropic `claude-sonnet-4-5` (summary generation)
-- Google `Gemini 3.5 Flash-Lite` (multimodal PDF parsing and schema extraction, soft router)
+- Google `Gemini 3.1 Flash-Lite` (multimodal PDF parsing and schema extraction, soft router)
 - Meta `llama-3.3-70b-versatile` (schema extraction)
 - NetworkX (knowledge graph)
 - Pydantic (schema validation)
